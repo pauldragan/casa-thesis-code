@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_SzSGMOGIEe-rQqqbffS7oA" type="Henshin" name="CASAUpdateDimmerRules.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_jpCs8OGJEe-rQqqbffS7oA" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qYavAOGJEe-rQqqbffS7oA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qYavAeGJEe-rQqqbffS7oA" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jpDUAOGJEe-rQqqbffS7oA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jpDUAeGJEe-rQqqbffS7oA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_qYbWEOGJEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qYbWEuGJEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_qYbWE-GJEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_qYbWFOGJEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_uMCxoOGJEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_uMBjgOGJEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uMCxoeGJEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_qYbWFeGJEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_qYbWFuGJEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_qYaH8OGJEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qYbWEeGJEe-rQqqbffS7oA" x="6" y="3" width="140" height="79"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2-Q1MOGJEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2-Q1MuGJEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2-Q1M-GJEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2-Q1NOGJEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_3qNVMOGJEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_3qMuIOGJEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3qNVMeGJEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_2-Q1NeGJEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_2-Q1NuGJEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_2-PnEOGJEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2-Q1MeGJEe-rQqqbffS7oA" x="289" y="199"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7aAnwOGJEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7aAnwuGJEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7aAnw-GJEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7aAnxOGJEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_8QvbceGJEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_8Qu0YOGJEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8QvbcuGJEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7aAnxeGJEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7aAnxuGJEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_7Z_ZoOGJEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7aAnweGJEe-rQqqbffS7oA" x="290" y="297"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FmLg0OGKEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_FmLg0uGKEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_FmLg0-GKEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_FmLg1OGKEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_GSRx0-GKEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_GSRx0OGKEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GSRx1OGKEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_FmMH4OGKEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_FmMH4eGKEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_FmJroOGKEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FmLg0eGKEe-rQqqbffS7oA" x="74" y="113"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_bKc6kOGKEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_bKc6kuGKEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_bKc6k-GKEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_bKc6lOGKEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_bKc6leGKEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_bKc6luGKEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_bKbFYOGKEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bKc6keGKEe-rQqqbffS7oA" x="249" y="3" width="152" height="68"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_84jM4OGKEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_84jM4uGKEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_84jM4-GKEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_84jM5OGKEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_84jM5eGKEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_84jM5uGKEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_84h-wOGKEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_84jM4eGKEe-rQqqbffS7oA" x="74" y="286"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_5b8zoOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_5b8zouINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5b8zo-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5b8zpOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5b8zpeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5b8zpuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_5b6-cOINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5b8zoeINEe-mQp_iBwsEBw" x="447" y="28"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_jpCF4OGJEe-rQqqbffS7oA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jpCs8eGJEe-rQqqbffS7oA" x="9" y="7" width="556" height="399"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_LRfd0eGKEe-rQqqbffS7oA" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_coty4OGLEe-rQqqbffS7oA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_coty4eGLEe-rQqqbffS7oA" key="value" value="forbid"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LRgE4OGKEe-rQqqbffS7oA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LRgE4eGKEe-rQqqbffS7oA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_couZ8OGLEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_couZ8uGLEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_couZ8-GLEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_couZ9OGLEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_couZ9eGLEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_couZ9uGLEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_coskwOGLEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_couZ8eGLEe-rQqqbffS7oA" x="20" y="21"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_dNhJEOGLEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_dNhJEuGLEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_dNhJE-GLEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_dNhJFOGLEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_dNhJFeGLEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_dNhJFuGLEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_dNgiAOGLEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dNhJEeGLEe-rQqqbffS7oA" x="269" y="39"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xwlkgOGLEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_xwlkguGLEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_xwlkg-GLEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_xwlkhOGLEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_2eQ0keGLEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_2eQ0kOGLEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2eQ0kuGLEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_xwlkheGLEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_xwlkhuGLEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_xwkWYOGLEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xwlkgeGLEe-rQqqbffS7oA" x="148" y="171" width="278" height="71"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7WoRsOGLEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7WoRsuGLEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7WoRs-GLEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7WoRtOGLEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_8Ag8MOGLEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_8AgVIOGLEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ag8MeGLEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7WoRteGLEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7WoRtuGLEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_7WnDkOGLEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7WoRseGLEe-rQqqbffS7oA" x="153" y="311"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_x6TH4OGQEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_x6TH4uGQEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_x6TH4-GQEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_x6TH5OGQEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_yqpmwOGQEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_yqo_sOGQEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yqpmweGQEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_x6TH5eGQEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_x6TH5uGQEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_x6QroOGQEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x6TH4eGQEe-rQqqbffS7oA" x="-98" y="188"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_6Nj2wOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_6Nj2wuINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6Nj2w-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6Nj2xOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_6Nj2xeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_6Nj2xuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_6NiBkOINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Nj2weINEe-mQp_iBwsEBw" x="395" y="45"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_LRfd0OGKEe-rQqqbffS7oA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LRfd0uGKEe-rQqqbffS7oA" x="583" y="14" width="557" height="414"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_BoyaAOGREe-rQqqbffS7oA" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FrnWQ-GREe-rQqqbffS7oA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FrnWROGREe-rQqqbffS7oA" key="value" value="create"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BozBEOGREe-rQqqbffS7oA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BozBEeGREe-rQqqbffS7oA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_Frn9UOGREe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Frn9UuGREe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Frn9U-GREe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Frn9VOGREe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Frn9VeGREe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Frn9VuGREe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_FrnWQOGREe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Frn9UeGREe-rQqqbffS7oA" x="197" y="231"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_GWwlAOGREe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_GWwlAuGREe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_GWwlA-GREe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_GWwlBOGREe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GWwlBeGREe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GWwlBuGREe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_GWv98OGREe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GWwlAeGREe-rQqqbffS7oA" x="408" y="19"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NXZWMOGREe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NXZWMuGREe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_NXZWM-GREe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_NXZWNOGREe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_c2hWoOGREe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_c2gvkOGREe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_c2hWoeGREe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_NXZWNeGREe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_NXZWNuGREe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_NXYIEOGREe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NXZWMeGREe-rQqqbffS7oA" x="23" y="107"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_S3Dc0OGREe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_S3Dc0uGREe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_S3Dc0-GREe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_S3Dc1OGREe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_aJpgseGREe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_aJpgsOGREe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_aJpgsuGREe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_S3Dc1eGREe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_S3Dc1uGREe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_S3C1wOGREe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S3Dc0eGREe-rQqqbffS7oA" x="13" y="11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_UbrRQOGREe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_UbrRQuGREe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_UbrRQ-GREe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_UbrRROGREe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_gFw50OGREe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_gFwSwOGREe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_gFw50eGREe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_UbrRReGREe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_UbrRRuGREe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_UbqDIOGREe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UbrRQeGREe-rQqqbffS7oA" x="336" y="167"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_VKYKUOGREe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_VKYKUuGREe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_VKYKU-GREe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_VKYKVOGREe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_h20nweGREe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_h20nwOGREe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_h20nwuGREe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_VKYKVeGREe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_VKYKVuGREe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_VKXjQOGREe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VKYKUeGREe-rQqqbffS7oA" x="331" y="244"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_6mLyIOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_6mLyIuINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6mLyI-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6mLyJOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_6mLyJeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_6mLyJuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_6mJ88OINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6mLyIeINEe-mQp_iBwsEBw" x="536" y="34"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_Boxy8OGREe-rQqqbffS7oA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoyaAeGREe-rQqqbffS7oA" x="9" y="439" width="597" height="340"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_gh4YoOGSEe-rQqqbffS7oA" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j6UUE-GSEe-rQqqbffS7oA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j6UUFOGSEe-rQqqbffS7oA" key="value" value="delete"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gh4YouGSEe-rQqqbffS7oA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gh4Yo-GSEe-rQqqbffS7oA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_j6U7IOGSEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_j6ViMOGSEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_j6ViMeGSEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_j6ViMuGSEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_j6ViM-GSEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_j6ViNOGSEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_j6UUEOGSEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j6U7IeGSEe-rQqqbffS7oA" x="56" y="25"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kYF1MOGSEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kYF1MuGSEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kYF1M-GSEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kYF1NOGSEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_kYF1NeGSEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_kYF1NuGSEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_kYEnEOGSEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYF1MeGSEe-rQqqbffS7oA" x="336" y="8"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_lgXE0OGSEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_lgXE0uGSEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_lgXE0-GSEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_lgXE1OGSEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_oSGMoeGSEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_oSGMoOGSEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_oSGMouGSEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_lgXE1eGSEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_lgXE1uGSEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_lgV2sOGSEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lgXE0eGSEe-rQqqbffS7oA" x="7" y="205"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mPkUMOGSEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mPkUMuGSEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mPkUM-GSEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mPkUNOGSEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_rV8_MOGSEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_rV8YIOGSEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rV8_MeGSEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_mPkUNeGSEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_mPkUNuGSEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_mPjtIOGSEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mPkUMeGSEe-rQqqbffS7oA" x="347" y="93"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_m7OgUOGSEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_m7OgUuGSEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_m7OgU-GSEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_m7OgVOGSEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_tcE-MuGSEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_tcE-MOGSEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_tcE-M-GSEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_m7OgVeGSEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_m7OgVuGSEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_m7NSMOGSEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m7OgUeGSEe-rQqqbffS7oA" x="347" y="205"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_66DJUOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_66DJUuINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_66DJU-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_66DJVOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_66DJVeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_66DJVuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_66BUIOINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_66DJUeINEe-mQp_iBwsEBw" x="524" y="32"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_gh3KgOGSEe-rQqqbffS7oA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gh4YoeGSEe-rQqqbffS7oA" x="642" y="445"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_AiVygOGVEe-rQqqbffS7oA" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qI-HUuGVEe-rQqqbffS7oA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qI-HU-GVEe-rQqqbffS7oA" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AiVyguGVEe-rQqqbffS7oA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AiVyg-GVEe-rQqqbffS7oA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_qI_VcOGVEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qI_VcuGVEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_qI_Vc-GVEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_qI_VdOGVEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_qI_VdeGVEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_qI_VduGVEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_qI9gQOGVEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qI_VceGVEe-rQqqbffS7oA" x="368" y="4"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qml3cOGVEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qml3cuGVEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_qml3c-GVEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_qml3dOGVEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_qml3deGVEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_qml3duGVEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_qmkpUOGVEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qml3ceGVEe-rQqqbffS7oA" x="116" y="214"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_svYI4OGVEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_svYI4uGVEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_svYI4-GVEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_svYI5OGVEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_TV2fYOGWEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_TV14UOGWEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TV2fYeGWEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_svYI5eGVEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_svYI5uGVEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_svW6wOGVEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_svYI4eGVEe-rQqqbffS7oA" x="29" y="76"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tTxPYOGVEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tTxPYuGVEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tTxPY-GVEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tTxPZOGVEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_QvdE4OGWEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_Qvcd0OGWEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_QvdE4eGWEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_tTxPZeGVEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_tTxPZuGVEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_tTwBQOGVEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tTxPYeGVEe-rQqqbffS7oA" x="21" y="-4"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uKJdwOGVEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uKJdwuGVEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uKJdw-GVEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uKJdxOGVEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_6hCh8eGVEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_6hCh8OGVEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6hCh8uGVEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uKJdxeGVEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uKJdxuGVEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_uKIPoOGVEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKJdweGVEe-rQqqbffS7oA" x="368" y="96"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_u7lhwOGVEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_u7lhwuGVEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_u7lhw-GVEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_u7lhxOGVEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_8qZbIOGVEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_8qY0EOGVEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8qZbIeGVEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_u7lhxeGVEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_u7lhxuGVEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_u7kToOGVEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7lhweGVEe-rQqqbffS7oA" x="375" y="235"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_AdHe0OGWEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_AdHe0uGWEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_AdHe0-GWEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_AdHe1OGWEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_Ja1AseGWEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_Ja1AsOGWEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Ja1AsuGWEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_AdHe1eGWEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_AdHe1uGWEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_AdGQsOGWEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AdHe0eGWEe-rQqqbffS7oA" x="462" y="344"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7ssHMOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7ssHMuINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7ssHM-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7ssHNOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7ssHNeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7ssHNuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_7sqSAOINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ssHMeINEe-mQp_iBwsEBw" x="673" y="30"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_AiVLcOGVEe-rQqqbffS7oA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiVygeGVEe-rQqqbffS7oA" x="27" y="798" width="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_JGLNEOGbEe-rQqqbffS7oA" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OpsgA-GbEe-rQqqbffS7oA" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OpsgBOGbEe-rQqqbffS7oA" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JGLNEuGbEe-rQqqbffS7oA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JGLNE-GbEe-rQqqbffS7oA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_OptuIOGbEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_OptuIuGbEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_OptuI-GbEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_OptuJOGbEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_OptuJeGbEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_OptuJuGbEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_OpsgAOGbEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OptuIeGbEe-rQqqbffS7oA" x="101" y="1"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_PNV_oOGbEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_PNV_ouGbEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_PNV_o-GbEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_PNV_pOGbEe-rQqqbffS7oA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_PNV_peGbEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_PNV_puGbEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_PNUxgOGbEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PNV_oeGbEe-rQqqbffS7oA" x="554" y="5"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_PymBwOGbEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_PymBwuGbEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_PymBw-GbEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_PymBxOGbEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_rHHi4OGbEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_rHG70OGbEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rHHi4eGbEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_PymBxeGbEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_PymBxuGbEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_PykMkOGbEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PymBweGbEe-rQqqbffS7oA" x="208" y="1"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_RJYOgOGbEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_RJYOguGbEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RJYOg-GbEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RJYOhOGbEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_yS83cuGbEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_yS83cOGbEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yS83c-GbEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RJYOheGbEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RJYOhuGbEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_RJWZUOGbEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJYOgeGbEe-rQqqbffS7oA" x="553" y="91"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_SEhBEOGbEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_SEhBEuGbEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_SEhBE-GbEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_SEhBFOGbEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_2N5DAuGbEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_2N5DAOGbEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2N5DA-GbEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SEhBFeGbEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SEhBFuGbEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_SEfL4OGbEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SEhBEeGbEe-rQqqbffS7oA" x="195" y="143"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_SuZrkOGbEe-rQqqbffS7oA" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_SuZrkuGbEe-rQqqbffS7oA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_SuZrk-GbEe-rQqqbffS7oA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_SuZrlOGbEe-rQqqbffS7oA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_4VKRguGbEe-rQqqbffS7oA" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_4VKRgOGbEe-rQqqbffS7oA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4VKRg-GbEe-rQqqbffS7oA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SuZrleGbEe-rQqqbffS7oA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SuZrluGbEe-rQqqbffS7oA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_SuYdcOGbEe-rQqqbffS7oA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SuZrkeGbEe-rQqqbffS7oA" x="195" y="258"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8ZF6MOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8ZF6MuINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8ZF6M-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8ZF6NOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_8ZF6NeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_8ZF6NuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_8ZEsEOINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ZF6MeINEe-mQp_iBwsEBw" x="779" y="27"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_JGKmAOGbEe-rQqqbffS7oA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JGLNEeGbEe-rQqqbffS7oA" x="869" y="798" width="619" height="436"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_S65-cOIHEe-mQp_iBwsEBw" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tNMmgOIHEe-mQp_iBwsEBw" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tNMmgeIHEe-mQp_iBwsEBw" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S65-cuIHEe-mQp_iBwsEBw" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S65-c-IHEe-mQp_iBwsEBw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_tNPp0OIHEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tNPp0uIHEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tNPp0-IHEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tNPp1OIHEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_tNPp1eIHEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_tNPp1uIHEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_tNL_cOIHEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tNPp0eIHEe-mQp_iBwsEBw" x="257" y="88"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_t-rGwOIHEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_t-rGwuIHEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_t-rGw-IHEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_t-rGxOIHEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_t-rGxeIHEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_t-rGxuIHEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_t-oqgOIHEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t-rGweIHEe-mQp_iBwsEBw" x="510" y="4"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wfgEwOIHEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wfgEwuIHEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_wfgr0OIHEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_wfgr0eIHEe-mQp_iBwsEBw" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_zQabQOIJEe-mQp_iBwsEBw" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_zQZ0MOIJEe-mQp_iBwsEBw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zQabQeIJEe-mQp_iBwsEBw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_wfgr0uIHEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_wfgr0-IHEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_wfePkOIHEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wfgEweIHEe-mQp_iBwsEBw" x="151"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yCYMwOIHEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_yCYMwuIHEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_yCYMw-IHEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_yCYMxOIHEe-mQp_iBwsEBw" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_7LsPweIJEe-mQp_iBwsEBw" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_7LsPwOIJEe-mQp_iBwsEBw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7LsPwuIJEe-mQp_iBwsEBw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_yCYMxeIHEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_yCYMxuIHEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_yCWXkOIHEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yCYMweIHEe-mQp_iBwsEBw" x="509" y="82"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0yoG0OIHEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0yoG0uIHEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0yoG0-IHEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0yoG1OIHEe-mQp_iBwsEBw" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_Uq08kOIKEe-mQp_iBwsEBw" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_Uq0VgOIKEe-mQp_iBwsEBw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Uq08keIKEe-mQp_iBwsEBw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_0yoG1eIHEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_0yoG1uIHEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_0ymRoOIHEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0yoG0eIHEe-mQp_iBwsEBw" x="618" y="201" width="194"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_CfOkQOIJEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_CfOkQuIJEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CfOkQ-IJEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CfOkROIJEe-mQp_iBwsEBw" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_Q5fY8eIKEe-mQp_iBwsEBw" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_Q5fY8OIKEe-mQp_iBwsEBw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Q5fY8uIKEe-mQp_iBwsEBw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_CfOkReIJEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_CfOkRuIJEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_CfMIAOIJEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CfOkQeIJEe-mQp_iBwsEBw" x="330" y="201"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8s7cMOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8s7cMuINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8s7cM-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_8s7cNOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_8s7cNeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_8s7cNuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_8s5nAOINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8s7cMeINEe-mQp_iBwsEBw" x="740" y="4"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_S64JQOIHEe-mQp_iBwsEBw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S65-ceIHEe-mQp_iBwsEBw" x="27" y="1283" width="820" height="328"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1FSAQOILEe-mQp_iBwsEBw" type="2001" fontName="Sans" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E96F0-IMEe-mQp_iBwsEBw" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_E96F1OIMEe-mQp_iBwsEBw" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1FSAQuILEe-mQp_iBwsEBw" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1FSAQ-ILEe-mQp_iBwsEBw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_E98iEOIMEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_E98iEuIMEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_E98iE-IMEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_E98iFOIMEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_E98iFeIMEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_E98iFuIMEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_E96F0OIMEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E98iEeIMEe-mQp_iBwsEBw" x="20" y="10"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_F71GoOIMEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_F71GouIMEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_F71Go-IMEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_F71GpOIMEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_F71GpeIMEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_F71GpuIMEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_F7yqYOIMEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F71GoeIMEe-mQp_iBwsEBw" x="294" y="10"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_IFVJwOIMEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IFVJwuIMEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_IFVJw-IMEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_IFVJxOIMEe-mQp_iBwsEBw" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_SAlR8uIMEe-mQp_iBwsEBw" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_SAlR8OIMEe-mQp_iBwsEBw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SAlR8-IMEe-mQp_iBwsEBw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_IFVJxeIMEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_IFVJxuIMEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_IFT7oOIMEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IFVJweIMEe-mQp_iBwsEBw" x="181" y="115"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JPG1QOIMEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_JPG1QuIMEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_JPG1Q-IMEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_JPG1ROIMEe-mQp_iBwsEBw" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_ZUgykeIMEe-mQp_iBwsEBw" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_ZUgLgOIMEe-mQp_iBwsEBw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZUgykuIMEe-mQp_iBwsEBw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_JPG1ReIMEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_JPG1RuIMEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_JPEZAOIMEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JPG1QeIMEe-mQp_iBwsEBw" x="49" y="231"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_J53CcOIMEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_J53CcuIMEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_J53Cc-IMEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_J53CdOIMEe-mQp_iBwsEBw" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_diDxEuIMEe-mQp_iBwsEBw" type="3002">
+            <element xmi:type="henshin:Attribute" href="CASAUpdateDimmerRules.henshin#_diDxEOIMEe-mQp_iBwsEBw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_diDxE-IMEe-mQp_iBwsEBw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_J53CdeIMEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_J53CduIMEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_J50mMOIMEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J53CceIMEe-mQp_iBwsEBw" x="376" y="231" width="201"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_851PwOINEe-mQp_iBwsEBw" type="3001" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_851PwuINEe-mQp_iBwsEBw" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_851Pw-INEe-mQp_iBwsEBw" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_851PxOINEe-mQp_iBwsEBw" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_851PxeINEe-mQp_iBwsEBw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_851PxuINEe-mQp_iBwsEBw"/>
+        </children>
+        <element xmi:type="henshin:Node" href="CASAUpdateDimmerRules.henshin#_85zakOINEe-mQp_iBwsEBw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_851PweINEe-mQp_iBwsEBw" x="522" y="10"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="CASAUpdateDimmerRules.henshin#_1FRZMOILEe-mQp_iBwsEBw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1FSAQeILEe-mQp_iBwsEBw" x="878" y="1283" width="623" height="349"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_SzSGMeGIEe-rQqqbffS7oA"/>
+  <element xmi:type="henshin:Module" href="CASAUpdateDimmerRules.henshin#_SzQRAOGIEe-rQqqbffS7oA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_-vyQwOGJEe-rQqqbffS7oA" type="4001" source="_7aAnwOGJEe-rQqqbffS7oA" target="_2-Q1MOGJEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-vyQw-GJEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-vyQxOGJEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-vyQxeGJEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-vyQxuGJEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-vyQweGJEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_-vxpsOGJEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-vyQwuGJEe-rQqqbffS7oA" points="[-7, -12, 0, 106]$[49, -130, 56, -12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-vze4OGJEe-rQqqbffS7oA" id="(0.7850877192982456,0.2222222222222222)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-vze4eGJEe-rQqqbffS7oA" id="(0.7554585152838428,0.2777777777777778)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_c5i5oOGKEe-rQqqbffS7oA" type="4001" source="_qYbWEOGJEe-rQqqbffS7oA" target="_bKc6kOGKEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c5i5o-GKEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c5i5pOGKEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_c5i5peGKEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c5i5puGKEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_c5i5oeGKEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_c5iSkOGKEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c5i5ouGKEe-rQqqbffS7oA" points="[27, 1, -247, 0]$[267, 10, -7, 9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c5jgsOGKEe-rQqqbffS7oA" id="(0.8071428571428572,0.7341772151898734)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c5jgseGKEe-rQqqbffS7oA" id="(0.375,0.8676470588235294)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_dW1SkeGKEe-rQqqbffS7oA" type="4001" source="_FmLg0OGKEe-rQqqbffS7oA" target="_bKc6kOGKEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dW1SlOGKEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dW1SleGKEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dW1SluGKEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dW1Sl-GKEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dW1SkuGKEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_dW1SkOGKEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dW1Sk-GKEe-rQqqbffS7oA" points="[38, -20, -156, 81]$[179, -89, -15, 12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dW15oOGKEe-rQqqbffS7oA" id="(0.8114035087719298,0.37037037037037035)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dW15oeGKEe-rQqqbffS7oA" id="(0.3223684210526316,0.8235294117647058)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_djDwseGKEe-rQqqbffS7oA" type="4001" source="_2-Q1MOGJEe-rQqqbffS7oA" target="_bKc6kOGKEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_djDwtOGKEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_djDwteGKEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_djDwtuGKEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_djDwt-GKEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_djDwsuGKEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_djDwsOGKEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_djDws-GKEe-rQqqbffS7oA" points="[-8, -7, 0, 145]$[27, -138, 35, 14]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_djE-0OGKEe-rQqqbffS7oA" id="(0.7510917030567685,0.12962962962962962)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_djE-0eGKEe-rQqqbffS7oA" id="(0.7697368421052632,0.75)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-Ct58eGKEe-rQqqbffS7oA" type="4001" source="_84jM4OGKEe-rQqqbffS7oA" target="_2-Q1MOGJEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-Ct59OGKEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-Ct59eGKEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-Ct59uGKEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-Ct59-GKEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-Ct58uGKEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_-Ct58OGKEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Ct58-GKEe-rQqqbffS7oA" points="[19, -9, -172, 72]$[168, -84, -23, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CvIEOGKEe-rQqqbffS7oA" id="(0.7121212121212122,0.21739130434782608)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CvIEeGKEe-rQqqbffS7oA" id="(0.10043668122270742,0.2962962962962963)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-gPjceGKEe-rQqqbffS7oA" type="4001" source="_84jM4OGKEe-rQqqbffS7oA" target="_7aAnwOGJEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-gPjdOGKEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-gQKgOGKEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-gQKgeGKEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-gQKguGKEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-gPjcuGKEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_-gPjcOGKEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-gPjc-GKEe-rQqqbffS7oA" points="[33, 6, -166, 0]$[183, 4, -16, -2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-gQxkOGKEe-rQqqbffS7oA" id="(0.07017543859649122,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_COwckeGLEe-rQqqbffS7oA" type="4001" source="_84jM4OGKEe-rQqqbffS7oA" target="_FmLg0OGKEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_COwclOGLEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_COwcleGLEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_COwcluGLEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_COwcl-GLEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_COwckuGLEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_COwckOGLEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_COwck-GLEe-rQqqbffS7oA" points="[2, -23, -11, 119]$[16, -169, 3, -27]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_CjcTIOGLEe-rQqqbffS7oA" type="4001" source="_84jM4OGKEe-rQqqbffS7oA" target="_qYbWEOGJEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CjcTI-GLEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CjcTJOGLEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CjcTJeGLEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CjcTJuGLEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CjcTIeGLEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_CjbsEOGLEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CjcTIuGLEe-rQqqbffS7oA" points="[-26, -23, 62, 228]$[-88, -77, 0, 174]$[-88, -227, 0, 24]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cjc6MOGLEe-rQqqbffS7oA" id="(0.09285714285714286,0.6962025316455697)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__BYsMeGLEe-rQqqbffS7oA" type="4001" source="_7WoRsOGLEe-rQqqbffS7oA" target="_xwlkgOGLEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="__BYsNOGLEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__BYsNeGLEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__BYsNuGLEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__BYsN-GLEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__BYsMuGLEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#__BYsMOGLEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__BYsM-GLEe-rQqqbffS7oA" points="[3, -8, -25, 65]$[10, -61, -18, 12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__BZTQOGLEe-rQqqbffS7oA" id="(0.8070175438596491,0.14814814814814814)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__BZTQeGLEe-rQqqbffS7oA" id="(0.6870503597122302,0.8450704225352113)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uYH3EOGPEe-rQqqbffS7oA" type="4001" source="_xwlkgOGLEe-rQqqbffS7oA" target="_dNhJEOGLEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uYH3E-GPEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uYH3FOGPEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uYH3FeGPEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uYH3FuGPEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uYH3EeGPEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_uYHQAOGPEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uYH3EuGPEe-rQqqbffS7oA" points="[-27, -11, 192, 81]$[-208, -103, 11, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uYIeIOGPEe-rQqqbffS7oA" id="(0.45323741007194246,0.15492957746478872)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uYIeIeGPEe-rQqqbffS7oA" id="(0.6506024096385542,0.2391304347826087)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_umTdAOGPEe-rQqqbffS7oA" type="4001" source="_dNhJEOGLEe-rQqqbffS7oA" target="_xwlkgOGLEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_umTdA-GPEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_umTdBOGPEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_umTdBeGPEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_umTdBuGPEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_umTdAeGPEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_umS18OGPEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_umTdAuGPEe-rQqqbffS7oA" points="[42, 19, -132, -61]$[142, 69, -32, -11]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_umUEEOGPEe-rQqqbffS7oA" id="(0.2446043165467626,0.15492957746478872)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uzgLgeGPEe-rQqqbffS7oA" type="4001" source="_xwlkgOGLEe-rQqqbffS7oA" target="_7WoRsOGLEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uzgLhOGPEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uzgLheGPEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uzgLhuGPEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uzgLh-GPEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uzgLguGPEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_uzgLgOGPEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uzgLg-GPEe-rQqqbffS7oA" points="[-14, 36, 18, -95]$[-32, 81, 0, -50]$[-32, 104, 0, -27]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cz5XsOGQEe-rQqqbffS7oA" id="(0.3345323741007194,0.971830985915493)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_x2rBkOGPEe-rQqqbffS7oA" type="4001" source="_couZ8OGLEe-rQqqbffS7oA" target="_xwlkgOGLEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_x2rBk-GPEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x2rBlOGPEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_x2rBleGPEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x2rBluGPEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_x2rBkeGPEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_x2qagOGPEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x2rBkuGPEe-rQqqbffS7oA" points="[15, 5, -224, -82]$[189, 81, -50, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x2rooOGPEe-rQqqbffS7oA" id="(0.7727272727272727,0.6521739130434783)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x2rooeGPEe-rQqqbffS7oA" id="(0.17985611510791366,0.352112676056338)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZhwPsOGQEe-rQqqbffS7oA" type="4001" source="_bKc6kOGKEe-rQqqbffS7oA" target="_2-Q1MOGJEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZhwPs-GQEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhwPtOGQEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZhwPteGQEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZhwPtuGQEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZhwPseGQEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_ZhvooOGQEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZhwPsuGQEe-rQqqbffS7oA" points="[-1, 10, 0, -136]$[3, 138, 4, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zhw2wOGQEe-rQqqbffS7oA" id="(0.5197368421052632,0.8529411764705882)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Zhw2weGQEe-rQqqbffS7oA" id="(0.5458515283842795,0.14814814814814814)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Z-3pgOGQEe-rQqqbffS7oA" type="4001" source="_2-Q1MOGJEe-rQqqbffS7oA" target="_7aAnwOGJEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Z-3pg-GQEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Z-3phOGQEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Z-3pheGQEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Z-3phuGQEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Z-3pgeGQEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_Z-3CcOGQEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z-3pguGQEe-rQqqbffS7oA" points="[2, 13, -10, -71]$[-13, 57, -25, -27]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z-4QkOGQEe-rQqqbffS7oA" id="(0.4497816593886463,0.7592592592592593)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1Qhc0OGQEe-rQqqbffS7oA" type="4001" source="_couZ8OGLEe-rQqqbffS7oA" target="_x6TH4OGQEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1Qhc0-GQEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1Qhc1OGQEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1Qhc1eGQEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1Qhc1uGQEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1Qhc0eGQEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_1Qg1wOGQEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1Qhc0uGQEe-rQqqbffS7oA" points="[-7, 23, 37, -128]$[-47, 144, -3, -7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1QiD4OGQEe-rQqqbffS7oA" id="(0.4692982456140351,0.12962962962962962)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kX-88OGREe-rQqqbffS7oA" type="4001" source="_Frn9UOGREe-rQqqbffS7oA" target="_S3Dc0OGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kX-88-GREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kX-89OGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kX-89eGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kX-89uGREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kX-88eGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_kX-V4OGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kX-88uGREe-rQqqbffS7oA" points="[-33, -3, 71, 237]$[-217, -23, -113, 217]$[-227, -160, -123, 80]$[-182, -189, -78, 51]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kX_kAOGREe-rQqqbffS7oA" id="(0.4956140350877193,0.05555555555555555)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kh0OYOGREe-rQqqbffS7oA" type="4001" source="_Frn9UOGREe-rQqqbffS7oA" target="_NXZWMOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kh0OY-GREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kh0OZOGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kh0OZeGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kh0OZuGREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kh0OYeGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_khznUOGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kh0OYuGREe-rQqqbffS7oA" points="[-1, 23, 0, -172]$[30, 183, 31, -12]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kh01cOGREe-rQqqbffS7oA" id="(0.6436363636363637,0.2222222222222222)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lD19YOGREe-rQqqbffS7oA" type="4001" source="_S3Dc0OGREe-rQqqbffS7oA" target="_GWwlAOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lD19Y-GREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lD19ZOGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lD19ZeGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lD19ZuGREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lD19YeGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_lD1WUOGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lD19YuGREe-rQqqbffS7oA" points="[9, -6, -142, 90]$[149, -97, -2, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lD2kcOGREe-rQqqbffS7oA" id="(0.8771929824561403,0.1111111111111111)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lD2kceGREe-rQqqbffS7oA" id="(0.024096385542168676,0.17391304347826086)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lOS54OGREe-rQqqbffS7oA" type="4001" source="_NXZWMOGREe-rQqqbffS7oA" target="_GWwlAOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lOS54-GREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lOS55OGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lOS55eGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lOS55uGREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lOS54eGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_lOSS0OGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lOS54uGREe-rQqqbffS7oA" points="[2, -3, -126, 164]$[124, -167, -4, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lOTg8OGREe-rQqqbffS7oA" id="(0.8181818181818182,0.05555555555555555)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lOTg8eGREe-rQqqbffS7oA" id="(0.04819277108433735,0.6739130434782609)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lbfoYOGREe-rQqqbffS7oA" type="4001" source="_GWwlAOGREe-rQqqbffS7oA" target="_UbrRQOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lbfoY-GREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lbfoZOGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lbfoZeGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lbfoZuGREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lbfoYeGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_lbfBUOGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lbfoYuGREe-rQqqbffS7oA" points="[-4, 23, 9, -49]$[-43, 65, -30, -7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lbgPcOGREe-rQqqbffS7oA" id="(0.13157894736842105,0.18518518518518517)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_livf4OGREe-rQqqbffS7oA" type="4001" source="_UbrRQOGREe-rQqqbffS7oA" target="_GWwlAOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_livf4-GREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_livf5OGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_livf5eGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_livf5uGREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_livf4eGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_liu40OGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_livf4uGREe-rQqqbffS7oA" points="[-17, -27, 30, 52]$[-29, -72, 18, 7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_liwG8OGREe-rQqqbffS7oA" id="(0.7831325301204819,0.717391304347826)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lyiPYeGREe-rQqqbffS7oA" type="4001" source="_UbrRQOGREe-rQqqbffS7oA" target="_VKYKUOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lyiPZOGREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lyiPZeGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lyiPZuGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lyiPZ-GREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lyiPYuGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_lyiPYOGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lyiPY-GREe-rQqqbffS7oA" points="[-22, 27, 33, -43]$[-64, 66, -9, -4]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lyi2cOGREe-rQqqbffS7oA" id="(0.2907488986784141,0.07407407407407407)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_l7AO4OGREe-rQqqbffS7oA" type="4001" source="_VKYKUOGREe-rQqqbffS7oA" target="_UbrRQOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_l7AO4-GREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_l7AO5OGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_l7AO5eGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_l7AO5uGREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_l7AO4eGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_l6_n0OGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_l7AO4uGREe-rQqqbffS7oA" points="[10, -27, 2, 66]$[122, -87, 114, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1O9hIeGREe-rQqqbffS7oA" type="4001" source="_Frn9UOGREe-rQqqbffS7oA" target="_UbrRQOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1O-IMOGREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1O-IMeGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1O-IMuGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1O-IM-GREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1O9hIuGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_1O9hIOGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1O9hI-GREe-rQqqbffS7oA" points="[33, -24, -86, 60]$[106, -87, -13, -3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1O-vQOGREe-rQqqbffS7oA" id="(0.05701754385964912,0.05555555555555555)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1bKKEeGREe-rQqqbffS7oA" type="4001" source="_Frn9UOGREe-rQqqbffS7oA" target="_VKYKUOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1bKxIOGREe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1bKxIeGREe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1bKxIuGREe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1bKxI-GREe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1bKKEuGREe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_1bKKEOGREe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1bKKE-GREe-rQqqbffS7oA" points="[33, 8, -74, 0]$[101, 7, -6, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1bLYMOGREe-rQqqbffS7oA" id="(0.02643171806167401,0.3333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wyZZwOGSEe-rQqqbffS7oA" type="4001" source="_mPkUMOGSEe-rQqqbffS7oA" target="_m7OgUOGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wyZZw-GSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wyZZxOGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wyZZxeGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wyZZxuGSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wyZZweGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_wyYysOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wyZZwuGSEe-rQqqbffS7oA" points="[-8, 27, 20, -69]$[-47, 85, -19, -11]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wyaA0OGSEe-rQqqbffS7oA" id="(0.3788546255506608,0.2037037037037037)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_w8PSQeGSEe-rQqqbffS7oA" type="4001" source="_m7OgUOGSEe-rQqqbffS7oA" target="_mPkUMOGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_w8P5UOGSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w8P5UeGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_w8P5UuGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_w8P5U-GSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_w8PSQuGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_w8PSQOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w8PSQ-GSEe-rQqqbffS7oA" points="[14, -27, 13, 85]$[115, -109, 114, 3]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xr_7QeGSEe-rQqqbffS7oA" type="4001" source="_j6U7IOGSEe-rQqqbffS7oA" target="_lgXE0OGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xr_7ROGSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xr_7ReGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xr_7RuGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xr_7R-GSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xr_7QuGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_xr_7QOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xr_7Q-GSEe-rQqqbffS7oA" points="[6, 23, -6, -22]$[12, 45, 0, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xsBJYOGSEe-rQqqbffS7oA" id="(0.2909090909090909,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_x5NQ0OGSEe-rQqqbffS7oA" type="4001" source="_kYF1MOGSEe-rQqqbffS7oA" target="_mPkUMOGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_x5NQ0-GSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x5NQ1OGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_x5NQ1eGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x5NQ1uGSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_x5NQ0eGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_x5MpwOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x5NQ0uGSEe-rQqqbffS7oA" points="[5, 9, -37, -55]$[-11, 54, -53, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x5N34OGSEe-rQqqbffS7oA" id="(0.26506024096385544,0.8043478260869565)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x5N34eGSEe-rQqqbffS7oA" id="(0.2324561403508772,0.2962962962962963)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yOCRUOGSEe-rQqqbffS7oA" type="4001" source="_mPkUMOGSEe-rQqqbffS7oA" target="_kYF1MOGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yOCRU-GSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yOCRVOGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yOCRVeGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yOCRVuGSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yOCRUeGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_yOBqQOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yOCRUuGSEe-rQqqbffS7oA" points="[-6, -8, 56, 62]$[-20, -65, 42, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yOC4YOGSEe-rQqqbffS7oA" id="(0.40350877192982454,0.14814814814814814)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_y-yY0OGSEe-rQqqbffS7oA" type="4001" source="_j6U7IOGSEe-rQqqbffS7oA" target="_mPkUMOGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_y-yY0-GSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y-yY1OGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_y-yY1eGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y-yY1uGSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_y-yY0eGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_y-xxwOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y-yY0uGSEe-rQqqbffS7oA" points="[33, 7, -267, -61]$[258, 65, -42, -3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y-y_4OGSEe-rQqqbffS7oA" id="(0.18421052631578946,0.42592592592592593)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zfcO0OGSEe-rQqqbffS7oA" type="4001" source="_couZ8OGLEe-rQqqbffS7oA" target="_7WoRsOGLEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zfcO0-GSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zfcO1OGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zfcO1eGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zfcO1uGSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zfcO0eGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_zfbnwOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zfcO0uGSEe-rQqqbffS7oA" points="[9, 23, -120, -277]$[100, 302, -29, 2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zfc14OGSEe-rQqqbffS7oA" id="(0.12719298245614036,0.6111111111111112)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_z4Af0OGSEe-rQqqbffS7oA" type="4001" source="_j6U7IOGSEe-rQqqbffS7oA" target="_m7OgUOGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_z4Af0-GSEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_z4Af1OGSEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_z4Af1eGSEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_z4Af1uGSEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_z4Af0eGSEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_z3_4wOGSEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_z4Af0uGSEe-rQqqbffS7oA" points="[13, 8, -266, -181]$[238, 193, -41, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z4BG4OGSEe-rQqqbffS7oA" id="(0.803030303030303,0.5652173913043478)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z4BG4eGSEe-rQqqbffS7oA" id="(0.18061674008810572,0.6481481481481481)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_17ZzkeGVEe-rQqqbffS7oA" type="4001" source="_qml3cOGVEe-rQqqbffS7oA" target="_uKJdwOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_17ZzlOGVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_17ZzleGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_17ZzluGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_17Zzl-GVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_17ZzkuGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_17ZzkOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_17Zzk-GVEe-rQqqbffS7oA" points="[33, -6, -227, 44]$[264, -27, 4, 23]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2G7uIOGVEe-rQqqbffS7oA" type="4001" source="_qml3cOGVEe-rQqqbffS7oA" target="_u7lhwOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2G7uI-GVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2G7uJOGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2G7uJeGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2G7uJuGVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2G7uIeGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_2G7HEOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2G7uIuGVEe-rQqqbffS7oA" points="[33, 6, -235, -5]$[219, 6, -49, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2TotYeGVEe-rQqqbffS7oA" type="4001" source="_qI_VcOGVEe-rQqqbffS7oA" target="_uKJdwOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2TotZOGVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2TotZeGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2TotZuGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2TotZ-GVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2TotYuGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_2TotYOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2TotY-GVEe-rQqqbffS7oA" points="[-10, 23, 9, -22]$[-25, 40, -6, -5]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2TpUcOGVEe-rQqqbffS7oA" id="(0.27058823529411763,0.10869565217391304)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2bELEeGVEe-rQqqbffS7oA" type="4001" source="_uKJdwOGVEe-rQqqbffS7oA" target="_qI_VcOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2bELFOGVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2bELFeGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2bELFuGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2bELF-GVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2bELEuGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_2bELEOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2bELE-GVEe-rQqqbffS7oA" points="[7, -23, 7, 40]$[42, -61, 42, 2]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2jJwEOGVEe-rQqqbffS7oA" type="4001" source="_uKJdwOGVEe-rQqqbffS7oA" target="_u7lhwOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2jJwE-GVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2jJwFOGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2jJwFeGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2jJwFuGVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2jJwEeGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_2jJJAOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2jJwEuGVEe-rQqqbffS7oA" points="[-5, 23, -13, -38]$[-41, 52, -49, -9]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2ptrEOGVEe-rQqqbffS7oA" type="4001" source="_u7lhwOGVEe-rQqqbffS7oA" target="_uKJdwOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2ptrE-GVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2ptrFOGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2ptrFeGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2ptrFuGVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2ptrEeGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_2ptEAOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2ptrEuGVEe-rQqqbffS7oA" points="[9, -23, -12, 29]$[35, -48, 14, 4]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2puSIOGVEe-rQqqbffS7oA" id="(0.8352941176470589,0.6956521739130435)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3JYCkeGVEe-rQqqbffS7oA" type="4001" source="_qml3cOGVEe-rQqqbffS7oA" target="_svYI4OGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3JYClOGVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3JYCleGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3JYCluGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3JYCl-GVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3JYCkuGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_3JYCkOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3JYCk-GVEe-rQqqbffS7oA" points="[-7, -23, -6, 36]$[-43, -53, -42, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3UK9UOGVEe-rQqqbffS7oA" type="4001" source="_qml3cOGVEe-rQqqbffS7oA" target="_tTxPYOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3UK9U-GVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3UK9VOGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3UK9VeGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3UK9VuGVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3UK9UeGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_3UKWQOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3UK9UuGVEe-rQqqbffS7oA" points="[-11, -1, 3, 107]$[-88, -12, -74, 96]$[-88, -94, -74, 14]$[-27, -106, -13, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3ULkYOGVEe-rQqqbffS7oA" id="(0.16666666666666666,0.2608695652173913)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3ULkYeGVEe-rQqqbffS7oA" id="(0.15294117647058825,0.3695652173913043)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3iLkIOGVEe-rQqqbffS7oA" type="4001" source="_tTxPYOGVEe-rQqqbffS7oA" target="_qI_VcOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3iLkI-GVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3iLkJOGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3iLkJeGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3iLkJuGVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3iLkIeGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_3iK9EOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3iLkIuGVEe-rQqqbffS7oA" points="[15, -4, -224, -4]$[198, -4, -41, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3iMLMOGVEe-rQqqbffS7oA" id="(0.8235294117647058,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_35NkEeGVEe-rQqqbffS7oA" type="4001" source="_svYI4OGVEe-rQqqbffS7oA" target="_qI_VcOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_35NkFOGVEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_35NkFeGVEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_35NkFuGVEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_35NkF-GVEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_35NkEuGVEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_35NkEOGVEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_35NkE-GVEe-rQqqbffS7oA" points="[9, -2, -218, 33]$[186, -34, -41, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_35OLIOGVEe-rQqqbffS7oA" id="(0.8941176470588236,0.08695652173913043)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EpR9QOGWEe-rQqqbffS7oA" type="4001" source="_qml3cOGVEe-rQqqbffS7oA" target="_AdHe0OGWEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EpR9Q-GWEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EpR9ROGWEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_EpR9ReGWEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EpR9RuGWEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EpR9QeGWEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_EpRWMOGWEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EpR9QuGWEe-rQqqbffS7oA" points="[1, 23, -319, -195]$[11, 204, -309, -14]$[313, 218, -7, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EpSkUOGWEe-rQqqbffS7oA" id="(0.0707070707070707,0.30434782608695654)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FC_dwOGWEe-rQqqbffS7oA" type="4001" source="_AdHe0OGWEe-rQqqbffS7oA" target="_uKJdwOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FC_dw-GWEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FC_dxOGWEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FC_dxeGWEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FC_dxuGWEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FC_dweGWEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_FC-2sOGWEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FC_dwuGWEe-rQqqbffS7oA" points="[23, -5, -52, 236]$[151, -33, 76, 208]$[181, -218, 106, 23]$[108, -234, 33, 7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FDAE0OGWEe-rQqqbffS7oA" id="(0.7676767676767676,0.2826086956521739)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FDAE0eGWEe-rQqqbffS7oA" id="(0.8812949640287769,0.37037037037037035)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Fo6OQOGWEe-rQqqbffS7oA" type="4001" source="_uKJdwOGVEe-rQqqbffS7oA" target="_AdHe0OGWEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Fo6OQ-GWEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Fo6OROGWEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Fo6OReGWEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Fo6ORuGWEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Fo6OQeGWEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_Fo5nMOGWEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Fo6OQuGWEe-rQqqbffS7oA" points="[91, 41, 114, -196]$[155, 70, 178, -167]$[130, 195, 153, -42]$[-16, 235, 7, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Fo61UOGWEe-rQqqbffS7oA" id="(0.5971223021582733,0.24074074074074073)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Fo61UeGWEe-rQqqbffS7oA" id="(0.494949494949495,0.043478260869565216)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_id5DQeGbEe-rQqqbffS7oA" type="4001" source="_OptuIOGbEe-rQqqbffS7oA" target="_PymBwOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_id5DROGbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_id5DReGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_id5DRuGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_id5DR-GbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_id5DQuGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_id5DQOGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_id5DQ-GbEe-rQqqbffS7oA" points="[3, 7, -83, 1]$[87, 29, 1, 23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_id5qUOGbEe-rQqqbffS7oA" id="(0.9545454545454546,0.3695652173913043)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_i_KkUOGbEe-rQqqbffS7oA" type="4001" source="_OptuIOGbEe-rQqqbffS7oA" target="_SEhBEOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i_KkU-GbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i_KkVOGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_i_KkVeGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i_KkVuGbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_i_KkUeGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_i_J9QOGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i_KkUuGbEe-rQqqbffS7oA" points="[33, 26, -83, -62]$[111, 111, -5, 23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i_LLYOGbEe-rQqqbffS7oA" id="(0.5,0.21739130434782608)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jL6m4OGbEe-rQqqbffS7oA" type="4001" source="_OptuIOGbEe-rQqqbffS7oA" target="_SuZrkOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jL6m4-GbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jL6m5OGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jL6m5eGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jL6m5uGbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jL6m4eGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_jL5_0OGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jL6m4uGbEe-rQqqbffS7oA" points="[12, 23, -79, -145]$[67, 171, -24, 3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jL7N8OGbEe-rQqqbffS7oA" id="(0.24242424242424243,0.5869565217391305)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jZ8b0eGbEe-rQqqbffS7oA" type="4001" source="_OptuIOGbEe-rQqqbffS7oA" target="_RJYOgOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jZ9C4OGbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jZ9C4eGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jZ9C4uGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jZ9C4-GbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jZ8b0uGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_jZ8b0OGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jZ8b0-GbEe-rQqqbffS7oA" points="[2, 23, -554, -71]$[32, 309, -524, 215]$[420, 309, -136, 215]$[539, 121, -17, 27]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kBPFUeGbEe-rQqqbffS7oA" type="4001" source="_SuZrkOGbEe-rQqqbffS7oA" target="_RJYOgOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kBPFVOGbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kBPFVeGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kBPFVuGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kBPFV-GbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kBPFUuGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_kBPFUOGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kBPFU-GbEe-rQqqbffS7oA" points="[18, -12, -103, 67]$[115, -68, -6, 11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kBPsYOGbEe-rQqqbffS7oA" id="(0.8181818181818182,0.5434782608695652)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kBPsYeGbEe-rQqqbffS7oA" id="(0.43529411764705883,0.7608695652173914)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kWrJ0eGbEe-rQqqbffS7oA" type="4001" source="_RJYOgOGbEe-rQqqbffS7oA" target="_SuZrkOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kWrJ1OGbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kWrJ1eGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kWrJ1uGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kWrJ1-GbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kWrJ0uGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_kWrJ0OGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kWrJ0-GbEe-rQqqbffS7oA" points="[-43, 23, 115, -66]$[-161, 66, -3, -23]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kitaseGbEe-rQqqbffS7oA" type="4001" source="_SEhBEOGbEe-rQqqbffS7oA" target="_RJYOgOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kitatOGbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kitateGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kitatuGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kitat-GbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kitasuGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_kitasOGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kitas-GbEe-rQqqbffS7oA" points="[33, 2, -108, -14]$[138, -7, -3, -23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kiuBwOGbEe-rQqqbffS7oA" id="(0.6666666666666666,0.15217391304347827)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ku740eGbEe-rQqqbffS7oA" type="4001" source="_RJYOgOGbEe-rQqqbffS7oA" target="_SEhBEOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ku741OGbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ku741eGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ku741uGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ku741-GbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ku740uGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_ku740OGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ku740-GbEe-rQqqbffS7oA" points="[-42, 8, 116, 8]$[-108, 8, 50, 8]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_k28lUeGbEe-rQqqbffS7oA" type="4001" source="_RJYOgOGbEe-rQqqbffS7oA" target="_PNV_oOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_k28lVOGbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k28lVeGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k28lVuGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k28lV-GbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k28lUuGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_k28lUOGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k28lU-GbEe-rQqqbffS7oA" points="[2, -11, -20, 52]$[-19, -55, -41, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k29MYOGbEe-rQqqbffS7oA" id="(0.23529411764705882,0.2391304347826087)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lDd-YOGbEe-rQqqbffS7oA" type="4001" source="_PNV_oOGbEe-rQqqbffS7oA" target="_RJYOgOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lDd-Y-GbEe-rQqqbffS7oA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lDd-ZOGbEe-rQqqbffS7oA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lDd-ZeGbEe-rQqqbffS7oA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lDd-ZuGbEe-rQqqbffS7oA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lDd-YeGbEe-rQqqbffS7oA" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_lDdXUOGbEe-rQqqbffS7oA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lDd-YuGbEe-rQqqbffS7oA" points="[5, 23, 5, -52]$[43, 97, 43, 22]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XAqA8OIJEe-mQp_iBwsEBw" type="4001" source="_tNPp0OIHEe-mQp_iBwsEBw" target="_wfgEwOIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XAqA8-IJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XAqA9OIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XAqA9eIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XAqA9uIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XAqA8eIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_XApZ4OIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XAqA8uIJEe-mQp_iBwsEBw" points="[-2, -11, 14, 111]$[12, -145, 28, -23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XArPEOIJEe-mQp_iBwsEBw" id="(0.7272727272727273,0.2391304347826087)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XzLDAOIJEe-mQp_iBwsEBw" type="4001" source="_tNPp0OIHEe-mQp_iBwsEBw" target="_yCYMwOIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XzLDA-IJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XzLDBOIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XzLDBeIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XzLDBuIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XzLDAeIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_XzKb8OIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XzLDAuIJEe-mQp_iBwsEBw" points="[33, -7, -244, 33]$[246, -63, -31, -23]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_X8U_AOIJEe-mQp_iBwsEBw" type="4001" source="_tNPp0OIHEe-mQp_iBwsEBw" target="_0yoG0OIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_X8U_A-IJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_X8U_BOIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_X8U_BeIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_X8U_BuIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_X8U_AeIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_X8UX8OIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X8U_AuIJEe-mQp_iBwsEBw" points="[33, 5, -251, -48]$[251, 30, -33, -23]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_YdNegOIJEe-mQp_iBwsEBw" type="4001" source="_tNPp0OIHEe-mQp_iBwsEBw" target="_CfOkQOIJEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YdNeg-IJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YdNehOIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YdNeheIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YdNehuIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YdNegeIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_YdM3cOIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YdNeguIJEe-mQp_iBwsEBw" points="[33, -5, -447, 63]$[431, -62, -49, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Y6gegOIJEe-mQp_iBwsEBw" type="4001" source="_yCYMwOIHEe-mQp_iBwsEBw" target="_t-rGwOIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y6geg-IJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6gehOIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y6geheIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y6gehuIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Y6gegeIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_Y6f3cOIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y6geguIJEe-mQp_iBwsEBw" points="[1, -6, -26, 71]$[-14, -69, -41, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y6hFkOIJEe-mQp_iBwsEBw" id="(0.25882352941176473,0.13043478260869565)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZEuxgOIJEe-mQp_iBwsEBw" type="4001" source="_t-rGwOIHEe-mQp_iBwsEBw" target="_yCYMwOIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZEuxg-IJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZEuxhOIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZEuxheIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZEuxhuIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZEuxgeIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_ZEuKcOIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZEuxguIJEe-mQp_iBwsEBw" points="[-7, 24, 13, -53]$[-17, 72, 3, -5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZEvYkOIJEe-mQp_iBwsEBw" id="(0.7951807228915663,0.4782608695652174)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZEvYkeIJEe-mQp_iBwsEBw" id="(0.6352941176470588,0.10869565217391304)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZSwmcOIJEe-mQp_iBwsEBw" type="4001" source="_0yoG0OIHEe-mQp_iBwsEBw" target="_yCYMwOIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZSwmc-IJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZSwmdOIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZSwmdeIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZSwmduIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZSwmceIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_ZSv_YOIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZSwmcuIJEe-mQp_iBwsEBw" points="[3, -22, -16, 70]$[-15, -69, -34, 23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZSxNgOIJEe-mQp_iBwsEBw" id="(0.23232323232323232,0.4782608695652174)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Z4w2g-IJEe-mQp_iBwsEBw" type="4001" source="_yCYMwOIHEe-mQp_iBwsEBw" target="_0yoG0OIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Z4w2huIJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Z4w2h-IJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Z4w2iOIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Z4w2ieIJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Z4w2hOIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_Z4w2gOIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z4w2heIJEe-mQp_iBwsEBw" points="[0, 15, 0, -58]$[16, 62, 16, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z4yEoOIJEe-mQp_iBwsEBw" id="(0.788235294117647,0.6739130434782609)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z4yEoeIJEe-mQp_iBwsEBw" id="(0.6767676767676768,0.2391304347826087)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_aGVYc-IJEe-mQp_iBwsEBw" type="4001" source="_CfOkQOIJEe-mQp_iBwsEBw" target="_yCYMwOIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aGV_gOIJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aGV_geIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aGV_guIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aGV_g-IJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_aGVYdOIJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_aGVYcOIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aGVYdeIJEe-mQp_iBwsEBw" points="[-49, 4, 129, -12]$[-160, 7, 18, -9]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aGWmkOIJEe-mQp_iBwsEBw" id="(0.788235294117647,0.2391304347826087)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bByUEuIJEe-mQp_iBwsEBw" type="4001" source="_yCYMwOIHEe-mQp_iBwsEBw" target="_CfOkQOIJEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bBy7IOIJEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bBy7IeIJEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bBy7IuIJEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bBy7I-IJEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bByUE-IJEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_bBxtAOIJEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bByUFOIJEe-mQp_iBwsEBw" points="[10, -3, -160, 35]$[220, -38, 50, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bBziMOIJEe-mQp_iBwsEBw" id="(0.8823529411764706,0.717391304347826)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_oyEswOIMEe-mQp_iBwsEBw" type="4001" source="_E98iEOIMEe-mQp_iBwsEBw" target="_IFVJwOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oyEsw-IMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oyEsxOIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oyEsxeIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oyEsxuIMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_oyEsweIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_oyEFsOIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oyEswuIMEe-mQp_iBwsEBw" points="[49, 24, -351, -139]$[192, 134, -208, -29]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pRXQ0OIMEe-mQp_iBwsEBw" type="4001" source="_E98iEOIMEe-mQp_iBwsEBw" target="_J53CcOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pRXQ0-IMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pRXQ1OIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pRXQ1eIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pRXQ1uIMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pRXQ0eIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_pRWpwOIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pRXQ0uIMEe-mQp_iBwsEBw" points="[49, 28, -503, -293]$[553, 297, 1, -24]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pRX34OIMEe-mQp_iBwsEBw" id="(0.19736842105263158,0.2962962962962963)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pepe4OIMEe-mQp_iBwsEBw" type="4001" source="_E98iEOIMEe-mQp_iBwsEBw" target="_JPG1QOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pepe4-IMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pepe5OIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pepe5eIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pepe5uIMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pepe4eIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_peo30OIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pepe4uIMEe-mQp_iBwsEBw" points="[8, 34, -61, -263]$[69, 297, 0, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_peqF8OIMEe-mQp_iBwsEBw" id="(0.18050541516245489,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qaVEAOIMEe-mQp_iBwsEBw" type="4001" source="_F71GoOIMEe-mQp_iBwsEBw" target="_IFVJwOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qaVEA-IMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qaVEBOIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qaVEBeIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qaVEBuIMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qaVEAeIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_qaUc8OIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qaVEAuIMEe-mQp_iBwsEBw" points="[-5, 13, -21, -129]$[-192, 136, -208, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qaVrEOIMEe-mQp_iBwsEBw" id="(0.18072289156626506,0.8043478260869565)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qjPIYeIMEe-mQp_iBwsEBw" type="4001" source="_IFVJwOIMEe-mQp_iBwsEBw" target="_F71GoOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qjPIZOIMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qjPIZeIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qjPIZuIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qjPIZ-IMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qjPIYuIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_qjPIYOIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qjPIY-IMEe-mQp_iBwsEBw" points="[6, -40, -14, 105]$[21, -129, 1, 16]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qjPvcOIMEe-mQp_iBwsEBw" id="(0.46987951807228917,0.7608695652173914)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qzjcUeIMEe-mQp_iBwsEBw" type="4001" source="_IFVJwOIMEe-mQp_iBwsEBw" target="_JPG1QOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qzkDYOIMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qzkDYeIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qzkDYuIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qzkDY-IMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qzjcUuIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_qzjcUOIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qzjcU-IMEe-mQp_iBwsEBw" points="[-7, 24, 29, -109]$[-35, 117, 1, -16]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qzkqcOIMEe-mQp_iBwsEBw" id="(0.07913669064748201,0.7037037037037037)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qzkqceIMEe-mQp_iBwsEBw" id="(0.4693140794223827,0.2037037037037037)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_q6z64OIMEe-mQp_iBwsEBw" type="4001" source="_JPG1QOIMEe-mQp_iBwsEBw" target="_IFVJwOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_q6z64-IMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q6z65OIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_q6z65eIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q6z65uIMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_q6z64eIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_q6zT0OIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q6z64uIMEe-mQp_iBwsEBw" points="[12, -40, -39, 131]$[51, -133, 0, 38]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q60h8OIMEe-mQp_iBwsEBw" id="(0.14388489208633093,0.5370370370370371)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_rDbrYOIMEe-mQp_iBwsEBw" type="4001" source="_IFVJwOIMEe-mQp_iBwsEBw" target="_J53CcOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rDbrY-IMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rDbrZOIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rDbrZeIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rDbrZuIMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_rDbrYeIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_rDbEUOIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rDbrYuIMEe-mQp_iBwsEBw" points="[49, 41, -206, -133]$[94, 134, -161, -40]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_scOqUeIMEe-mQp_iBwsEBw" type="4001" source="_J53CcOIMEe-mQp_iBwsEBw" target="_IFVJwOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_scOqVOIMEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_scOqVeIMEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_scOqVuIMEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_scOqV-IMEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_scOqUuIMEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_scOqUOIMEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_scOqU-IMEe-mQp_iBwsEBw" points="[-14, -13, 135, 132]$[-148, -106, 1, 39]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_scPRYOIMEe-mQp_iBwsEBw" id="(0.5219298245614035,0.16666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_scPRYeIMEe-mQp_iBwsEBw" id="(0.7733812949640287,0.5185185185185185)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-DPH0OINEe-mQp_iBwsEBw" type="4001" source="_2-Q1MOGJEe-rQqqbffS7oA" target="_5b8zoOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-DPH0-INEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-DPH1OINEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-DPH1eINEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-DPH1uINEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-DPH0eINEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_-DOgwOINEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-DPH0uINEe-mQp_iBwsEBw" points="[1, -20, -3, 148]$[11, -191, 7, -23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-DPu4OINEe-mQp_iBwsEBw" id="(0.8296943231441049,0.37037037037037035)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-MxeUOINEe-mQp_iBwsEBw" type="4001" source="_5b8zoOINEe-mQp_iBwsEBw" target="_2-Q1MOGJEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-MxeU-INEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-MxeVOINEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-MxeVeINEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-MxeVuINEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-MxeUeINEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_-Mw3QOINEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-MxeUuINEe-mQp_iBwsEBw" points="[2, 23, -15, -136]$[35, 156, 18, -3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-MyFYOINEe-mQp_iBwsEBw" id="(0.9213973799126638,0.2037037037037037)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__moNMeINEe-mQp_iBwsEBw" type="4001" source="_xwlkgOGLEe-rQqqbffS7oA" target="_6Nj2wOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="__moNNOINEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__moNNeINEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__moNNuINEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__moNN-INEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__moNMuINEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#__moNMOINEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__moNM-INEe-mQp_iBwsEBw" points="[3, -28, -24, 103]$[-9, -127, -36, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__mo0QOINEe-mQp_iBwsEBw" id="(0.920863309352518,0.39436619718309857)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__yeQ0eINEe-mQp_iBwsEBw" type="4001" source="_6Nj2wOINEe-mQp_iBwsEBw" target="_xwlkgOGLEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="__yeQ1OINEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__yeQ1eINEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__ye34OINEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__ye34eINEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__yeQ0uINEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#__yeQ0OINEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__yeQ0-INEe-mQp_iBwsEBw" points="[-9, 24, 29, -89]$[-10, 104, 28, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ye34uINEe-mQp_iBwsEBw" id="(0.18055555555555555,0.4782608695652174)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ye34-INEe-mQp_iBwsEBw" id="(0.7985611510791367,0.1267605633802817)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FTUqQOIOEe-mQp_iBwsEBw" type="4001" source="_UbrRQOGREe-rQqqbffS7oA" target="_6mLyIOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FTUqQ-IOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FTUqROIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FTUqReIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FTUqRuIOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FTUqQeIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_FTUDMOIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FTUqQuIOEe-mQp_iBwsEBw" points="[1, -12, -17, 105]$[14, -117, -4, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FTVRUOIOEe-mQp_iBwsEBw" id="(0.8157894736842105,0.2222222222222222)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FTVRUeIOEe-mQp_iBwsEBw" id="(0.05555555555555555,0.6086956521739131)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Fcf0YeIOEe-mQp_iBwsEBw" type="4001" source="_6mLyIOINEe-mQp_iBwsEBw" target="_UbrRQOGREe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Fcf0ZOIOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Fcf0ZeIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Fcf0ZuIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Fcf0Z-IOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Fcf0YuIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_Fcf0YOIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Fcf0Y-IOEe-mQp_iBwsEBw" points="[-9, 23, 37, -102]$[-8, 119, 38, -6]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FcgbcOIOEe-mQp_iBwsEBw" id="(0.8333333333333334,0.2777777777777778)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FsSj4eIOEe-mQp_iBwsEBw" type="4001" source="_mPkUMOGSEe-rQqqbffS7oA" target="_66DJUOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FsSj5OIOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FsSj5eIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FsSj5uIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FsSj5-IOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FsSj4uIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_FsSj4OIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FsSj4-IOEe-mQp_iBwsEBw" points="[34, -27, -65, 38]$[97, -88, -2, -23]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_F1wB4OIOEe-mQp_iBwsEBw" type="4001" source="_66DJUOINEe-mQp_iBwsEBw" target="_mPkUMOGSEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_F1wB4-IOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F1wB5OIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_F1wB5eIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_F1wB5uIOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_F1wB4eIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_F1va0OIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_F1wB4uIOEe-mQp_iBwsEBw" points="[-32, 31, 19, -19]$[-39, 46, 12, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F1wo8OIOEe-mQp_iBwsEBw" id="(0.8194444444444444,0.32608695652173914)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F1wo8eIOEe-mQp_iBwsEBw" id="(0.8114035087719298,0.07407407407407407)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Gd9RYeIOEe-mQp_iBwsEBw" type="4001" source="_uKJdwOGVEe-rQqqbffS7oA" target="_7ssHMOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Gd94cOIOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Gd94ceIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Gd94cuIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Gd94c-IOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Gd9RYuIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_Gd9RYOIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gd9RY-IOEe-mQp_iBwsEBw" points="[59, -27, -124, 56]$[168, -93, -15, -10]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gd94dOIOEe-mQp_iBwsEBw" id="(0.20833333333333334,0.21739130434782608)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_G0Ui8OIOEe-mQp_iBwsEBw" type="4001" source="_7ssHMOINEe-mQp_iBwsEBw" target="_uKJdwOGVEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_G0Ui8-IOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_G0Ui9OIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_G0Ui9eIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_G0Ui9uIOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_G0Ui8eIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_G0T74OIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G0Ui8uIOEe-mQp_iBwsEBw" points="[-23, 8, 97, -34]$[-72, 31, 48, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G0Ui9-IOEe-mQp_iBwsEBw" id="(0.3194444444444444,0.7608695652173914)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G0Ui-OIOEe-mQp_iBwsEBw" id="(0.7563636363636363,0.2037037037037037)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_H-srYeIOEe-mQp_iBwsEBw" type="4001" source="_8ZF6MOINEe-mQp_iBwsEBw" target="_RJYOgOGbEe-rQqqbffS7oA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-srZOIOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-srZeIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-srZuIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-srZ-IOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_H-srYuIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_H-srYOIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H-srY-IOEe-mQp_iBwsEBw" points="[12, -1, -161, 12]$[151, -16, -22, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H-tScOIOEe-mQp_iBwsEBw" id="(0.8333333333333334,0.3695652173913043)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H-tSceIOEe-mQp_iBwsEBw" id="(0.08,0.2777777777777778)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ILiNgOIOEe-mQp_iBwsEBw" type="4001" source="_RJYOgOGbEe-rQqqbffS7oA" target="_8ZF6MOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ILiNg-IOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ILiNhOIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ILiNheIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ILiNhuIOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ILiNgeIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_ILhmcOIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ILiNguIOEe-mQp_iBwsEBw" points="[-15, 5, 156, 0]$[-154, 7, 17, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ILi0kOIOEe-mQp_iBwsEBw" id="(0.05454545454545454,0.5925925925925926)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ILi0keIOEe-mQp_iBwsEBw" id="(0.7638888888888888,0.5652173913043478)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IhHb8eIOEe-mQp_iBwsEBw" type="4001" source="_8s7cMOINEe-mQp_iBwsEBw" target="_yCYMwOIHEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IhHb9OIOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IhHb9eIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IhHb9uIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IhIDAOIOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_IhHb8uIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_IhHb8OIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IhHb8-IOEe-mQp_iBwsEBw" points="[-19, 23, 7, -9]$[0, 25, 26, -7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IhIDAeIOEe-mQp_iBwsEBw" id="(0.7697841726618705,0.12962962962962962)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Iqk58OIOEe-mQp_iBwsEBw" type="4001" source="_yCYMwOIHEe-mQp_iBwsEBw" target="_8s7cMOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Iqk58-IOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Iqk59OIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Iqk59eIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Iqk59uIOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Iqk58eIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_IqkS4OIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Iqk58uIOEe-mQp_iBwsEBw" points="[4, -16, 14, 25]$[26, -37, 36, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IqlhAOIOEe-mQp_iBwsEBw" id="(0.8992805755395683,0.2962962962962963)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JO8LQeIOEe-mQp_iBwsEBw" type="4001" source="_851PwOINEe-mQp_iBwsEBw" target="_IFVJwOIMEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JO8LROIOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JO8LReIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JO8LRuIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JO8LR-IOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_JO8LQuIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_JO8LQOIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JO8LQ-IOEe-mQp_iBwsEBw" points="[-7, 32, 9, -44]$[-50, 66, -34, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JO8yUOIOEe-mQp_iBwsEBw" id="(0.1527777777777778,0.30434782608695654)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JO8yUeIOEe-mQp_iBwsEBw" id="(0.2949640287769784,0.18518518518518517)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JWwqgOIOEe-mQp_iBwsEBw" type="4001" source="_IFVJwOIMEe-mQp_iBwsEBw" target="_851PwOINEe-mQp_iBwsEBw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JWwqg-IOEe-mQp_iBwsEBw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JWwqhOIOEe-mQp_iBwsEBw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JWwqheIOEe-mQp_iBwsEBw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JWwqhuIOEe-mQp_iBwsEBw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_JWwqgeIOEe-mQp_iBwsEBw" fontName="Sans"/>
+    <element xmi:type="henshin:Edge" href="CASAUpdateDimmerRules.henshin#_JWwDcOIOEe-mQp_iBwsEBw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JWwqguIOEe-mQp_iBwsEBw" points="[4, -10, -4, 57]$[4, -44, -4, 23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JWxRkOIOEe-mQp_iBwsEBw" id="(0.4136690647482014,0.18518518518518517)"/>
+  </edges>
+</notation:Diagram>

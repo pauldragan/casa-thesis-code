@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<casa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:casa="http://www.casa.com" xsi:schemaLocation="http://www.casa.com CASA.ecore">
+  <functions name="ServeContentFunction" realizedBy="//@components.0"/>
+  <functions xsi:type="casa:FuncPersData" name="ServeStandardAdsFunction" realizedBy="//@components.0" processesPersData="//@datas.0" has="//@purposes.0"/>
+  <functions xsi:type="casa:FuncPersData" name="ServeTargetedAdsFunction" realizedBy="//@components.0" processesPersData="//@datas.0" has="//@purposes.1"/>
+  <datas xsi:type="casa:PersonalData" name="UsersData" identifies="//@dataSubjects.0" processedBy="//@functions.1 //@functions.2" subjectOfConsent="//@dataSubjects.0/@gives.0 //@dataSubjects.0/@gives.1"/>
+  <dataSubjects identifiedBy="//@datas.0" name="SWIMUsers">
+    <gives forPurpose="ServeTargetedAdsPurpose" forPersonalData="//@datas.0"/>
+    <gives forPurpose="Marketing" givenFor="//@purposes.0" forPersonalData="//@datas.0"/>
+  </dataSubjects>
+  <components realizes="//@functions.0 //@functions.1 //@functions.2" name="SWIMComponent"/>
+  <purposes xsi:type="casa:PurposeConsent" name="ServeStandardAdsPurpose" ofFunction="//@functions.1" requires="//@dataSubjects.0/@gives.1"/>
+  <purposes xsi:type="casa:PurposeConsent" name="ServeTargetedAdsPurpose" ofFunction="//@functions.2"/>
+</casa:System>

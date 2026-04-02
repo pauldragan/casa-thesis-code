@@ -1,0 +1,62 @@
+{
+  "inputEntryCount": 60,
+  "uniqueCveCount": 59,
+  "duplicateCves": [
+    "CVE-2024-27983"
+  ],
+  "okEntryCount": 50,
+  "problemEntryCount": 10,
+  "problemTypeCounts": {
+    "missing_cvss_metrics": 1,
+    "non_v31_cvss:3.0": 10
+  },
+  "problemsByComponentType": {
+    "CAngularSPA": [
+      "CVE-2024-22017",
+      "CVE-2024-22018",
+      "CVE-2024-22020",
+      "CVE-2024-22025",
+      "CVE-2024-27980",
+      "CVE-2024-27983"
+    ],
+    "CExpressJS": [
+      "CVE-2024-27983",
+      "CVE-2024-36137",
+      "CVE-2024-36138",
+      "CVE-2024-37372",
+      "CVE-2025-23090"
+    ]
+  },
+  "problemsByCve": {
+    "CVE-2024-22017": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-22018": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-22020": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-22025": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-27980": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-27983": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-36137": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-36138": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2024-37372": [
+      "non_v31_cvss:3.0"
+    ],
+    "CVE-2025-23090": [
+      "missing_cvss_metrics"
+    ]
+  }
+}

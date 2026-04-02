@@ -1,0 +1,761 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/paul/ontologies/2025/1/casa-swim-purpose-model-scalability"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/paul/ontologies/2025/1/casa-swim-purpose-model-scalability">
+    <Prefix name="" IRI="http://www.semanticweb.org/paul/ontologies/2025/1/casa-swim-purpose-model-scalability/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BehaviorTargetedAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoSProtection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FirstPartyProfiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humanitarian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Journalistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judicial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationTargetedAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnlineAdvertising"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicInterest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandardAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetedAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_14"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_15"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_17"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_22"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_23"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_25"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_26"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_27"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_28"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_29"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_30"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_31"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_33"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_34"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_35"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_36"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_37"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_38"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_39"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_40"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_41"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_42"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_43"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_44"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_45"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_46"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_47"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_48"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_49"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_51"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_52"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_53"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_54"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_55"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_56"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_57"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_59"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_60"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_61"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_62"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_63"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThirdPartyProfiling"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BehaviorTargetedAds"/>
+        <Class IRI="#TargetedAds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoSProtection"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirstPartyProfiling"/>
+        <Class IRI="#Profiling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humanitarian"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Journalistic"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judicial"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationTargetedAds"/>
+        <Class IRI="#TargetedAds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marketing"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnlineAdvertising"/>
+        <Class IRI="#Marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profiling"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicInterest"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardAds"/>
+        <Class IRI="#Marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistic"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TargetedAds"/>
+        <Class IRI="#Marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_1"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_10"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_11"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_12"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_13"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_14"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_15"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_16"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_17"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_18"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_19"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_2"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_20"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_21"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_22"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_23"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_24"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_25"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_26"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_27"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_28"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_29"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_3"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_30"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_31"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_32"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_33"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_34"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_35"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_36"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_37"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_38"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_39"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_4"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_40"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_41"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_42"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_43"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_44"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_45"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_46"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_47"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_48"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_49"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_5"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_50"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_51"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_52"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_53"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_54"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_55"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_56"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_57"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_58"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_59"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_6"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_60"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_61"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_62"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_63"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_64"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_7"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_8"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_9"/>
+        <Class IRI="#Test"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThirdPartyProfiling"/>
+        <Class IRI="#Profiling"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BehaviorTargetedAds"/>
+        <Class IRI="#LocationTargetedAds"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FirstPartyProfiling"/>
+        <Class IRI="#ThirdPartyProfiling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Health"/>
+        <Class IRI="#Humanitarian"/>
+        <Class IRI="#Journalistic"/>
+        <Class IRI="#Judicial"/>
+        <Class IRI="#Marketing"/>
+        <Class IRI="#Profiling"/>
+        <Class IRI="#PublicInterest"/>
+        <Class IRI="#Research"/>
+        <Class IRI="#Security"/>
+        <Class IRI="#Statistic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OnlineAdvertising"/>
+        <Class IRI="#StandardAds"/>
+        <Class IRI="#TargetedAds"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Test_1"/>
+        <Class IRI="#Test_10"/>
+        <Class IRI="#Test_11"/>
+        <Class IRI="#Test_12"/>
+        <Class IRI="#Test_13"/>
+        <Class IRI="#Test_14"/>
+        <Class IRI="#Test_15"/>
+        <Class IRI="#Test_16"/>
+        <Class IRI="#Test_17"/>
+        <Class IRI="#Test_18"/>
+        <Class IRI="#Test_19"/>
+        <Class IRI="#Test_2"/>
+        <Class IRI="#Test_20"/>
+        <Class IRI="#Test_21"/>
+        <Class IRI="#Test_22"/>
+        <Class IRI="#Test_23"/>
+        <Class IRI="#Test_24"/>
+        <Class IRI="#Test_25"/>
+        <Class IRI="#Test_26"/>
+        <Class IRI="#Test_27"/>
+        <Class IRI="#Test_28"/>
+        <Class IRI="#Test_29"/>
+        <Class IRI="#Test_3"/>
+        <Class IRI="#Test_30"/>
+        <Class IRI="#Test_31"/>
+        <Class IRI="#Test_32"/>
+        <Class IRI="#Test_33"/>
+        <Class IRI="#Test_34"/>
+        <Class IRI="#Test_35"/>
+        <Class IRI="#Test_36"/>
+        <Class IRI="#Test_37"/>
+        <Class IRI="#Test_38"/>
+        <Class IRI="#Test_39"/>
+        <Class IRI="#Test_4"/>
+        <Class IRI="#Test_40"/>
+        <Class IRI="#Test_41"/>
+        <Class IRI="#Test_42"/>
+        <Class IRI="#Test_43"/>
+        <Class IRI="#Test_44"/>
+        <Class IRI="#Test_45"/>
+        <Class IRI="#Test_46"/>
+        <Class IRI="#Test_47"/>
+        <Class IRI="#Test_48"/>
+        <Class IRI="#Test_49"/>
+        <Class IRI="#Test_5"/>
+        <Class IRI="#Test_50"/>
+        <Class IRI="#Test_51"/>
+        <Class IRI="#Test_52"/>
+        <Class IRI="#Test_53"/>
+        <Class IRI="#Test_54"/>
+        <Class IRI="#Test_55"/>
+        <Class IRI="#Test_56"/>
+        <Class IRI="#Test_57"/>
+        <Class IRI="#Test_58"/>
+        <Class IRI="#Test_59"/>
+        <Class IRI="#Test_6"/>
+        <Class IRI="#Test_60"/>
+        <Class IRI="#Test_61"/>
+        <Class IRI="#Test_62"/>
+        <Class IRI="#Test_63"/>
+        <Class IRI="#Test_64"/>
+        <Class IRI="#Test_7"/>
+        <Class IRI="#Test_8"/>
+        <Class IRI="#Test_9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Test_1"/>
+        <Class IRI="#Test_10"/>
+        <Class IRI="#Test_11"/>
+        <Class IRI="#Test_12"/>
+        <Class IRI="#Test_13"/>
+        <Class IRI="#Test_14"/>
+        <Class IRI="#Test_15"/>
+        <Class IRI="#Test_16"/>
+        <Class IRI="#Test_17"/>
+        <Class IRI="#Test_18"/>
+        <Class IRI="#Test_19"/>
+        <Class IRI="#Test_2"/>
+        <Class IRI="#Test_20"/>
+        <Class IRI="#Test_21"/>
+        <Class IRI="#Test_22"/>
+        <Class IRI="#Test_23"/>
+        <Class IRI="#Test_24"/>
+        <Class IRI="#Test_25"/>
+        <Class IRI="#Test_26"/>
+        <Class IRI="#Test_27"/>
+        <Class IRI="#Test_28"/>
+        <Class IRI="#Test_29"/>
+        <Class IRI="#Test_3"/>
+        <Class IRI="#Test_30"/>
+        <Class IRI="#Test_31"/>
+        <Class IRI="#Test_32"/>
+        <Class IRI="#Test_4"/>
+        <Class IRI="#Test_5"/>
+        <Class IRI="#Test_6"/>
+        <Class IRI="#Test_7"/>
+        <Class IRI="#Test_8"/>
+        <Class IRI="#Test_9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Test_1"/>
+        <Class IRI="#Test_10"/>
+        <Class IRI="#Test_11"/>
+        <Class IRI="#Test_12"/>
+        <Class IRI="#Test_13"/>
+        <Class IRI="#Test_14"/>
+        <Class IRI="#Test_15"/>
+        <Class IRI="#Test_16"/>
+        <Class IRI="#Test_17"/>
+        <Class IRI="#Test_18"/>
+        <Class IRI="#Test_19"/>
+        <Class IRI="#Test_2"/>
+        <Class IRI="#Test_20"/>
+        <Class IRI="#Test_21"/>
+        <Class IRI="#Test_22"/>
+        <Class IRI="#Test_23"/>
+        <Class IRI="#Test_24"/>
+        <Class IRI="#Test_25"/>
+        <Class IRI="#Test_26"/>
+        <Class IRI="#Test_27"/>
+        <Class IRI="#Test_28"/>
+        <Class IRI="#Test_29"/>
+        <Class IRI="#Test_3"/>
+        <Class IRI="#Test_30"/>
+        <Class IRI="#Test_4"/>
+        <Class IRI="#Test_5"/>
+        <Class IRI="#Test_6"/>
+        <Class IRI="#Test_7"/>
+        <Class IRI="#Test_8"/>
+        <Class IRI="#Test_9"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

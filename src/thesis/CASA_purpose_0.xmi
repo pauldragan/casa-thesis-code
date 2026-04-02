@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<casa:System
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:casa="http://www.casa.com"
+    xsi:schemaLocation="http://www.casa.com CASA.ecore">
+  <functions
+      name="ServeContentFunction"
+      realizedBy="//@components.0"/>
+  <datas xsi:type="casa:PersonalData"
+      name="UsersData"
+      identifies="//@dataSubjects.0"/>
+  <dataSubjects
+      identifiedBy="//@datas.0"
+      name="SWIMUsers"/>
+  <components
+      realizes="//@functions.0"
+      name="SWIMComponent"/>
+</casa:System>

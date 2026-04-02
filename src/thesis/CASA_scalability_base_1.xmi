@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<casa:System
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:casa="http://www.casa.com"
+    xsi:schemaLocation="http://www.casa.com CASA.ecore">
+  <functions
+      name="ServeContentFunction"/>
+  <functions
+      xsi:type="casa:FuncPersData"
+      name="ServeStandardAdsFunction"
+      realizedBy="//@components.0"
+      processesPersData="//@datas.0"
+      has="//@purposes.0"/>
+  <datas xsi:type="casa:PersonalData"
+      name="UsersData"
+      identifies="//@dataSubjects.0"
+      processedBy="//@functions.1"
+      subjectOfConsent="//@dataSubjects.0/@gives.0 //@dataSubjects.0/@gives.1 //@dataSubjects.0/@gives.2"/>
+  <dataSubjects
+      identifiedBy="//@datas.0"
+      name="SWIMUsers">
+    <gives forPurpose="ServeStandardAdsPurpose"
+        forPersonalData="//@datas.0"/>
+    <gives forPurpose="ServeTargetedAdsPurpose"
+        forPersonalData="//@datas.0"/>
+    <gives forPurpose="FirstPartyProfilingPurpose"
+        forPersonalData="//@datas.0"/>
+  </dataSubjects>
+  <vulnerabilities
+      cveName="CVE-2024-38816"
+      affects="//@components.0">
+    <describedBy
+        integrityImpact="N"
+        availabilityImpact="N"/>
+  </vulnerabilities>
+  <components
+      realizes="//@functions.1"
+      name="Server_1"
+      affectedBy="//@vulnerabilities.0"/>
+  <purposes
+      xsi:type="casa:PurposeConsent"
+      name="ServeStandardAdsPurpose"
+      ofFunction="//@functions.1"/>
+</casa:System>

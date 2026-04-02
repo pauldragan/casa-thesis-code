@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_X3EnMORcEe-YGL6qBEOXVA">
+  <imports href="CASA.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_b_B7EORcEe-YGL6qBEOXVA" name="IdentifyProcessingRisks">
+    <lhs xmi:id="_b_DwQORcEe-YGL6qBEOXVA" name="Lhs">
+      <nodes xmi:id="_eQJCEORcEe-YGL6qBEOXVA">
+        <type href="CASA.ecore#//DataSubject"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_b_DwQeRcEe-YGL6qBEOXVA" name="Rhs">
+      <nodes xmi:id="_eQJCEeRcEe-YGL6qBEOXVA">
+        <type href="CASA.ecore#//DataSubject"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_eQJCEuRcEe-YGL6qBEOXVA" origin="_eQJCEORcEe-YGL6qBEOXVA" image="_eQJCEeRcEe-YGL6qBEOXVA"/>
+    <multiRules xmi:id="__rO6MOSbEe-YGL6qBEOXVA">
+      <lhs xmi:id="__rPhQOSbEe-YGL6qBEOXVA" name="Lhs">
+        <nodes xmi:id="__rPhSuSbEe-YGL6qBEOXVA" outgoing="_rA5XwORcEe-YGL6qBEOXVA _rwMtwORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//DataSubject"/>
+        </nodes>
+        <nodes xmi:id="_e1SWgORcEe-YGL6qBEOXVA" incoming="_rA5XwORcEe-YGL6qBEOXVA" outgoing="_rdDIQORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//PersonalData"/>
+        </nodes>
+        <nodes xmi:id="_g93MkORcEe-YGL6qBEOXVA" incoming="_rwMtwORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Consent"/>
+        </nodes>
+        <nodes xmi:id="_f0w2gORcEe-YGL6qBEOXVA" incoming="_rdDIQORcEe-YGL6qBEOXVA" outgoing="_r83QwORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//FuncPersData"/>
+        </nodes>
+        <nodes xmi:id="_ihbREORcEe-YGL6qBEOXVA" incoming="_r83QwORcEe-YGL6qBEOXVA" outgoing="_sPeqwORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Component"/>
+        </nodes>
+        <nodes xmi:id="_i7jBQORcEe-YGL6qBEOXVA" incoming="_sPeqwORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Vulnerability"/>
+        </nodes>
+        <edges xmi:id="_rA5XwORcEe-YGL6qBEOXVA" source="__rPhSuSbEe-YGL6qBEOXVA" target="_e1SWgORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//DataSubject/identifiedBy"/>
+        </edges>
+        <edges xmi:id="_rdDIQORcEe-YGL6qBEOXVA" source="_e1SWgORcEe-YGL6qBEOXVA" target="_f0w2gORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//PersonalData/processedBy"/>
+        </edges>
+        <edges xmi:id="_rwMtwORcEe-YGL6qBEOXVA" source="__rPhSuSbEe-YGL6qBEOXVA" target="_g93MkORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//DataSubject/gives"/>
+        </edges>
+        <edges xmi:id="_r83QwORcEe-YGL6qBEOXVA" source="_f0w2gORcEe-YGL6qBEOXVA" target="_ihbREORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Function/realizedBy"/>
+        </edges>
+        <edges xmi:id="_sPeqwORcEe-YGL6qBEOXVA" source="_ihbREORcEe-YGL6qBEOXVA" target="_i7jBQORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Component/affectedBy"/>
+        </edges>
+      </lhs>
+      <rhs xmi:id="__rPhQeSbEe-YGL6qBEOXVA" name="Rhs">
+        <nodes xmi:id="__rPhQuSbEe-YGL6qBEOXVA" outgoing="_rA5XweRcEe-YGL6qBEOXVA _rwMtweRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//DataSubject"/>
+        </nodes>
+        <nodes xmi:id="_e1S9kORcEe-YGL6qBEOXVA" incoming="_rA5XweRcEe-YGL6qBEOXVA" outgoing="_rdDIQeRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//PersonalData"/>
+        </nodes>
+        <nodes xmi:id="_g93MkeRcEe-YGL6qBEOXVA" incoming="_rwMtweRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Consent"/>
+        </nodes>
+        <nodes xmi:id="_f0w2geRcEe-YGL6qBEOXVA" incoming="_rdDIQeRcEe-YGL6qBEOXVA" outgoing="_r83QweRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//FuncPersData"/>
+        </nodes>
+        <nodes xmi:id="_ihbREeRcEe-YGL6qBEOXVA" incoming="_r83QweRcEe-YGL6qBEOXVA" outgoing="_sPeqweRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Component"/>
+        </nodes>
+        <nodes xmi:id="_i7jBQeRcEe-YGL6qBEOXVA" incoming="_sPeqweRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Vulnerability"/>
+        </nodes>
+        <edges xmi:id="_rA5XweRcEe-YGL6qBEOXVA" source="__rPhQuSbEe-YGL6qBEOXVA" target="_e1S9kORcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//DataSubject/identifiedBy"/>
+        </edges>
+        <edges xmi:id="_rdDIQeRcEe-YGL6qBEOXVA" source="_e1S9kORcEe-YGL6qBEOXVA" target="_f0w2geRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//PersonalData/processedBy"/>
+        </edges>
+        <edges xmi:id="_rwMtweRcEe-YGL6qBEOXVA" source="__rPhQuSbEe-YGL6qBEOXVA" target="_g93MkeRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//DataSubject/gives"/>
+        </edges>
+        <edges xmi:id="_r83QweRcEe-YGL6qBEOXVA" source="_f0w2geRcEe-YGL6qBEOXVA" target="_ihbREeRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Function/realizedBy"/>
+        </edges>
+        <edges xmi:id="_sPeqweRcEe-YGL6qBEOXVA" source="_ihbREeRcEe-YGL6qBEOXVA" target="_i7jBQeRcEe-YGL6qBEOXVA">
+          <type href="CASA.ecore#//Component/affectedBy"/>
+        </edges>
+      </rhs>
+      <mappings xmi:id="__rPhUuSbEe-YGL6qBEOXVA" origin="__rPhSuSbEe-YGL6qBEOXVA" image="__rPhQuSbEe-YGL6qBEOXVA"/>
+      <mappings xmi:id="_e1S9keRcEe-YGL6qBEOXVA" origin="_e1SWgORcEe-YGL6qBEOXVA" image="_e1S9kORcEe-YGL6qBEOXVA"/>
+      <mappings xmi:id="_g93MkuRcEe-YGL6qBEOXVA" origin="_g93MkORcEe-YGL6qBEOXVA" image="_g93MkeRcEe-YGL6qBEOXVA"/>
+      <mappings xmi:id="_f0w2guRcEe-YGL6qBEOXVA" origin="_f0w2gORcEe-YGL6qBEOXVA" image="_f0w2geRcEe-YGL6qBEOXVA"/>
+      <mappings xmi:id="_ihbREuRcEe-YGL6qBEOXVA" origin="_ihbREORcEe-YGL6qBEOXVA" image="_ihbREeRcEe-YGL6qBEOXVA"/>
+      <mappings xmi:id="_i7jBQuRcEe-YGL6qBEOXVA" origin="_i7jBQORcEe-YGL6qBEOXVA" image="_i7jBQeRcEe-YGL6qBEOXVA"/>
+      <multiMappings xmi:id="__rPhQ-SbEe-YGL6qBEOXVA" origin="_eQJCEeRcEe-YGL6qBEOXVA" image="__rPhQuSbEe-YGL6qBEOXVA"/>
+      <multiMappings xmi:id="__rPhS-SbEe-YGL6qBEOXVA" origin="_eQJCEORcEe-YGL6qBEOXVA" image="__rPhSuSbEe-YGL6qBEOXVA"/>
+    </multiRules>
+  </units>
+</henshin:Module>

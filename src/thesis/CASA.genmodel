@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/PhDThesisCode/src" modelPluginID="PhDThesisCode"
+    modelName="CASA" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>CASA.ecore</foreignModel>
+  <genPackages prefix="CASA" disposableProviderFactory="true" ecorePackage="CASA.ecore#/">
+    <genClasses ecoreClass="CASA.ecore#//Consent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Consent/forPurpose"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Consent/informedRiskLevel"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Consent/givenFor"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference CASA.ecore#//Consent/givenBy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Consent/forPersonalData"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//DataSubject">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//DataSubject/identifiedBy"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//DataSubject/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//DataSubject/gives"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//DataSubject/affectedBy"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//User"/>
+    <genClasses ecoreClass="CASA.ecore#//Administrator"/>
+    <genClasses ecoreClass="CASA.ecore#//Moderator"/>
+    <genClasses ecoreClass="CASA.ecore#//PersonalData">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//PersonalData/identifies"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//PersonalData/processedBy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//PersonalData/subjectOfConsent"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//Username"/>
+    <genClasses ecoreClass="CASA.ecore#//Password"/>
+    <genClasses ecoreClass="CASA.ecore#//EmailAddress"/>
+    <genClasses ecoreClass="CASA.ecore#//Payment"/>
+    <genClasses ecoreClass="CASA.ecore#//StreamingHistory"/>
+    <genClasses ecoreClass="CASA.ecore#//TrackingCookie"/>
+    <genClasses ecoreClass="CASA.ecore#//VideoContent"/>
+    <genClasses ecoreClass="CASA.ecore#//VideoComment"/>
+    <genClasses ecoreClass="CASA.ecore#//VideoMetadata"/>
+    <genClasses ecoreClass="CASA.ecore#//DeviceType"/>
+    <genClasses ecoreClass="CASA.ecore#//DeviceLocation"/>
+    <genClasses ecoreClass="CASA.ecore#//RequestTimestamps"/>
+    <genClasses image="false" ecoreClass="CASA.ecore#//Data">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Data/name"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//NonPersonalData">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//NonPersonalData/processedBy"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="CASA.ecore#//Purpose">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Purpose/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Purpose/ofFunction"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//Component">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Component/realizes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Component/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Component/affectedBy"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//AngularSPA"/>
+    <genClasses ecoreClass="CASA.ecore#//Nginx"/>
+    <genClasses ecoreClass="CASA.ecore#//ExpressJS"/>
+    <genClasses ecoreClass="CASA.ecore#//Function">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Function/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Function/realizedBy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Function/processes"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//FuncPersData">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//FuncPersData/processesPersData"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//FuncPersData/has"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//ServeStandardAds"/>
+    <genClasses ecoreClass="CASA.ecore#//UploadVideo"/>
+    <genClasses ecoreClass="CASA.ecore#//StreamVideo"/>
+    <genClasses ecoreClass="CASA.ecore#//RemoveVideo"/>
+    <genClasses ecoreClass="CASA.ecore#//P2PStreaming"/>
+    <genClasses ecoreClass="CASA.ecore#//RecommendVideos"/>
+    <genClasses ecoreClass="CASA.ecore#//ServeBehaviorTargetedAds"/>
+    <genClasses ecoreClass="CASA.ecore#//CommentWriteRead"/>
+    <genClasses ecoreClass="CASA.ecore#//ServeLocationTargetedAds"/>
+    <genClasses ecoreClass="CASA.ecore#//PurposeNoConsent"/>
+    <genClasses ecoreClass="CASA.ecore#//PurposeConsent">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//PurposeConsent/requires"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//Vulnerability">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Vulnerability/cveName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Vulnerability/affects"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//Vulnerability/describedBy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Vulnerability/causes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Vulnerability/isEnabled"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//CVSSVector">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/attackVector"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/attackComplexity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/scope"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/privilegesRequired"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/userInteraction"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/exploitCodeMaturity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/reportConfidence"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/confidentialityImpact"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/integrityImpact"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/availabilityImpact"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/remediationLevel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/confidentialityRequirement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/integrityRequirement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//CVSSVector/availabilityRequirement"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//Risk">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CASA.ecore#//Risk/level"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference CASA.ecore#//Risk/affects"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CASA.ecore#//Risk/causedBy"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//System">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//System/functions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//System/datas"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//System/dataSubjects"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//System/vulnerabilities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//System/components"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CASA.ecore#//System/purposes"/>
+    </genClasses>
+    <genClasses ecoreClass="CASA.ecore#//RedisComponent"/>
+    <genClasses ecoreClass="CASA.ecore#//FilesystemComponent"/>
+    <genClasses ecoreClass="CASA.ecore#//Postgresql"/>
+    <nestedGenPackages prefix="CVSS" disposableProviderFactory="true" ecorePackage="CASA.ecore#//CVSS">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/AttackVector">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AttackVector/Network"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AttackVector/Adjacent"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AttackVector/Local"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AttackVector/Physical"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/AttackComplexity">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AttackComplexity/Low"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AttackComplexity/High"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/Scope">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/Scope/Unchanged"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/Scope/Changed"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/PrivilegesRequired">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/PrivilegesRequired/None"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/PrivilegesRequired/Low"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/PrivilegesRequired/High"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/UserInteraction">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/UserInteraction/None"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/UserInteraction/Required"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/ExploitCodeMaturity">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ExploitCodeMaturity/NotDefined"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ExploitCodeMaturity/High"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ExploitCodeMaturity/Functional"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ExploitCodeMaturity/ProofOfConcept"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ExploitCodeMaturity/Unproven"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/ReportConfidence">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ReportConfidence/NotDefined"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ReportConfidence/Confirmed"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ReportConfidence/Reasonable"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ReportConfidence/Unknown"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/ConfidentialityImpact">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ConfidentialityImpact/High"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ConfidentialityImpact/Low"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ConfidentialityImpact/None"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/IntegrityImpact">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/IntegrityImpact/High"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/IntegrityImpact/Low"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/IntegrityImpact/None"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/AvailabilityImpact">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AvailabilityImpact/High"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AvailabilityImpact/Low"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AvailabilityImpact/None"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/RemediationLevel">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/RemediationLevel/NotDefined"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/RemediationLevel/Unavailable"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/RemediationLevel/Workaround"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/RemediationLevel/TemporaryFix"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/RemediationLevel/OfficialFix"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/ConfidentialityRequirement">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ConfidentialityRequirement/NotDefined"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ConfidentialityRequirement/High"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ConfidentialityRequirement/Medium"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/ConfidentialityRequirement/Low"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/IntegrityRequirement">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/IntegrityRequirement/NotDefined"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/IntegrityRequirement/High"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/IntegrityRequirement/Medium"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/IntegrityRequirement/Low"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="CASA.ecore#//CVSS/AvailabilityRequirement">
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AvailabilityRequirement/NotDefined"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AvailabilityRequirement/High"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AvailabilityRequirement/Medium"/>
+        <genEnumLiterals ecoreEnumLiteral="CASA.ecore#//CVSS/AvailabilityRequirement/Low"/>
+      </genEnums>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

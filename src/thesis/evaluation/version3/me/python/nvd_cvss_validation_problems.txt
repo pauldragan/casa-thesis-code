@@ -1,0 +1,21 @@
+Input entries: 60
+Unique CVEs: 59
+OK entries: 50
+Entries with problems: 10
+Duplicate CVEs: CVE-2024-27983
+
+Problem type counts:
+- missing_cvss_metrics: 1
+- non_v31_cvss:3.0: 10
+
+Problems by CVE:
+- CVE-2024-22017: non_v31_cvss:3.0
+- CVE-2024-22018: non_v31_cvss:3.0
+- CVE-2024-22020: non_v31_cvss:3.0
+- CVE-2024-22025: non_v31_cvss:3.0
+- CVE-2024-27980: non_v31_cvss:3.0
+- CVE-2024-27983: non_v31_cvss:3.0
+- CVE-2024-36137: non_v31_cvss:3.0
+- CVE-2024-36138: non_v31_cvss:3.0
+- CVE-2024-37372: non_v31_cvss:3.0
+- CVE-2025-23090: missing_cvss_metrics

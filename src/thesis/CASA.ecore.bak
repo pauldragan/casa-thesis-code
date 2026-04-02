@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="CASA" nsURI="http://www.casa.com" nsPrefix="casa">
+  <eAnnotations source="http://www.eclipse.org/OCL/Import">
+    <details key="ecore" value="http://www.eclipse.org/emf/2002/Ecore"/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+    <details key="invocationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EClass" name="Consent">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="forPurpose" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="informedRiskLevel" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="givenFor" upperBound="-1"
+        eType="#//PurposeConsent" eOpposite="#//PurposeConsent/requires"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="givenBy" lowerBound="1"
+        eType="#//DataSubject" eOpposite="#//DataSubject/gives"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="forPersonalData" upperBound="-1"
+        eType="#//PersonalData" eOpposite="#//PersonalData/subjectOfConsent"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DataSubject">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="identifiedBy" upperBound="-1"
+        eType="#//PersonalData" eOpposite="#//PersonalData/identifies"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gives" upperBound="-1"
+        eType="#//Consent" containment="true" eOpposite="#//Consent/givenBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="affectedBy" eType="#//Risk"
+        containment="true" eOpposite="#//Risk/affects"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="User" eSuperTypes="#//DataSubject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Administrator" eSuperTypes="#//DataSubject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Moderator" eSuperTypes="#//DataSubject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PersonalData" eSuperTypes="#//Data">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="identifies" lowerBound="1"
+        eType="#//DataSubject" eOpposite="#//DataSubject/identifiedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="processedBy" upperBound="-1"
+        eType="#//FuncPersData" eOpposite="#//FuncPersData/processesPersData"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subjectOfConsent" upperBound="-1"
+        eType="#//Consent" eOpposite="#//Consent/forPersonalData"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Username" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Password" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EmailAddress" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Payment" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="StreamingHistory" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TrackingCookie" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="VideoContent" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="VideoComment" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="VideoMetadata" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DeviceType" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DeviceLocation" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RequestTimestamps" eSuperTypes="#//PersonalData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Data" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NonPersonalData" eSuperTypes="#//Data">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="processedBy" upperBound="-1"
+        eType="#//Function" eOpposite="#//Function/processes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Purpose" abstract="true">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="UniquePurposes"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="UniquePurposes" value="&#xA;&#x9;&#x9;&#x9;Purpose.allInstances() -> isUnique(p | p.name)"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ofFunction" upperBound="-1"
+        eType="#//FuncPersData" eOpposite="#//FuncPersData/has"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Component">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="realizes" upperBound="-1"
+        eType="#//Function" eOpposite="#//Function/realizedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="affectedBy" upperBound="-1"
+        eType="#//Vulnerability" eOpposite="#//Vulnerability/affects"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AngularSPA" eSuperTypes="#//Component"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Nginx" eSuperTypes="#//Component"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ExpressJS" eSuperTypes="#//Component"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Function">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="realizedBy" upperBound="-1"
+        eType="#//Component" eOpposite="#//Component/realizes"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="processes" upperBound="-1"
+        eType="#//NonPersonalData" eOpposite="#//NonPersonalData/processedBy"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FuncPersData" eSuperTypes="#//Function">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="processesPersData" lowerBound="1"
+        upperBound="-1" eType="#//PersonalData" eOpposite="#//PersonalData/processedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="has" lowerBound="1" upperBound="-1"
+        eType="#//Purpose" eOpposite="#//Purpose/ofFunction"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ServeStandardAds" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UploadVideo" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="StreamVideo" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RemoveVideo" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="LiveStreamVideo" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="P2PStreaming" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendVideos" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ServeBehaviorTargetedAds" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CommentWriteRead" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ServeLocationTargetedAds" eSuperTypes="#//FuncPersData"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PurposeNoConsent" eSuperTypes="#//Purpose"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PurposeConsent" eSuperTypes="#//Purpose">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requires" upperBound="-1"
+        eType="#//Consent" eOpposite="#//Consent/givenFor"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PMarketing" eSuperTypes="#//PurposeConsent"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PStandardAds" eSuperTypes="#//PMarketing"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PTargetedAds" eSuperTypes="#//PMarketing"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PLocationTargetedAds" eSuperTypes="#//PTargetedAds"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PBehaviorTargetedAds" eSuperTypes="#//PTargetedAds"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PProfiling" eSuperTypes="#//PurposeConsent"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PFirstPartyProfiling" eSuperTypes="#//PProfiling"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PThirdPartyProfiling" eSuperTypes="#//PFirstPartyProfiling"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PUserExperience" eSuperTypes="#//PurposeConsent"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PVideoRecommendation" eSuperTypes="#//PUserExperience"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PP2PStreaming" eSuperTypes="#//PUserExperience"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PSocial" eSuperTypes="#//PurposeConsent"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PComments" eSuperTypes="#//PSocial"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Vulnerability">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="UniqueVulnerabilities"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="UniqueVulnerabilities" value="&#xA;&#x9;&#x9;&#x9;Vulnerability.allInstances() -> isUnique(v | v.cveName)"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cveName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="affects" upperBound="-1"
+        eType="#//Component" eOpposite="#//Component/affectedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="describedBy" lowerBound="1"
+        eType="#//CVSSVector" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="causes" upperBound="-1"
+        eType="#//Risk" eOpposite="#//Risk/causedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isEnabled" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CVSSVector">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attackVector" eType="#//CVSS/AttackVector"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attackComplexity" eType="#//CVSS/AttackComplexity"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scope" eType="#//CVSS/Scope"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="privilegesRequired" eType="#//CVSS/PrivilegesRequired"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="userInteraction" eType="#//CVSS/UserInteraction"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="exploitCodeMaturity" eType="#//CVSS/ExploitCodeMaturity"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="reportConfidence" eType="#//CVSS/ReportConfidence"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="confidentialityImpact"
+        eType="#//CVSS/ConfidentialityImpact"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="integrityImpact" eType="#//CVSS/IntegrityImpact"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="availabilityImpact" eType="#//CVSS/AvailabilityImpact"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="remediationLevel" eType="#//CVSS/RemediationLevel"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="confidentialityRequirement"
+        eType="#//CVSS/ConfidentialityRequirement"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="integrityRequirement" eType="#//CVSS/IntegrityRequirement"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="availabilityRequirement"
+        eType="#//CVSS/AvailabilityRequirement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Risk">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="level" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="affects" lowerBound="1"
+        eType="#//DataSubject" eOpposite="#//DataSubject/affectedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="causedBy" upperBound="-1"
+        eType="#//Vulnerability" eOpposite="#//Vulnerability/causes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="System">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="functions" upperBound="-1"
+        eType="#//Function" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="datas" upperBound="-1"
+        eType="#//Data" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dataSubjects" upperBound="-1"
+        eType="#//DataSubject" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="vulnerabilities" upperBound="-1"
+        eType="#//Vulnerability" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="components" upperBound="-1"
+        eType="#//Component" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="purposes" upperBound="-1"
+        eType="#//Purpose" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RedisComponent" eSuperTypes="#//Component"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FilesystemComponent" eSuperTypes="#//Component"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Postgresql" eSuperTypes="#//Component"/>
+  <eSubpackages name="CVSS" nsURI="http://www.casa.com/cvss" nsPrefix="casa.cvss">
+    <eClassifiers xsi:type="ecore:EEnum" name="AttackVector">
+      <eLiterals name="Network" literal="N"/>
+      <eLiterals name="Adjacent" value="1" literal="A"/>
+      <eLiterals name="Local" value="2" literal="L"/>
+      <eLiterals name="Physical" value="3" literal="P"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="AttackComplexity">
+      <eLiterals name="Low" literal="L"/>
+      <eLiterals name="High" value="1" literal="H"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="Scope">
+      <eLiterals name="Unchanged" literal="U"/>
+      <eLiterals name="Changed" value="1" literal="C"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="PrivilegesRequired">
+      <eLiterals name="None" literal="N"/>
+      <eLiterals name="Low" value="1" literal="L"/>
+      <eLiterals name="High" value="2" literal="H"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="UserInteraction">
+      <eLiterals name="None" literal="N"/>
+      <eLiterals name="Required" value="1" literal="R"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ExploitCodeMaturity">
+      <eLiterals name="NotDefined" literal="X"/>
+      <eLiterals name="High" value="1" literal="H"/>
+      <eLiterals name="Functional" value="2" literal="F"/>
+      <eLiterals name="ProofOfConcept" value="3"/>
+      <eLiterals name="Unproven" value="4" literal="U"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ReportConfidence">
+      <eLiterals name="NotDefined" literal="X"/>
+      <eLiterals name="Confirmed" value="1" literal="C"/>
+      <eLiterals name="Reasonable" value="2" literal="R"/>
+      <eLiterals name="Unknown" value="3" literal="U"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ConfidentialityImpact">
+      <eLiterals name="High" literal="H"/>
+      <eLiterals name="Low" value="1" literal="L"/>
+      <eLiterals name="None" value="3" literal="N"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="IntegrityImpact">
+      <eLiterals name="High" literal="H"/>
+      <eLiterals name="Low" value="1" literal="L"/>
+      <eLiterals name="None" value="3" literal="N"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="AvailabilityImpact">
+      <eLiterals name="High" literal="H"/>
+      <eLiterals name="Low" value="1" literal="L"/>
+      <eLiterals name="None" value="3" literal="N"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="RemediationLevel">
+      <eLiterals name="NotDefined" literal="X"/>
+      <eLiterals name="Unavailable" value="1" literal="U"/>
+      <eLiterals name="Workaround" value="2" literal="W"/>
+      <eLiterals name="TemporaryFix" value="3" literal="T"/>
+      <eLiterals name="OfficialFix" value="4" literal="O"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ConfidentialityRequirement">
+      <eLiterals name="NotDefined" literal="X"/>
+      <eLiterals name="High" value="1" literal="H"/>
+      <eLiterals name="Medium" value="2" literal="M"/>
+      <eLiterals name="Low" value="3" literal="L"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="IntegrityRequirement">
+      <eLiterals name="NotDefined" literal="X"/>
+      <eLiterals name="High" value="1" literal="H"/>
+      <eLiterals name="Medium" value="2" literal="M"/>
+      <eLiterals name="Low" value="3" literal="L"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="AvailabilityRequirement">
+      <eLiterals name="NotDefined" literal="X"/>
+      <eLiterals name="High" value="1" literal="H"/>
+      <eLiterals name="Medium" value="2" literal="M"/>
+      <eLiterals name="Low" value="3" literal="L"/>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>

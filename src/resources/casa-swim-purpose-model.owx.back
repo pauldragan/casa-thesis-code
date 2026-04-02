@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/paul/ontologies/2025/1/casa-swim-purpose-model"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/paul/ontologies/2025/1/casa-swim-purpose-model">
+    <Prefix name="" IRI="http://www.semanticweb.org/paul/ontologies/2025/1/casa-swim-purpose-model/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BehaviorTargetedAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoSProtection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FirstPartyProfiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humanitarian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Journalistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judicial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationTargetedAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnlineAdvertising"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicInterest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandardAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetedAds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThirdPartyProfiling"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BehaviorTargetedAds"/>
+        <Class IRI="#TargetedAds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoSProtection"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirstPartyProfiling"/>
+        <Class IRI="#Profiling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humanitarian"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Journalistic"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judicial"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationTargetedAds"/>
+        <Class IRI="#TargetedAds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marketing"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnlineAdvertising"/>
+        <Class IRI="#Marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profiling"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicInterest"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardAds"/>
+        <Class IRI="#Marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistic"/>
+        <Class IRI="#Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TargetedAds"/>
+        <Class IRI="#Marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThirdPartyProfiling"/>
+        <Class IRI="#Profiling"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BehaviorTargetedAds"/>
+        <Class IRI="#LocationTargetedAds"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FirstPartyProfiling"/>
+        <Class IRI="#ThirdPartyProfiling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Health"/>
+        <Class IRI="#Humanitarian"/>
+        <Class IRI="#Journalistic"/>
+        <Class IRI="#Judicial"/>
+        <Class IRI="#Marketing"/>
+        <Class IRI="#Profiling"/>
+        <Class IRI="#PublicInterest"/>
+        <Class IRI="#Research"/>
+        <Class IRI="#Security"/>
+        <Class IRI="#Statistic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OnlineAdvertising"/>
+        <Class IRI="#StandardAds"/>
+        <Class IRI="#TargetedAds"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

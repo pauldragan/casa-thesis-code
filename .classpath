@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/jackson-databind-2.14.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/jackson-core-2.14.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/jackson-annotations-2.14.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.henshin.interpreter.jar" sourcepath="lib/org.eclipse.emf.henshin.interpreter.source.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.henshin.model.jar" sourcepath="lib/org.eclipse.emf.henshin.model.source.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.henshin.statespace.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.henshin.multicda.cpa.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.henshin.multicda.cda.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.henshin.giraph.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.codegen.ecore.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.ecore.jar" sourcepath="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.ecore.source.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.common.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.core.runtime.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.emf.ecore.xmi.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/nashorn-core-15.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/asm-util-7.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/asm-tree-7.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/asm-commons-7.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/asm-7.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/asm-analysis-7.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.ocl.pivot_1.18.0.v20221121-1436.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.ocl.common_1.18.0.v20221121-1436.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.ocl.ecore_3.18.0.v20221121-1436.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.ocl_3.18.0.v20221121-1436.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/lpg.runtime.java.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.ocl.pivot.source.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.core.resources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.ocl.xtext.oclinecore.source.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/paul/Documents/Projects/phd-thesis/code/lib/org.eclipse.ocl.xtext.oclinecore.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.xmi.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

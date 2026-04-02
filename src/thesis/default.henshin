@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_ov6LMNzKEe-sPdUP6GWhEQ" name="" description="">
+  <imports href="CASA.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_vh-U4NzKEe-sPdUP6GWhEQ" name="IdentifyTargetedAds">
+    <lhs xmi:id="_vi1QgNzKEe-sPdUP6GWhEQ" name="Lhs">
+      <nodes xmi:id="_kXGNAOCdEe-2VaoR2I46Og" incoming="_5BexYOCdEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_uVLmwOCdEe-2VaoR2I46Og" value="&quot;ServeTargetedAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_w54YIOCdEe-2VaoR2I46Og" outgoing="_5BexYOCdEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_FqhVgOCeEe-2VaoR2I46Og" value="&quot;ServeTargetedAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_5BexYOCdEe-2VaoR2I46Og" source="_w54YIOCdEe-2VaoR2I46Og" target="_kXGNAOCdEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_vi1QgdzKEe-sPdUP6GWhEQ" name="Rhs">
+      <nodes xmi:id="_kXG0EOCdEe-2VaoR2I46Og" incoming="_5BfYcOCdEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_uVLmweCdEe-2VaoR2I46Og" value="&quot;ServeTargetedAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_w54YIeCdEe-2VaoR2I46Og" outgoing="_5BfYcOCdEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_FqhVgeCeEe-2VaoR2I46Og" value="&quot;ServeTargetedAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_5BfYcOCdEe-2VaoR2I46Og" source="_w54YIeCdEe-2VaoR2I46Og" target="_kXG0EOCdEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_kXG0EeCdEe-2VaoR2I46Og" origin="_kXGNAOCdEe-2VaoR2I46Og" image="_kXG0EOCdEe-2VaoR2I46Og"/>
+    <mappings xmi:id="_w54YIuCdEe-2VaoR2I46Og" origin="_w54YIOCdEe-2VaoR2I46Og" image="_w54YIeCdEe-2VaoR2I46Og"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_pWJEcOCeEe-2VaoR2I46Og" name="IdentifyStandardAds">
+    <lhs xmi:id="_pWK5oOCeEe-2VaoR2I46Og" name="Lhs">
+      <nodes xmi:id="_xf6A4OCeEe-2VaoR2I46Og" incoming="_1HKCUODIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_0IAEgOCeEe-2VaoR2I46Og" value="&quot;ServeStandardAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_vTE1wODGEe-2VaoR2I46Og" outgoing="_1HKCUODIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_zEiqUODIEe-2VaoR2I46Og" value="&quot;ServeStandardAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1HKCUODIEe-2VaoR2I46Og" source="_vTE1wODGEe-2VaoR2I46Og" target="_xf6A4OCeEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_pWK5oeCeEe-2VaoR2I46Og" name="Rhs">
+      <nodes xmi:id="_xf6A4eCeEe-2VaoR2I46Og" incoming="_1HKCUeDIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_0IAEgeCeEe-2VaoR2I46Og" value="&quot;ServeStandardAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_vTE1weDGEe-2VaoR2I46Og" outgoing="_1HKCUeDIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_zEiqUeDIEe-2VaoR2I46Og" value="&quot;ServeStandardAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1HKCUeDIEe-2VaoR2I46Og" source="_vTE1weDGEe-2VaoR2I46Og" target="_xf6A4eCeEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_xf6A4uCeEe-2VaoR2I46Og" origin="_xf6A4OCeEe-2VaoR2I46Og" image="_xf6A4eCeEe-2VaoR2I46Og"/>
+    <mappings xmi:id="_vTE1wuDGEe-2VaoR2I46Og" origin="_vTE1wODGEe-2VaoR2I46Og" image="_vTE1weDGEe-2VaoR2I46Og"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_2ZaUYODIEe-2VaoR2I46Og" name="IdentifyLocationTargetedAds">
+    <lhs xmi:id="_2ZbigODIEe-2VaoR2I46Og" name="Lhs">
+      <nodes xmi:id="_5QWFQODIEe-2VaoR2I46Og" incoming="_AF_ucODJEe-2VaoR2I46Og _PTJ1IODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_6Az44ODIEe-2VaoR2I46Og" value="&quot;ServeLocationTargetedAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_83S90ODIEe-2VaoR2I46Og" outgoing="_AF_ucODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_9oJL8ODIEe-2VaoR2I46Og" value="&quot;ServeLocationTargetedAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_JT5ocODJEe-2VaoR2I46Og" outgoing="_PTJ1IODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_KdxakODJEe-2VaoR2I46Og" value="&quot;FirstPartyProfilingPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_AF_ucODJEe-2VaoR2I46Og" source="_83S90ODIEe-2VaoR2I46Og" target="_5QWFQODIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+      <edges xmi:id="_PTJ1IODJEe-2VaoR2I46Og" source="_JT5ocODJEe-2VaoR2I46Og" target="_5QWFQODIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2ZbigeDIEe-2VaoR2I46Og" name="Rhs">
+      <nodes xmi:id="_5QWFQeDIEe-2VaoR2I46Og" incoming="_AF_uceDJEe-2VaoR2I46Og _PTJ1IeDJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_6Az44eDIEe-2VaoR2I46Og" value="&quot;ServeLocationTargetedAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_83S90eDIEe-2VaoR2I46Og" outgoing="_AF_uceDJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_9oJL8eDIEe-2VaoR2I46Og" value="&quot;ServeLocationTargetedAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_JT6PgODJEe-2VaoR2I46Og" outgoing="_PTJ1IeDJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_KdxakeDJEe-2VaoR2I46Og" value="&quot;FirstPartyProfilingPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_AF_uceDJEe-2VaoR2I46Og" source="_83S90eDIEe-2VaoR2I46Og" target="_5QWFQeDIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+      <edges xmi:id="_PTJ1IeDJEe-2VaoR2I46Og" source="_JT6PgODJEe-2VaoR2I46Og" target="_5QWFQeDIEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_5QWFQuDIEe-2VaoR2I46Og" origin="_5QWFQODIEe-2VaoR2I46Og" image="_5QWFQeDIEe-2VaoR2I46Og"/>
+    <mappings xmi:id="_83S90uDIEe-2VaoR2I46Og" origin="_83S90ODIEe-2VaoR2I46Og" image="_83S90eDIEe-2VaoR2I46Og"/>
+    <mappings xmi:id="_JT6PgeDJEe-2VaoR2I46Og" origin="_JT5ocODJEe-2VaoR2I46Og" image="_JT6PgODJEe-2VaoR2I46Og"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_CiWcIODJEe-2VaoR2I46Og" name="IdentifyBehavioralTargetedAds">
+    <lhs xmi:id="_CiYRUODJEe-2VaoR2I46Og" name="Lhs">
+      <nodes xmi:id="_RQuVEODJEe-2VaoR2I46Og" incoming="_eWn0UODJEe-2VaoR2I46Og _kWUF4ODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_TwgKMODJEe-2VaoR2I46Og" value="&quot;ServeBehaviorTargetedAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_aJ-NsODJEe-2VaoR2I46Og" outgoing="_eWn0UODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_akOgwODJEe-2VaoR2I46Og" value="&quot;ServeBehaviorTargetedAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_fiJMQODJEe-2VaoR2I46Og" outgoing="_kWUF4ODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_gVoesODJEe-2VaoR2I46Og" value="&quot;ProfilingPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_eWn0UODJEe-2VaoR2I46Og" source="_aJ-NsODJEe-2VaoR2I46Og" target="_RQuVEODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+      <edges xmi:id="_kWUF4ODJEe-2VaoR2I46Og" source="_fiJMQODJEe-2VaoR2I46Og" target="_RQuVEODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_CiYRUeDJEe-2VaoR2I46Og" name="Rhs">
+      <nodes xmi:id="_RQuVEeDJEe-2VaoR2I46Og" incoming="_eWn0UeDJEe-2VaoR2I46Og _kWUs8ODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_TwgKMeDJEe-2VaoR2I46Og" value="&quot;ServeBehaviorTargetedAdsFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_aJ-NseDJEe-2VaoR2I46Og" outgoing="_eWn0UeDJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_akOgweDJEe-2VaoR2I46Og" value="&quot;ServeBehaviorTargetedAdsPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_fiJMQeDJEe-2VaoR2I46Og" outgoing="_kWUs8ODJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//PurposeConsent"/>
+        <attributes xmi:id="_gVoeseDJEe-2VaoR2I46Og" value="&quot;ProfilingPurpose&quot;">
+          <type href="CASA.ecore#//Purpose/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_eWn0UeDJEe-2VaoR2I46Og" source="_aJ-NseDJEe-2VaoR2I46Og" target="_RQuVEeDJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+      <edges xmi:id="_kWUs8ODJEe-2VaoR2I46Og" source="_fiJMQeDJEe-2VaoR2I46Og" target="_RQuVEeDJEe-2VaoR2I46Og">
+        <type href="CASA.ecore#//Purpose/ofFunction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_RQuVEuDJEe-2VaoR2I46Og" origin="_RQuVEODJEe-2VaoR2I46Og" image="_RQuVEeDJEe-2VaoR2I46Og"/>
+    <mappings xmi:id="_aJ-NsuDJEe-2VaoR2I46Og" origin="_aJ-NsODJEe-2VaoR2I46Og" image="_aJ-NseDJEe-2VaoR2I46Og"/>
+    <mappings xmi:id="_fiJMQuDJEe-2VaoR2I46Og" origin="_fiJMQODJEe-2VaoR2I46Og" image="_fiJMQeDJEe-2VaoR2I46Og"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_fFWxEOZEEe-N1IPo20mcqw" name="IdentifyServerInstance">
+    <lhs xmi:id="_fFeF0OZEEe-N1IPo20mcqw" name="Lhs">
+      <nodes xmi:id="_h6smgOZEEe-N1IPo20mcqw" incoming="_kRJggOZEEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_JcWAQOZPEe-N1IPo20mcqw" value="&quot;DoSProtectionFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_iaHGYOZEEe-N1IPo20mcqw" outgoing="_kRJggOZEEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <edges xmi:id="_kRJggOZEEe-N1IPo20mcqw" source="_iaHGYOZEEe-N1IPo20mcqw" target="_h6smgOZEEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_fFeF0eZEEe-N1IPo20mcqw" name="Rhs">
+      <nodes xmi:id="_h6smgeZEEe-N1IPo20mcqw" incoming="_kRJggeZEEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_JcXOYOZPEe-N1IPo20mcqw" value="&quot;DoSProtectionFunction&quot;">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_iaHGYeZEEe-N1IPo20mcqw" outgoing="_kRJggeZEEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <edges xmi:id="_kRJggeZEEe-N1IPo20mcqw" source="_iaHGYeZEEe-N1IPo20mcqw" target="_h6smgeZEEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_h6smguZEEe-N1IPo20mcqw" origin="_h6smgOZEEe-N1IPo20mcqw" image="_h6smgeZEEe-N1IPo20mcqw"/>
+    <mappings xmi:id="_iaHGYuZEEe-N1IPo20mcqw" origin="_iaHGYOZEEe-N1IPo20mcqw" image="_iaHGYeZEEe-N1IPo20mcqw"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_i7KvAO0pEe-QhpFCqBsk-Q" name="IdentifyVulnerabilityInstance">
+    <lhs xmi:id="_i7MkMO0pEe-QhpFCqBsk-Q" name="Lhs">
+      <nodes xmi:id="_n7Ry4O0pEe-QhpFCqBsk-Q" outgoing="_q6RTkO0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="_of-bYO0pEe-QhpFCqBsk-Q" incoming="_q6RTkO0pEe-QhpFCqBsk-Q" outgoing="_rEzvoO0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <nodes xmi:id="_p8vUUO0pEe-QhpFCqBsk-Q" incoming="_rEzvoO0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Vulnerability"/>
+      </nodes>
+      <edges xmi:id="_q6RTkO0pEe-QhpFCqBsk-Q" source="_n7Ry4O0pEe-QhpFCqBsk-Q" target="_of-bYO0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+      <edges xmi:id="_rEzvoO0pEe-QhpFCqBsk-Q" source="_of-bYO0pEe-QhpFCqBsk-Q" target="_p8vUUO0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_i7MkMe0pEe-QhpFCqBsk-Q" name="Rhs">
+      <nodes xmi:id="_n7Ry4e0pEe-QhpFCqBsk-Q" outgoing="_q6RTke0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="_of-bYe0pEe-QhpFCqBsk-Q" incoming="_q6RTke0pEe-QhpFCqBsk-Q" outgoing="_rEzvoe0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <nodes xmi:id="_p8vUUe0pEe-QhpFCqBsk-Q" incoming="_rEzvoe0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Vulnerability"/>
+      </nodes>
+      <edges xmi:id="_q6RTke0pEe-QhpFCqBsk-Q" source="_n7Ry4e0pEe-QhpFCqBsk-Q" target="_of-bYe0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+      <edges xmi:id="_rEzvoe0pEe-QhpFCqBsk-Q" source="_of-bYe0pEe-QhpFCqBsk-Q" target="_p8vUUe0pEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_n7Ry4u0pEe-QhpFCqBsk-Q" origin="_n7Ry4O0pEe-QhpFCqBsk-Q" image="_n7Ry4e0pEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_of-bYu0pEe-QhpFCqBsk-Q" origin="_of-bYO0pEe-QhpFCqBsk-Q" image="_of-bYe0pEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_p8vUUu0pEe-QhpFCqBsk-Q" origin="_p8vUUO0pEe-QhpFCqBsk-Q" image="_p8vUUe0pEe-QhpFCqBsk-Q"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_9VrngO1AEe-QhpFCqBsk-Q" name="IdentifyDatasubjectInstance">
+    <lhs xmi:id="_9VsOkO1AEe-QhpFCqBsk-Q" name="Lhs">
+      <nodes xmi:id="__eDCMO1AEe-QhpFCqBsk-Q" outgoing="_BGPIAO1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="___osUO1AEe-QhpFCqBsk-Q" incoming="_BGPIAO1BEe-QhpFCqBsk-Q" outgoing="_BNMEkO1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//PersonalData"/>
+      </nodes>
+      <nodes xmi:id="_AscH8O1BEe-QhpFCqBsk-Q" incoming="_BNMEkO1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//DataSubject"/>
+      </nodes>
+      <edges xmi:id="_BGPIAO1BEe-QhpFCqBsk-Q" source="__eDCMO1AEe-QhpFCqBsk-Q" target="___osUO1AEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData/processesPersData"/>
+      </edges>
+      <edges xmi:id="_BNMEkO1BEe-QhpFCqBsk-Q" source="___osUO1AEe-QhpFCqBsk-Q" target="_AscH8O1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//PersonalData/identifies"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_9VsOke1AEe-QhpFCqBsk-Q" name="Rhs">
+      <nodes xmi:id="__eDCMe1AEe-QhpFCqBsk-Q" outgoing="_BGPIAe1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="___pTYO1AEe-QhpFCqBsk-Q" incoming="_BGPIAe1BEe-QhpFCqBsk-Q" outgoing="_BNMEke1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//PersonalData"/>
+      </nodes>
+      <nodes xmi:id="_AscH8e1BEe-QhpFCqBsk-Q" incoming="_BNMEke1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//DataSubject"/>
+      </nodes>
+      <edges xmi:id="_BGPIAe1BEe-QhpFCqBsk-Q" source="__eDCMe1AEe-QhpFCqBsk-Q" target="___pTYO1AEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData/processesPersData"/>
+      </edges>
+      <edges xmi:id="_BNMEke1BEe-QhpFCqBsk-Q" source="___pTYO1AEe-QhpFCqBsk-Q" target="_AscH8e1BEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//PersonalData/identifies"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="__eDCMu1AEe-QhpFCqBsk-Q" origin="__eDCMO1AEe-QhpFCqBsk-Q" image="__eDCMe1AEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="___pTYe1AEe-QhpFCqBsk-Q" origin="___osUO1AEe-QhpFCqBsk-Q" image="___pTYO1AEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_AscH8u1BEe-QhpFCqBsk-Q" origin="_AscH8O1BEe-QhpFCqBsk-Q" image="_AscH8e1BEe-QhpFCqBsk-Q"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_sZp8gO1GEe-QhpFCqBsk-Q" name="IdentifyFunctionInstance">
+    <lhs xmi:id="_sZrxsu1GEe-QhpFCqBsk-Q" name="Lhs">
+      <nodes xmi:id="_uq5mYO1GEe-QhpFCqBsk-Q" outgoing="_vf8YAO1GEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_vHUcoO1GEe-QhpFCqBsk-Q" incoming="_vf8YAO1GEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <edges xmi:id="_vf8YAO1GEe-QhpFCqBsk-Q" source="_uq5mYO1GEe-QhpFCqBsk-Q" target="_vHUcoO1GEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/functions"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_sZrxs-1GEe-QhpFCqBsk-Q" name="Rhs">
+      <nodes xmi:id="_uq5mYe1GEe-QhpFCqBsk-Q" outgoing="_vf8YAe1GEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_vHUcoe1GEe-QhpFCqBsk-Q" incoming="_vf8YAe1GEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <edges xmi:id="_vf8YAe1GEe-QhpFCqBsk-Q" source="_uq5mYe1GEe-QhpFCqBsk-Q" target="_vHUcoe1GEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/functions"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_uq5mYu1GEe-QhpFCqBsk-Q" origin="_uq5mYO1GEe-QhpFCqBsk-Q" image="_uq5mYe1GEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_vHUcou1GEe-QhpFCqBsk-Q" origin="_vHUcoO1GEe-QhpFCqBsk-Q" image="_vHUcoe1GEe-QhpFCqBsk-Q"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_ozftIO1REe-QhpFCqBsk-Q" name="IdentifyPurposeInstance">
+    <lhs xmi:id="_ozhiUO1REe-QhpFCqBsk-Q" name="Lhs">
+      <nodes xmi:id="_qdfJwO1REe-QhpFCqBsk-Q" outgoing="_r3gQsO1REe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_rH4KkO1REe-QhpFCqBsk-Q" incoming="_r3gQsO1REe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//PurposeConsent"/>
+      </nodes>
+      <edges xmi:id="_r3gQsO1REe-QhpFCqBsk-Q" source="_qdfJwO1REe-QhpFCqBsk-Q" target="_rH4KkO1REe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/purposes"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_ozhiUe1REe-QhpFCqBsk-Q" name="Rhs">
+      <nodes xmi:id="_qdfJwe1REe-QhpFCqBsk-Q" outgoing="_r3gQse1REe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_rH4Kke1REe-QhpFCqBsk-Q" incoming="_r3gQse1REe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//PurposeConsent"/>
+      </nodes>
+      <edges xmi:id="_r3gQse1REe-QhpFCqBsk-Q" source="_qdfJwe1REe-QhpFCqBsk-Q" target="_rH4Kke1REe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/purposes"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_qdfJwu1REe-QhpFCqBsk-Q" origin="_qdfJwO1REe-QhpFCqBsk-Q" image="_qdfJwe1REe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_rH4Kku1REe-QhpFCqBsk-Q" origin="_rH4KkO1REe-QhpFCqBsk-Q" image="_rH4Kke1REe-QhpFCqBsk-Q"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_PbN90P6KEe-tbKlAQPHbFg" name="IdentifyConsentInstance">
+    <lhs xmi:id="_PbPL8P6KEe-tbKlAQPHbFg" name="Lhs">
+      <nodes xmi:id="_RH0CgP6KEe-tbKlAQPHbFg" incoming="_SKeZYP6KEe-tbKlAQPHbFg" outgoing="_SDPwAP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//DataSubject"/>
+      </nodes>
+      <nodes xmi:id="_RnavoP6KEe-tbKlAQPHbFg" incoming="_SDPwAP6KEe-tbKlAQPHbFg" outgoing="_SKeZYP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//Consent"/>
+      </nodes>
+      <edges xmi:id="_SDPwAP6KEe-tbKlAQPHbFg" source="_RH0CgP6KEe-tbKlAQPHbFg" target="_RnavoP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//DataSubject/gives"/>
+      </edges>
+      <edges xmi:id="_SKeZYP6KEe-tbKlAQPHbFg" source="_RnavoP6KEe-tbKlAQPHbFg" target="_RH0CgP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//Consent/givenBy"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_PbPL8f6KEe-tbKlAQPHbFg" name="Rhs">
+      <nodes xmi:id="_RH0Cgf6KEe-tbKlAQPHbFg" incoming="_SKeZYf6KEe-tbKlAQPHbFg" outgoing="_SDPwAf6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//DataSubject"/>
+      </nodes>
+      <nodes xmi:id="_RnbWsP6KEe-tbKlAQPHbFg" incoming="_SDPwAf6KEe-tbKlAQPHbFg" outgoing="_SKeZYf6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//Consent"/>
+      </nodes>
+      <edges xmi:id="_SDPwAf6KEe-tbKlAQPHbFg" source="_RH0Cgf6KEe-tbKlAQPHbFg" target="_RnbWsP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//DataSubject/gives"/>
+      </edges>
+      <edges xmi:id="_SKeZYf6KEe-tbKlAQPHbFg" source="_RnbWsP6KEe-tbKlAQPHbFg" target="_RH0Cgf6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//Consent/givenBy"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_RH0Cgv6KEe-tbKlAQPHbFg" origin="_RH0CgP6KEe-tbKlAQPHbFg" image="_RH0Cgf6KEe-tbKlAQPHbFg"/>
+    <mappings xmi:id="_RnbWsf6KEe-tbKlAQPHbFg" origin="_RnavoP6KEe-tbKlAQPHbFg" image="_RnbWsP6KEe-tbKlAQPHbFg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_oN1i4P6KEe-tbKlAQPHbFg" name="IdentifyPersonalDataInstance">
+    <lhs xmi:id="_oN2xBP6KEe-tbKlAQPHbFg" name="Lhs">
+      <nodes xmi:id="_rbt0IP6KEe-tbKlAQPHbFg" outgoing="_xkskkP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_xAoOMP6KEe-tbKlAQPHbFg" incoming="_xkskkP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//PersonalData"/>
+      </nodes>
+      <edges xmi:id="_xkskkP6KEe-tbKlAQPHbFg" source="_rbt0IP6KEe-tbKlAQPHbFg" target="_xAoOMP6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//System/datas"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_oN2xBf6KEe-tbKlAQPHbFg" name="Rhs">
+      <nodes xmi:id="_rbt0If6KEe-tbKlAQPHbFg" outgoing="_xkskkf6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_xAoOMf6KEe-tbKlAQPHbFg" incoming="_xkskkf6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//PersonalData"/>
+      </nodes>
+      <edges xmi:id="_xkskkf6KEe-tbKlAQPHbFg" source="_rbt0If6KEe-tbKlAQPHbFg" target="_xAoOMf6KEe-tbKlAQPHbFg">
+        <type href="CASA.ecore#//System/datas"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_rbt0Iv6KEe-tbKlAQPHbFg" origin="_rbt0IP6KEe-tbKlAQPHbFg" image="_rbt0If6KEe-tbKlAQPHbFg"/>
+    <mappings xmi:id="_xAoOMv6KEe-tbKlAQPHbFg" origin="_xAoOMP6KEe-tbKlAQPHbFg" image="_xAoOMf6KEe-tbKlAQPHbFg"/>
+  </units>
+</henshin:Module>

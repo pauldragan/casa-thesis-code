@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_sJdgkOZEEe-N1IPo20mcqw">
+  <imports href="CASA.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_QRmMYOZFEe-N1IPo20mcqw" name="AddServer">
+    <parameters xmi:id="_kllNgOZGEe-N1IPo20mcqw" name="serverName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <parameters xmi:id="_n6vygOZGEe-N1IPo20mcqw" name="functionName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_QRmzcOZFEe-N1IPo20mcqw" name="Lhs">
+      <nodes xmi:id="_UdDgMOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_uzZFUOZGEe-N1IPo20mcqw" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_VDGMgOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_QRmzceZFEe-N1IPo20mcqw" name="Rhs">
+      <nodes xmi:id="_UdEHQOZFEe-N1IPo20mcqw" incoming="_X3mUcOZFEe-N1IPo20mcqw" outgoing="_X-xTcOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_uzZFUeZGEe-N1IPo20mcqw" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_VDGMgeZFEe-N1IPo20mcqw" outgoing="_YxNdAOZFEe-N1IPo20mcqw _aF9pcOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_VughAOZFEe-N1IPo20mcqw" incoming="_X-xTcOZFEe-N1IPo20mcqw _YxNdAOZFEe-N1IPo20mcqw _ZsLQcOZFEe-N1IPo20mcqw" outgoing="_X3mUcOZFEe-N1IPo20mcqw _Z23dgOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component"/>
+        <attributes xmi:id="_v7LMwOZGEe-N1IPo20mcqw" value="serverName">
+          <type href="CASA.ecore#//Component/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_WKpqcOZFEe-N1IPo20mcqw" incoming="_Z23dgOZFEe-N1IPo20mcqw _aF9pcOZFEe-N1IPo20mcqw" outgoing="_ZsLQcOZFEe-N1IPo20mcqw _cPAZkOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Vulnerability"/>
+        <attributes xmi:id="_HXtvsOZHEe-N1IPo20mcqw" value="&quot;CVE-2024-38816&quot;">
+          <type href="CASA.ecore#//Vulnerability/cveName"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_bpPaEOZFEe-N1IPo20mcqw" incoming="_cPAZkOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//CVSSVector"/>
+        <attributes xmi:id="_SZXfQOZHEe-N1IPo20mcqw" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackComplexity"/>
+        </attributes>
+        <attributes xmi:id="_TB8iMOZHEe-N1IPo20mcqw" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackVector"/>
+        </attributes>
+        <attributes xmi:id="_TiBwcOZHEe-N1IPo20mcqw" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityImpact"/>
+        </attributes>
+        <attributes xmi:id="_Tz6KoOZHEe-N1IPo20mcqw" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_UAIBsOZHEe-N1IPo20mcqw" value="&quot;H&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityImpact"/>
+        </attributes>
+        <attributes xmi:id="_UJlfsOZHEe-N1IPo20mcqw" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_UUAnAOZHEe-N1IPo20mcqw" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/exploitCodeMaturity"/>
+        </attributes>
+        <attributes xmi:id="_UdXXUOZHEe-N1IPo20mcqw" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityImpact"/>
+        </attributes>
+        <attributes xmi:id="_UlQvEOZHEe-N1IPo20mcqw" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_UtNxMOZHEe-N1IPo20mcqw" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/privilegesRequired"/>
+        </attributes>
+        <attributes xmi:id="_U82vsOZHEe-N1IPo20mcqw" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/remediationLevel"/>
+        </attributes>
+        <attributes xmi:id="_VFBNMOZHEe-N1IPo20mcqw" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/reportConfidence"/>
+        </attributes>
+        <attributes xmi:id="_VNGyMOZHEe-N1IPo20mcqw" value="&quot;U&quot;">
+          <type href="CASA.ecore#//CVSSVector/scope"/>
+        </attributes>
+        <attributes xmi:id="_VRCP8OZHEe-N1IPo20mcqw" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/userInteraction"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_X3mUcOZFEe-N1IPo20mcqw" source="_VughAOZFEe-N1IPo20mcqw" target="_UdEHQOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+      <edges xmi:id="_X-xTcOZFEe-N1IPo20mcqw" source="_UdEHQOZFEe-N1IPo20mcqw" target="_VughAOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+      <edges xmi:id="_YxNdAOZFEe-N1IPo20mcqw" source="_VDGMgeZFEe-N1IPo20mcqw" target="_VughAOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_ZsLQcOZFEe-N1IPo20mcqw" source="_WKpqcOZFEe-N1IPo20mcqw" target="_VughAOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Vulnerability/affects"/>
+      </edges>
+      <edges xmi:id="_Z23dgOZFEe-N1IPo20mcqw" source="_VughAOZFEe-N1IPo20mcqw" target="_WKpqcOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+      <edges xmi:id="_aF9pcOZFEe-N1IPo20mcqw" source="_VDGMgeZFEe-N1IPo20mcqw" target="_WKpqcOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+      <edges xmi:id="_cPAZkOZFEe-N1IPo20mcqw" source="_WKpqcOZFEe-N1IPo20mcqw" target="_bpPaEOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UdEHQeZFEe-N1IPo20mcqw" origin="_UdDgMOZFEe-N1IPo20mcqw" image="_UdEHQOZFEe-N1IPo20mcqw"/>
+    <mappings xmi:id="_VDGMguZFEe-N1IPo20mcqw" origin="_VDGMgOZFEe-N1IPo20mcqw" image="_VDGMgeZFEe-N1IPo20mcqw"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_hoeYoOZFEe-N1IPo20mcqw" name="RemoveServer">
+    <parameters xmi:id="_rZ_gkOZGEe-N1IPo20mcqw" name="serverName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <parameters xmi:id="_y5ibUOZGEe-N1IPo20mcqw" name="functionName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_hoe_sOZFEe-N1IPo20mcqw" name="Lhs">
+      <nodes xmi:id="_kPLVIOZFEe-N1IPo20mcqw" outgoing="_p_AlwOZFEe-N1IPo20mcqw _luL9MPOgEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_kpf5oOZFEe-N1IPo20mcqw" incoming="_qbFdwOZFEe-N1IPo20mcqw" outgoing="_qqlSUOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_Bv0TEOZHEe-N1IPo20mcqw" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_lqD-wOZFEe-N1IPo20mcqw" incoming="_p_AlwOZFEe-N1IPo20mcqw _qKmxwOZFEe-N1IPo20mcqw _qqlSUOZFEe-N1IPo20mcqw" outgoing="_qRxwwOZFEe-N1IPo20mcqw _qbFdwOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component"/>
+        <attributes xmi:id="_DaaMoOZHEe-N1IPo20mcqw" value="serverName">
+          <type href="CASA.ecore#//Component/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_mEtTYOZFEe-N1IPo20mcqw" incoming="_qRxwwOZFEe-N1IPo20mcqw _luL9MPOgEe-IaaP12EYVCg" outgoing="_qKmxwOZFEe-N1IPo20mcqw _qzbFQOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Vulnerability"/>
+      </nodes>
+      <nodes xmi:id="_mg3D4OZFEe-N1IPo20mcqw" incoming="_qzbFQOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//CVSSVector"/>
+      </nodes>
+      <edges xmi:id="_p_AlwOZFEe-N1IPo20mcqw" source="_kPLVIOZFEe-N1IPo20mcqw" target="_lqD-wOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_qKmxwOZFEe-N1IPo20mcqw" source="_mEtTYOZFEe-N1IPo20mcqw" target="_lqD-wOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Vulnerability/affects"/>
+      </edges>
+      <edges xmi:id="_qRxwwOZFEe-N1IPo20mcqw" source="_lqD-wOZFEe-N1IPo20mcqw" target="_mEtTYOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+      <edges xmi:id="_qbFdwOZFEe-N1IPo20mcqw" source="_lqD-wOZFEe-N1IPo20mcqw" target="_kpf5oOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+      <edges xmi:id="_qqlSUOZFEe-N1IPo20mcqw" source="_kpf5oOZFEe-N1IPo20mcqw" target="_lqD-wOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+      <edges xmi:id="_qzbFQOZFEe-N1IPo20mcqw" source="_mEtTYOZFEe-N1IPo20mcqw" target="_mg3D4OZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+      <edges xmi:id="_luL9MPOgEe-IaaP12EYVCg" source="_kPLVIOZFEe-N1IPo20mcqw" target="_mEtTYOZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_hoe_seZFEe-N1IPo20mcqw" name="Rhs">
+      <nodes xmi:id="_kPLVIeZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_kpf5oeZFEe-N1IPo20mcqw">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_Bv1hMOZHEe-N1IPo20mcqw" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_kPLVIuZFEe-N1IPo20mcqw" origin="_kPLVIOZFEe-N1IPo20mcqw" image="_kPLVIeZFEe-N1IPo20mcqw"/>
+    <mappings xmi:id="_kpf5ouZFEe-N1IPo20mcqw" origin="_kpf5oOZFEe-N1IPo20mcqw" image="_kpf5oeZFEe-N1IPo20mcqw"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_vzyZgO0kEe-QhpFCqBsk-Q" name="AddVulnerability">
+    <parameters xmi:id="_8mfagO0lEe-QhpFCqBsk-Q" name="vulnerabilityName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_vz4gIO0kEe-QhpFCqBsk-Q" name="Lhs">
+      <nodes xmi:id="_yT8pIO0kEe-QhpFCqBsk-Q" outgoing="_H-kGAO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_yzDnAO0kEe-QhpFCqBsk-Q" incoming="_I0WegO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="_1yVbkO0kEe-QhpFCqBsk-Q" incoming="_H-kGAO0mEe-QhpFCqBsk-Q" outgoing="_I0WegO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <edges xmi:id="_H-kGAO0mEe-QhpFCqBsk-Q" source="_yT8pIO0kEe-QhpFCqBsk-Q" target="_1yVbkO0kEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_I0WegO0mEe-QhpFCqBsk-Q" source="_1yVbkO0kEe-QhpFCqBsk-Q" target="_yzDnAO0kEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_vz4gIe0kEe-QhpFCqBsk-Q" name="Rhs">
+      <nodes xmi:id="_yT8pIe0kEe-QhpFCqBsk-Q" outgoing="_H-kGAe0mEe-QhpFCqBsk-Q _mRL9sO0rEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_yzEOEO0kEe-QhpFCqBsk-Q" incoming="_I0Wege0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="_1yVbke0kEe-QhpFCqBsk-Q" incoming="_H-kGAe0mEe-QhpFCqBsk-Q" outgoing="_I0Wege0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <nodes xmi:id="_6P7BMO0kEe-QhpFCqBsk-Q" incoming="_mRL9sO0rEe-QhpFCqBsk-Q" outgoing="_LQJLgO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Vulnerability"/>
+        <attributes xmi:id="_3dx0QO0lEe-QhpFCqBsk-Q" value="vulnerabilityName">
+          <type href="CASA.ecore#//Vulnerability/cveName"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_BJwm0O0lEe-QhpFCqBsk-Q" incoming="_LQJLgO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//CVSSVector"/>
+        <attributes xmi:id="_BJwm0e0lEe-QhpFCqBsk-Q" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackComplexity"/>
+        </attributes>
+        <attributes xmi:id="_BJwm0u0lEe-QhpFCqBsk-Q" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackVector"/>
+        </attributes>
+        <attributes xmi:id="_BJwm0-0lEe-QhpFCqBsk-Q" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityImpact"/>
+        </attributes>
+        <attributes xmi:id="_BJwm1O0lEe-QhpFCqBsk-Q" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_BJwm1e0lEe-QhpFCqBsk-Q" value="&quot;H&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityImpact"/>
+        </attributes>
+        <attributes xmi:id="_BJwm1u0lEe-QhpFCqBsk-Q" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_BJwm1-0lEe-QhpFCqBsk-Q" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/exploitCodeMaturity"/>
+        </attributes>
+        <attributes xmi:id="_BJwm2O0lEe-QhpFCqBsk-Q" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityImpact"/>
+        </attributes>
+        <attributes xmi:id="_BJwm2e0lEe-QhpFCqBsk-Q" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_BJwm2u0lEe-QhpFCqBsk-Q" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/privilegesRequired"/>
+        </attributes>
+        <attributes xmi:id="_BJwm2-0lEe-QhpFCqBsk-Q" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/remediationLevel"/>
+        </attributes>
+        <attributes xmi:id="_BJwm3O0lEe-QhpFCqBsk-Q" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/reportConfidence"/>
+        </attributes>
+        <attributes xmi:id="_BJwm3e0lEe-QhpFCqBsk-Q" value="&quot;U&quot;">
+          <type href="CASA.ecore#//CVSSVector/scope"/>
+        </attributes>
+        <attributes xmi:id="_BJwm3u0lEe-QhpFCqBsk-Q" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/userInteraction"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_H-kGAe0mEe-QhpFCqBsk-Q" source="_yT8pIe0kEe-QhpFCqBsk-Q" target="_1yVbke0kEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_I0Wege0mEe-QhpFCqBsk-Q" source="_1yVbke0kEe-QhpFCqBsk-Q" target="_yzEOEO0kEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+      <edges xmi:id="_LQJLgO0mEe-QhpFCqBsk-Q" source="_6P7BMO0kEe-QhpFCqBsk-Q" target="_BJwm0O0lEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+      <edges xmi:id="_mRL9sO0rEe-QhpFCqBsk-Q" source="_yT8pIe0kEe-QhpFCqBsk-Q" target="_6P7BMO0kEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_yT8pIu0kEe-QhpFCqBsk-Q" origin="_yT8pIO0kEe-QhpFCqBsk-Q" image="_yT8pIe0kEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_yzEOEe0kEe-QhpFCqBsk-Q" origin="_yzDnAO0kEe-QhpFCqBsk-Q" image="_yzEOEO0kEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_1yVbku0kEe-QhpFCqBsk-Q" origin="_1yVbkO0kEe-QhpFCqBsk-Q" image="_1yVbke0kEe-QhpFCqBsk-Q"/>
+    <multiRules xmi:id="_PB9QQO0mEe-QhpFCqBsk-Q">
+      <parameters xmi:id="_PB-eYO0mEe-QhpFCqBsk-Q" name="vulnerabilityName" kind="IN">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </parameters>
+      <lhs xmi:id="_PB93UO0mEe-QhpFCqBsk-Q" name="Lhs">
+        <nodes xmi:id="_PB93V-0mEe-QhpFCqBsk-Q" outgoing="_PB93W-0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System"/>
+        </nodes>
+        <nodes xmi:id="_PB93We0mEe-QhpFCqBsk-Q" incoming="_PB93W-0mEe-QhpFCqBsk-Q" outgoing="_PB93Yu0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component"/>
+        </nodes>
+        <nodes xmi:id="_PB93YO0mEe-QhpFCqBsk-Q" incoming="_PB93Yu0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//FuncPersData"/>
+        </nodes>
+        <edges xmi:id="_PB93W-0mEe-QhpFCqBsk-Q" source="_PB93V-0mEe-QhpFCqBsk-Q" target="_PB93We0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System/components"/>
+        </edges>
+        <edges xmi:id="_PB93Yu0mEe-QhpFCqBsk-Q" source="_PB93We0mEe-QhpFCqBsk-Q" target="_PB93YO0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component/realizes"/>
+        </edges>
+      </lhs>
+      <rhs xmi:id="_PB93Ue0mEe-QhpFCqBsk-Q" name="Rhs">
+        <nodes xmi:id="_PB93Uu0mEe-QhpFCqBsk-Q" outgoing="_PB93Vu0mEe-QhpFCqBsk-Q _mRL9se0rEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System"/>
+        </nodes>
+        <nodes xmi:id="_PB93VO0mEe-QhpFCqBsk-Q" incoming="_PB93Vu0mEe-QhpFCqBsk-Q _JmBMAO0mEe-QhpFCqBsk-Q" outgoing="_PB93X-0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component"/>
+        </nodes>
+        <nodes xmi:id="_PB93Xe0mEe-QhpFCqBsk-Q" incoming="_PB93X-0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//FuncPersData"/>
+        </nodes>
+        <nodes xmi:id="_PB93ZO0mEe-QhpFCqBsk-Q" incoming="_mRL9se0rEe-QhpFCqBsk-Q" outgoing="_JmBMAO0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Vulnerability"/>
+          <attributes xmi:id="_PB93Ze0mEe-QhpFCqBsk-Q" value="vulnerabilityName">
+            <type href="CASA.ecore#//Vulnerability/cveName"/>
+          </attributes>
+        </nodes>
+        <edges xmi:id="_PB93Vu0mEe-QhpFCqBsk-Q" source="_PB93Uu0mEe-QhpFCqBsk-Q" target="_PB93VO0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System/components"/>
+        </edges>
+        <edges xmi:id="_PB93X-0mEe-QhpFCqBsk-Q" source="_PB93VO0mEe-QhpFCqBsk-Q" target="_PB93Xe0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component/realizes"/>
+        </edges>
+        <edges xmi:id="_JmBMAO0mEe-QhpFCqBsk-Q" source="_PB93ZO0mEe-QhpFCqBsk-Q" target="_PB93VO0mEe-QhpFCqBsk-Q" index="">
+          <type href="CASA.ecore#//Vulnerability/affects"/>
+        </edges>
+        <edges xmi:id="_mRL9se0rEe-QhpFCqBsk-Q" source="_PB93Uu0mEe-QhpFCqBsk-Q" target="_PB93ZO0mEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System/vulnerabilities"/>
+        </edges>
+      </rhs>
+      <mappings xmi:id="_PB93XO0mEe-QhpFCqBsk-Q" origin="_PB93V-0mEe-QhpFCqBsk-Q" image="_PB93Uu0mEe-QhpFCqBsk-Q"/>
+      <mappings xmi:id="_PB93Y-0mEe-QhpFCqBsk-Q" origin="_PB93YO0mEe-QhpFCqBsk-Q" image="_PB93Xe0mEe-QhpFCqBsk-Q"/>
+      <mappings xmi:id="_PB93aO0mEe-QhpFCqBsk-Q" origin="_PB93We0mEe-QhpFCqBsk-Q" image="_PB93VO0mEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_PB93U-0mEe-QhpFCqBsk-Q" origin="_yT8pIe0kEe-QhpFCqBsk-Q" image="_PB93Uu0mEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_PB93Ve0mEe-QhpFCqBsk-Q" origin="_1yVbke0kEe-QhpFCqBsk-Q" image="_PB93VO0mEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_PB93WO0mEe-QhpFCqBsk-Q" origin="_yT8pIO0kEe-QhpFCqBsk-Q" image="_PB93V-0mEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_PB93Wu0mEe-QhpFCqBsk-Q" origin="_1yVbkO0kEe-QhpFCqBsk-Q" image="_PB93We0mEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_PB93Xu0mEe-QhpFCqBsk-Q" origin="_yzEOEO0kEe-QhpFCqBsk-Q" image="_PB93Xe0mEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_PB93Ye0mEe-QhpFCqBsk-Q" origin="_yzDnAO0kEe-QhpFCqBsk-Q" image="_PB93YO0mEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_PB93Zu0mEe-QhpFCqBsk-Q" origin="_6P7BMO0kEe-QhpFCqBsk-Q" image="_PB93ZO0mEe-QhpFCqBsk-Q"/>
+    </multiRules>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_cofXYO0mEe-QhpFCqBsk-Q" name="RemoveVulnerability">
+    <parameters xmi:id="_gKjv8O0mEe-QhpFCqBsk-Q" name="vulnerabilityName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_coglgu0mEe-QhpFCqBsk-Q" name="Lhs">
+      <nodes xmi:id="_qAPboO0mEe-QhpFCqBsk-Q" outgoing="_RF3zUO0nEe-QhpFCqBsk-Q _oD-xAO0rEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_rbfRoO0mEe-QhpFCqBsk-Q" incoming="_RLwY4O0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="_ssBscO0mEe-QhpFCqBsk-Q" incoming="_oD-xAO0rEe-QhpFCqBsk-Q" outgoing="_SBxa4O0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Vulnerability"/>
+        <attributes xmi:id="_vCso4O0mEe-QhpFCqBsk-Q" value="vulnerabilityName">
+          <type href="CASA.ecore#//Vulnerability/cveName"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_tUlhQO0mEe-QhpFCqBsk-Q" incoming="_SBxa4O0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//CVSSVector"/>
+      </nodes>
+      <nodes xmi:id="_QazdEO0nEe-QhpFCqBsk-Q" incoming="_RF3zUO0nEe-QhpFCqBsk-Q" outgoing="_RLwY4O0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <edges xmi:id="_RF3zUO0nEe-QhpFCqBsk-Q" source="_qAPboO0mEe-QhpFCqBsk-Q" target="_QazdEO0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_RLwY4O0nEe-QhpFCqBsk-Q" source="_QazdEO0nEe-QhpFCqBsk-Q" target="_rbfRoO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+      <edges xmi:id="_SBxa4O0nEe-QhpFCqBsk-Q" source="_ssBscO0mEe-QhpFCqBsk-Q" target="_tUlhQO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+      <edges xmi:id="_oD-xAO0rEe-QhpFCqBsk-Q" source="_qAPboO0mEe-QhpFCqBsk-Q" target="_ssBscO0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_coglg-0mEe-QhpFCqBsk-Q" name="Rhs">
+      <nodes xmi:id="_qAQCsO0mEe-QhpFCqBsk-Q" outgoing="_RF3zUe0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_rbfRoe0mEe-QhpFCqBsk-Q" incoming="_RLwY4e0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//FuncPersData"/>
+      </nodes>
+      <nodes xmi:id="_QazdEe0nEe-QhpFCqBsk-Q" incoming="_RF3zUe0nEe-QhpFCqBsk-Q" outgoing="_RLwY4e0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component"/>
+      </nodes>
+      <edges xmi:id="_RF3zUe0nEe-QhpFCqBsk-Q" source="_qAQCsO0mEe-QhpFCqBsk-Q" target="_QazdEe0nEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_RLwY4e0nEe-QhpFCqBsk-Q" source="_QazdEe0nEe-QhpFCqBsk-Q" target="_rbfRoe0mEe-QhpFCqBsk-Q">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_qAQCse0mEe-QhpFCqBsk-Q" origin="_qAPboO0mEe-QhpFCqBsk-Q" image="_qAQCsO0mEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_rbfRou0mEe-QhpFCqBsk-Q" origin="_rbfRoO0mEe-QhpFCqBsk-Q" image="_rbfRoe0mEe-QhpFCqBsk-Q"/>
+    <mappings xmi:id="_QazdEu0nEe-QhpFCqBsk-Q" origin="_QazdEO0nEe-QhpFCqBsk-Q" image="_QazdEe0nEe-QhpFCqBsk-Q"/>
+    <multiRules xmi:id="_TXpBoO0nEe-QhpFCqBsk-Q">
+      <parameters xmi:id="_TXpBvu0nEe-QhpFCqBsk-Q" name="vulnerabilityName" kind="IN">
+        <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </parameters>
+      <lhs xmi:id="_TXpBoe0nEe-QhpFCqBsk-Q" name="Lhs">
+        <nodes xmi:id="_TXpBqO0nEe-QhpFCqBsk-Q" outgoing="_TXpBrO0nEe-QhpFCqBsk-Q _oD-xAe0rEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System"/>
+        </nodes>
+        <nodes xmi:id="_TXpBqu0nEe-QhpFCqBsk-Q" incoming="_TXpBrO0nEe-QhpFCqBsk-Q _RaxsUO0nEe-QhpFCqBsk-Q" outgoing="_TXpBs-0nEe-QhpFCqBsk-Q _RjotYO0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component"/>
+        </nodes>
+        <nodes xmi:id="_TXpBse0nEe-QhpFCqBsk-Q" incoming="_TXpBs-0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//FuncPersData"/>
+        </nodes>
+        <nodes xmi:id="_TXpBte0nEe-QhpFCqBsk-Q" incoming="_RjotYO0nEe-QhpFCqBsk-Q _oD-xAe0rEe-QhpFCqBsk-Q" outgoing="_TXpBvO0nEe-QhpFCqBsk-Q _RaxsUO0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Vulnerability"/>
+          <attributes xmi:id="_TXpBtu0nEe-QhpFCqBsk-Q" value="vulnerabilityName">
+            <type href="CASA.ecore#//Vulnerability/cveName"/>
+          </attributes>
+        </nodes>
+        <nodes xmi:id="_TXpBuu0nEe-QhpFCqBsk-Q" incoming="_TXpBvO0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//CVSSVector"/>
+        </nodes>
+        <edges xmi:id="_TXpBrO0nEe-QhpFCqBsk-Q" source="_TXpBqO0nEe-QhpFCqBsk-Q" target="_TXpBqu0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System/components"/>
+        </edges>
+        <edges xmi:id="_TXpBs-0nEe-QhpFCqBsk-Q" source="_TXpBqu0nEe-QhpFCqBsk-Q" target="_TXpBse0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component/realizes"/>
+        </edges>
+        <edges xmi:id="_TXpBvO0nEe-QhpFCqBsk-Q" source="_TXpBte0nEe-QhpFCqBsk-Q" target="_TXpBuu0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Vulnerability/describedBy"/>
+        </edges>
+        <edges xmi:id="_RaxsUO0nEe-QhpFCqBsk-Q" source="_TXpBte0nEe-QhpFCqBsk-Q" target="_TXpBqu0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Vulnerability/affects"/>
+        </edges>
+        <edges xmi:id="_RjotYO0nEe-QhpFCqBsk-Q" source="_TXpBqu0nEe-QhpFCqBsk-Q" target="_TXpBte0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component/affectedBy"/>
+        </edges>
+        <edges xmi:id="_oD-xAe0rEe-QhpFCqBsk-Q" source="_TXpBqO0nEe-QhpFCqBsk-Q" target="_TXpBte0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System/vulnerabilities"/>
+        </edges>
+      </lhs>
+      <rhs xmi:id="_TXpBou0nEe-QhpFCqBsk-Q" name="Rhs">
+        <nodes xmi:id="_TXpBo-0nEe-QhpFCqBsk-Q" outgoing="_TXpBp-0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System"/>
+        </nodes>
+        <nodes xmi:id="_TXpBpe0nEe-QhpFCqBsk-Q" incoming="_TXpBp-0nEe-QhpFCqBsk-Q" outgoing="_TXpBsO0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component"/>
+        </nodes>
+        <nodes xmi:id="_TXpBru0nEe-QhpFCqBsk-Q" incoming="_TXpBsO0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//FuncPersData"/>
+        </nodes>
+        <edges xmi:id="_TXpBp-0nEe-QhpFCqBsk-Q" source="_TXpBo-0nEe-QhpFCqBsk-Q" target="_TXpBpe0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//System/components"/>
+        </edges>
+        <edges xmi:id="_TXpBsO0nEe-QhpFCqBsk-Q" source="_TXpBpe0nEe-QhpFCqBsk-Q" target="_TXpBru0nEe-QhpFCqBsk-Q">
+          <type href="CASA.ecore#//Component/realizes"/>
+        </edges>
+      </rhs>
+      <mappings xmi:id="_TXpBre0nEe-QhpFCqBsk-Q" origin="_TXpBqO0nEe-QhpFCqBsk-Q" image="_TXpBo-0nEe-QhpFCqBsk-Q"/>
+      <mappings xmi:id="_TXpBtO0nEe-QhpFCqBsk-Q" origin="_TXpBse0nEe-QhpFCqBsk-Q" image="_TXpBru0nEe-QhpFCqBsk-Q"/>
+      <mappings xmi:id="_TXpBve0nEe-QhpFCqBsk-Q" origin="_TXpBqu0nEe-QhpFCqBsk-Q" image="_TXpBpe0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBpO0nEe-QhpFCqBsk-Q" origin="_qAQCsO0mEe-QhpFCqBsk-Q" image="_TXpBo-0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBpu0nEe-QhpFCqBsk-Q" origin="_QazdEe0nEe-QhpFCqBsk-Q" image="_TXpBpe0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBqe0nEe-QhpFCqBsk-Q" origin="_qAPboO0mEe-QhpFCqBsk-Q" image="_TXpBqO0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBq-0nEe-QhpFCqBsk-Q" origin="_QazdEO0nEe-QhpFCqBsk-Q" image="_TXpBqu0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBr-0nEe-QhpFCqBsk-Q" origin="_rbfRoe0mEe-QhpFCqBsk-Q" image="_TXpBru0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBsu0nEe-QhpFCqBsk-Q" origin="_rbfRoO0mEe-QhpFCqBsk-Q" image="_TXpBse0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBt-0nEe-QhpFCqBsk-Q" origin="_ssBscO0mEe-QhpFCqBsk-Q" image="_TXpBte0nEe-QhpFCqBsk-Q"/>
+      <multiMappings xmi:id="_TXpBu-0nEe-QhpFCqBsk-Q" origin="_tUlhQO0mEe-QhpFCqBsk-Q" image="_TXpBuu0nEe-QhpFCqBsk-Q"/>
+    </multiRules>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_uQzAcPM9Ee-IaaP12EYVCg" name="AddServer_CVE1">
+    <parameters xmi:id="_I-PF4PNeEe-IaaP12EYVCg" name="serverName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <parameters xmi:id="_I-PF4fNeEe-IaaP12EYVCg" name="functionName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_uQ01oPM9Ee-IaaP12EYVCg" name="Lhs">
+      <nodes xmi:id="_z1qXMPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_0hBBUPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_N-Ec8PNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_uQ01ofM9Ee-IaaP12EYVCg" name="Rhs">
+      <nodes xmi:id="_z1q-QPM9Ee-IaaP12EYVCg" outgoing="_40aJIPM9Ee-IaaP12EYVCg _4_jCIPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_0hBBUfM9Ee-IaaP12EYVCg" incoming="_5fcqMPM9Ee-IaaP12EYVCg" outgoing="_5SGKsPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_N-FEAPNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_2-cGAPM9Ee-IaaP12EYVCg" incoming="_40aJIPM9Ee-IaaP12EYVCg _5SGKsPM9Ee-IaaP12EYVCg _54_yoPM9Ee-IaaP12EYVCg" outgoing="_5fcqMPM9Ee-IaaP12EYVCg _5tnCAPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component"/>
+        <attributes xmi:id="_PGePcPNeEe-IaaP12EYVCg" value="serverName">
+          <type href="CASA.ecore#//Component/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_3Y50cPM9Ee-IaaP12EYVCg" incoming="_4_jCIPM9Ee-IaaP12EYVCg _5tnCAPM9Ee-IaaP12EYVCg" outgoing="_54_yoPM9Ee-IaaP12EYVCg _6CxZsPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability"/>
+        <attributes xmi:id="_8H0aoPM9Ee-IaaP12EYVCg" value="&quot;CVE-2025-23419&quot;">
+          <type href="CASA.ecore#//Vulnerability/cveName"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_3s5ugPM9Ee-IaaP12EYVCg" incoming="_6CxZsPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//CVSSVector"/>
+        <attributes xmi:id="_gg0mcPNeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackComplexity"/>
+        </attributes>
+        <attributes xmi:id="_gg0mcfNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackVector"/>
+        </attributes>
+        <attributes xmi:id="_gg0mcvNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityImpact"/>
+        </attributes>
+        <attributes xmi:id="_gg0mc_NeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_gg0mdPNeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityImpact"/>
+        </attributes>
+        <attributes xmi:id="_gg0mdfNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_gg0mdvNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/exploitCodeMaturity"/>
+        </attributes>
+        <attributes xmi:id="_gg0md_NeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityImpact"/>
+        </attributes>
+        <attributes xmi:id="_gg0mePNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_gg0mefNeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/privilegesRequired"/>
+        </attributes>
+        <attributes xmi:id="_gg0mevNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/remediationLevel"/>
+        </attributes>
+        <attributes xmi:id="_gg0me_NeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/reportConfidence"/>
+        </attributes>
+        <attributes xmi:id="_gg0mfPNeEe-IaaP12EYVCg" value="&quot;U&quot;">
+          <type href="CASA.ecore#//CVSSVector/scope"/>
+        </attributes>
+        <attributes xmi:id="_gg0mffNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/userInteraction"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_40aJIPM9Ee-IaaP12EYVCg" source="_z1q-QPM9Ee-IaaP12EYVCg" target="_2-cGAPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_4_jCIPM9Ee-IaaP12EYVCg" source="_z1q-QPM9Ee-IaaP12EYVCg" target="_3Y50cPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+      <edges xmi:id="_5SGKsPM9Ee-IaaP12EYVCg" source="_0hBBUfM9Ee-IaaP12EYVCg" target="_2-cGAPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+      <edges xmi:id="_5fcqMPM9Ee-IaaP12EYVCg" source="_2-cGAPM9Ee-IaaP12EYVCg" target="_0hBBUfM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+      <edges xmi:id="_5tnCAPM9Ee-IaaP12EYVCg" source="_2-cGAPM9Ee-IaaP12EYVCg" target="_3Y50cPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+      <edges xmi:id="_54_yoPM9Ee-IaaP12EYVCg" source="_3Y50cPM9Ee-IaaP12EYVCg" target="_2-cGAPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/affects"/>
+      </edges>
+      <edges xmi:id="_6CxZsPM9Ee-IaaP12EYVCg" source="_3Y50cPM9Ee-IaaP12EYVCg" target="_3s5ugPM9Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_z1q-QfM9Ee-IaaP12EYVCg" origin="_z1qXMPM9Ee-IaaP12EYVCg" image="_z1q-QPM9Ee-IaaP12EYVCg"/>
+    <mappings xmi:id="_0hBBUvM9Ee-IaaP12EYVCg" origin="_0hBBUPM9Ee-IaaP12EYVCg" image="_0hBBUfM9Ee-IaaP12EYVCg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_Et-_MPM-Ee-IaaP12EYVCg" name="AddServer_CVE2">
+    <parameters xmi:id="_J5LrMPNeEe-IaaP12EYVCg" name="serverName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <parameters xmi:id="_J5LrMfNeEe-IaaP12EYVCg" name="functionName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_EuBbcPM-Ee-IaaP12EYVCg" name="Lhs">
+      <nodes xmi:id="_HfWTkPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_H7IQoPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_SSth8PNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_EuBbcfM-Ee-IaaP12EYVCg" name="Rhs">
+      <nodes xmi:id="_HfW6oPM-Ee-IaaP12EYVCg" outgoing="_J2UK8PM-Ee-IaaP12EYVCg _J_GTgPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_H7IQofM-Ee-IaaP12EYVCg" incoming="_KIoqAPM-Ee-IaaP12EYVCg" outgoing="_KRfrEPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_SSth8fNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_IXJeQPM-Ee-IaaP12EYVCg" incoming="_J_GTgPM-Ee-IaaP12EYVCg _KRfrEPM-Ee-IaaP12EYVCg _MOwB8PM-Ee-IaaP12EYVCg" outgoing="_KIoqAPM-Ee-IaaP12EYVCg _Mwe2APM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component"/>
+        <attributes xmi:id="_QI2ScPNeEe-IaaP12EYVCg" value="serverName">
+          <type href="CASA.ecore#//Component/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_IoLj4PM-Ee-IaaP12EYVCg" incoming="_J2UK8PM-Ee-IaaP12EYVCg _Mwe2APM-Ee-IaaP12EYVCg" outgoing="_MOwB8PM-Ee-IaaP12EYVCg _M6ZnAPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability"/>
+        <attributes xmi:id="_OjOmAPM-Ee-IaaP12EYVCg" value="&quot;CVE-2024-32760&quot;">
+          <type href="CASA.ecore#//Vulnerability/cveName"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_JVYoIPM-Ee-IaaP12EYVCg" incoming="_M6ZnAPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//CVSSVector"/>
+        <attributes xmi:id="_wnPQYPNeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackComplexity"/>
+        </attributes>
+        <attributes xmi:id="_wnPQYfNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackVector"/>
+        </attributes>
+        <attributes xmi:id="_wnPQYvNeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityImpact"/>
+        </attributes>
+        <attributes xmi:id="_wnPQY_NeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_wnPQZPNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityImpact"/>
+        </attributes>
+        <attributes xmi:id="_wnPQZfNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_wnPQZvNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/exploitCodeMaturity"/>
+        </attributes>
+        <attributes xmi:id="_wnPQZ_NeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityImpact"/>
+        </attributes>
+        <attributes xmi:id="_wnPQaPNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_wnPQafNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/privilegesRequired"/>
+        </attributes>
+        <attributes xmi:id="_wnPQavNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/remediationLevel"/>
+        </attributes>
+        <attributes xmi:id="_wnPQa_NeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/reportConfidence"/>
+        </attributes>
+        <attributes xmi:id="_wnPQbPNeEe-IaaP12EYVCg" value="&quot;U&quot;">
+          <type href="CASA.ecore#//CVSSVector/scope"/>
+        </attributes>
+        <attributes xmi:id="_wnPQbfNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/userInteraction"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_J2UK8PM-Ee-IaaP12EYVCg" source="_HfW6oPM-Ee-IaaP12EYVCg" target="_IoLj4PM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+      <edges xmi:id="_J_GTgPM-Ee-IaaP12EYVCg" source="_HfW6oPM-Ee-IaaP12EYVCg" target="_IXJeQPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_KIoqAPM-Ee-IaaP12EYVCg" source="_IXJeQPM-Ee-IaaP12EYVCg" target="_H7IQofM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+      <edges xmi:id="_KRfrEPM-Ee-IaaP12EYVCg" source="_H7IQofM-Ee-IaaP12EYVCg" target="_IXJeQPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+      <edges xmi:id="_MOwB8PM-Ee-IaaP12EYVCg" source="_IoLj4PM-Ee-IaaP12EYVCg" target="_IXJeQPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/affects"/>
+      </edges>
+      <edges xmi:id="_Mwe2APM-Ee-IaaP12EYVCg" source="_IXJeQPM-Ee-IaaP12EYVCg" target="_IoLj4PM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+      <edges xmi:id="_M6ZnAPM-Ee-IaaP12EYVCg" source="_IoLj4PM-Ee-IaaP12EYVCg" target="_JVYoIPM-Ee-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_HfW6ofM-Ee-IaaP12EYVCg" origin="_HfWTkPM-Ee-IaaP12EYVCg" image="_HfW6oPM-Ee-IaaP12EYVCg"/>
+    <mappings xmi:id="_H7IQovM-Ee-IaaP12EYVCg" origin="_H7IQoPM-Ee-IaaP12EYVCg" image="_H7IQofM-Ee-IaaP12EYVCg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_WmAwsPM-Ee-IaaP12EYVCg" name="AddServer_CVE3">
+    <parameters xmi:id="_KQoh4PNeEe-IaaP12EYVCg" name="serverName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <parameters xmi:id="_KQoh4fNeEe-IaaP12EYVCg" name="functionName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_WmBXwvM-Ee-IaaP12EYVCg" name="Lhs">
+      <nodes xmi:id="_ZoxmAPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_aI4CYPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_TxP8gPNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_WmBXw_M-Ee-IaaP12EYVCg" name="Rhs">
+      <nodes xmi:id="_ZoyNEPNdEe-IaaP12EYVCg" outgoing="_exDucPNdEe-IaaP12EYVCg _fBiacPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_aI4pcPNdEe-IaaP12EYVCg" incoming="_gS8_APNdEe-IaaP12EYVCg" outgoing="_ga9rgPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_TxP8gfNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_bc_VoPNdEe-IaaP12EYVCg" incoming="_exDucPNdEe-IaaP12EYVCg _frDRgPNdEe-IaaP12EYVCg _ga9rgPNdEe-IaaP12EYVCg" outgoing="_fdQGEPNdEe-IaaP12EYVCg _gS8_APNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component"/>
+        <attributes xmi:id="_QZ2i4PNeEe-IaaP12EYVCg" value="serverName">
+          <type href="CASA.ecore#//Component/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_b6gYEPNdEe-IaaP12EYVCg" incoming="_fBiacPNdEe-IaaP12EYVCg _fdQGEPNdEe-IaaP12EYVCg" outgoing="_frDRgPNdEe-IaaP12EYVCg _gGScAPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability"/>
+        <attributes xmi:id="_hFmj8PNdEe-IaaP12EYVCg" value="&quot;CVE-2024-31079&quot;">
+          <type href="CASA.ecore#//Vulnerability/cveName"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_c015YPNdEe-IaaP12EYVCg" incoming="_gGScAPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//CVSSVector"/>
+        <attributes xmi:id="_-UGB8PNeEe-IaaP12EYVCg" value="&quot;H&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackComplexity"/>
+        </attributes>
+        <attributes xmi:id="_-UGB8fNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackVector"/>
+        </attributes>
+        <attributes xmi:id="_-UGB8vNeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityImpact"/>
+        </attributes>
+        <attributes xmi:id="_-UGB8_NeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_-UGB9PNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityImpact"/>
+        </attributes>
+        <attributes xmi:id="_-UGB9fNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_-UGB9vNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/exploitCodeMaturity"/>
+        </attributes>
+        <attributes xmi:id="_-UGB9_NeEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityImpact"/>
+        </attributes>
+        <attributes xmi:id="_-UGB-PNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_-UGB-fNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/privilegesRequired"/>
+        </attributes>
+        <attributes xmi:id="_-UGB-vNeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/remediationLevel"/>
+        </attributes>
+        <attributes xmi:id="_-UGB-_NeEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/reportConfidence"/>
+        </attributes>
+        <attributes xmi:id="_-UGB_PNeEe-IaaP12EYVCg" value="&quot;U&quot;">
+          <type href="CASA.ecore#//CVSSVector/scope"/>
+        </attributes>
+        <attributes xmi:id="_-UGB_fNeEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/userInteraction"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_exDucPNdEe-IaaP12EYVCg" source="_ZoyNEPNdEe-IaaP12EYVCg" target="_bc_VoPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_fBiacPNdEe-IaaP12EYVCg" source="_ZoyNEPNdEe-IaaP12EYVCg" target="_b6gYEPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+      <edges xmi:id="_fdQGEPNdEe-IaaP12EYVCg" source="_bc_VoPNdEe-IaaP12EYVCg" target="_b6gYEPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+      <edges xmi:id="_frDRgPNdEe-IaaP12EYVCg" source="_b6gYEPNdEe-IaaP12EYVCg" target="_bc_VoPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/affects"/>
+      </edges>
+      <edges xmi:id="_gGScAPNdEe-IaaP12EYVCg" source="_b6gYEPNdEe-IaaP12EYVCg" target="_c015YPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+      <edges xmi:id="_gS8_APNdEe-IaaP12EYVCg" source="_bc_VoPNdEe-IaaP12EYVCg" target="_aI4pcPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+      <edges xmi:id="_ga9rgPNdEe-IaaP12EYVCg" source="_aI4pcPNdEe-IaaP12EYVCg" target="_bc_VoPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_ZoyNEfNdEe-IaaP12EYVCg" origin="_ZoxmAPNdEe-IaaP12EYVCg" image="_ZoyNEPNdEe-IaaP12EYVCg"/>
+    <mappings xmi:id="_aI4pcfNdEe-IaaP12EYVCg" origin="_aI4CYPNdEe-IaaP12EYVCg" image="_aI4pcPNdEe-IaaP12EYVCg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_pJXmEPNdEe-IaaP12EYVCg" name="AddServer_CVE4">
+    <parameters xmi:id="_Kdl_0PNeEe-IaaP12EYVCg" name="serverName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <parameters xmi:id="_Kdl_0fNeEe-IaaP12EYVCg" name="functionName" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_pJYNIPNdEe-IaaP12EYVCg" name="Lhs">
+      <nodes xmi:id="_sKaVMPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_tEZ4QPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_U9AlAPNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_pJYNIfNdEe-IaaP12EYVCg" name="Rhs">
+      <nodes xmi:id="_sKaVMfNdEe-IaaP12EYVCg" outgoing="_zgZEQPNdEe-IaaP12EYVCg _zP0RoPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System"/>
+      </nodes>
+      <nodes xmi:id="_spUewPNdEe-IaaP12EYVCg" description="" incoming="_zP0RoPNdEe-IaaP12EYVCg _03DVMPNdEe-IaaP12EYVCg _1gGSMPNdEe-IaaP12EYVCg" outgoing="_1Df1wPNdEe-IaaP12EYVCg _1rK5wPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component"/>
+        <attributes xmi:id="_RC-_cPNeEe-IaaP12EYVCg" value="serverName">
+          <type href="CASA.ecore#//Component/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_tEZ4QfNdEe-IaaP12EYVCg" incoming="_1Df1wPNdEe-IaaP12EYVCg" outgoing="_03DVMPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//FuncPersData"/>
+        <attributes xmi:id="_U9AlAfNeEe-IaaP12EYVCg" value="functionName">
+          <type href="CASA.ecore#//Function/name"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_xZWfQPNdEe-IaaP12EYVCg" incoming="_zgZEQPNdEe-IaaP12EYVCg _1rK5wPNdEe-IaaP12EYVCg" outgoing="_1UCzMPNdEe-IaaP12EYVCg _1gGSMPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability"/>
+        <attributes xmi:id="_47mIsPNdEe-IaaP12EYVCg" value="&quot;CVE-2024-34161&quot;">
+          <type href="CASA.ecore#//Vulnerability/cveName"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_yopj8PNdEe-IaaP12EYVCg" incoming="_1UCzMPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//CVSSVector"/>
+        <attributes xmi:id="_gGESMPNgEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/userInteraction"/>
+        </attributes>
+        <attributes xmi:id="_gGESMfNgEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackComplexity"/>
+        </attributes>
+        <attributes xmi:id="_gGESMvNgEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/attackVector"/>
+        </attributes>
+        <attributes xmi:id="_gGESM_NgEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityImpact"/>
+        </attributes>
+        <attributes xmi:id="_gGESNPNgEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/availabilityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_gGESNfNgEe-IaaP12EYVCg" value="&quot;L&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityImpact"/>
+        </attributes>
+        <attributes xmi:id="_gGESNvNgEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/confidentialityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_gGESN_NgEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/exploitCodeMaturity"/>
+        </attributes>
+        <attributes xmi:id="_gGESOPNgEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityImpact"/>
+        </attributes>
+        <attributes xmi:id="_gGESOfNgEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/integrityRequirement"/>
+        </attributes>
+        <attributes xmi:id="_gGESOvNgEe-IaaP12EYVCg" value="&quot;N&quot;">
+          <type href="CASA.ecore#//CVSSVector/privilegesRequired"/>
+        </attributes>
+        <attributes xmi:id="_gGESO_NgEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/remediationLevel"/>
+        </attributes>
+        <attributes xmi:id="_gGESPPNgEe-IaaP12EYVCg" value="&quot;X&quot;">
+          <type href="CASA.ecore#//CVSSVector/reportConfidence"/>
+        </attributes>
+        <attributes xmi:id="_gGESPfNgEe-IaaP12EYVCg" value="&quot;U&quot;">
+          <type href="CASA.ecore#//CVSSVector/scope"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_zgZEQPNdEe-IaaP12EYVCg" source="_sKaVMfNdEe-IaaP12EYVCg" target="_xZWfQPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/vulnerabilities"/>
+      </edges>
+      <edges xmi:id="_1UCzMPNdEe-IaaP12EYVCg" source="_xZWfQPNdEe-IaaP12EYVCg" target="_yopj8PNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/describedBy"/>
+      </edges>
+      <edges xmi:id="_1gGSMPNdEe-IaaP12EYVCg" source="_xZWfQPNdEe-IaaP12EYVCg" target="_spUewPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Vulnerability/affects"/>
+      </edges>
+      <edges xmi:id="_1rK5wPNdEe-IaaP12EYVCg" source="_spUewPNdEe-IaaP12EYVCg" target="_xZWfQPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/affectedBy"/>
+      </edges>
+      <edges xmi:id="_zP0RoPNdEe-IaaP12EYVCg" source="_sKaVMfNdEe-IaaP12EYVCg" target="_spUewPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//System/components"/>
+      </edges>
+      <edges xmi:id="_03DVMPNdEe-IaaP12EYVCg" source="_tEZ4QfNdEe-IaaP12EYVCg" target="_spUewPNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Function/realizedBy"/>
+      </edges>
+      <edges xmi:id="_1Df1wPNdEe-IaaP12EYVCg" source="_spUewPNdEe-IaaP12EYVCg" target="_tEZ4QfNdEe-IaaP12EYVCg">
+        <type href="CASA.ecore#//Component/realizes"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_sKaVMvNdEe-IaaP12EYVCg" origin="_sKaVMPNdEe-IaaP12EYVCg" image="_sKaVMfNdEe-IaaP12EYVCg"/>
+    <mappings xmi:id="_tEZ4QvNdEe-IaaP12EYVCg" origin="_tEZ4QPNdEe-IaaP12EYVCg" image="_tEZ4QfNdEe-IaaP12EYVCg"/>
+  </units>
+</henshin:Module>

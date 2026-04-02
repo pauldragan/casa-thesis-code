@@ -1,0 +1,12 @@
+.git
+.idea
+.vscode
+venv
+target
+out
+out_transform
+plots
+plots_R
+*.log
+*.tmp
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<casa:System
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:casa="http://www.casa.com"
+    xsi:schemaLocation="http://www.casa.com CASA.ecore">
+  <functions
+      name="ServeContentFunction"
+      realizedBy="//@components.0"/>
+  <datas xsi:type="casa:PersonalData"
+      name="UsersData"
+      identifies="//@dataSubjects.0"
+      subjectOfConsent="//@dataSubjects.0/@gives.0 //@dataSubjects.0/@gives.1 //@dataSubjects.0/@gives.2"/>
+  <dataSubjects
+      identifiedBy="//@datas.0"
+      name="SWIMUsers">
+    <gives forPurpose="ServeStandardAdsPurpose"
+        informedRiskLevel="25.0"
+        forPersonalData="//@datas.0"/>
+    <gives forPurpose="ServeTargetedAdsPurpose"
+        informedRiskLevel="25.0"
+        forPersonalData="//@datas.0"/>
+    <gives forPurpose="FirstPartyProfilingPurpose"
+        informedRiskLevel="25.0"
+        forPersonalData="//@datas.0"/>
+  </dataSubjects>
+  <components
+      realizes="//@functions.0"
+      name="SWIMComponent"/>
+</casa:System>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project PhDThesisCode with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+    <!--ANT 1.7 is required-->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="/home/paul/eclipse-workspace-3"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/thesis.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="thesis.Thesis"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ jackson-databind-2.14.3.jar jackson-core-2.14.3.jar jackson-annotations-2.14.3.jar org.eclipse.emf.henshin.interpreter.jar org.eclipse.emf.henshin.model.jar org.eclipse.emf.henshin.statespace.jar org.eclipse.emf.henshin.multicda.cpa.jar org.eclipse.emf.henshin.multicda.cda.jar org.eclipse.emf.henshin.giraph.jar org.eclipse.emf.codegen.ecore.jar org.eclipse.emf.ecore.jar org.eclipse.emf.common.jar org.eclipse.core.runtime.jar org.eclipse.emf.ecore.xmi.jar nashorn-core-15.3.jar asm-util-7.3.1.jar asm-tree-7.3.1.jar asm-commons-7.3.1.jar asm-7.3.1.jar asm-analysis-7.3.1.jar org.eclipse.ocl.pivot_1.18.0.v20221121-1436.jar org.eclipse.ocl.common_1.18.0.v20221121-1436.jar org.eclipse.ocl.ecore_3.18.0.v20221121-1436.jar org.eclipse.ocl_3.18.0.v20221121-1436.jar lpg.runtime.java.jar org.eclipse.ocl.pivot.source.jar org.eclipse.core.resources.jar org.eclipse.ocl.xtext.oclinecore.source.jar org.eclipse.ocl.xtext.oclinecore.jar owlapi-distribution-5.5.1.jar owlapi-compatibility-5.5.1.jar owlapi-apibinding-5.5.1.jar owlapi-api-5.5.1.jar javax.inject-1.jar owlapi-impl-5.5.1.jar owlapi-parsers-5.5.1.jar owlapi-oboformat-5.5.1.jar owlapi-tools-5.5.1.jar owlapi-rio-5.5.1.jar jackson-core-2.16.1.jar jackson-databind-2.16.1.jar jackson-annotations-2.16.1.jar xz-1.9.jar slf4j-api-2.0.11.jar jcl-over-slf4j-2.0.11.jar rdf4j-model-5.0.2.jar rdf4j-common-exception-5.0.2.jar rdf4j-common-text-5.0.2.jar rdf4j-common-io-5.0.2.jar rdf4j-common-iterator-5.0.2.jar rdf4j-common-order-5.0.2.jar rdf4j-model-api-5.0.2.jar rdf4j-common-annotation-5.0.2.jar rdf4j-model-vocabulary-5.0.2.jar rdf4j-rio-api-5.0.2.jar rdf4j-common-xml-5.0.2.jar commons-codec-1.15.jar hasmac-json-ld-0.9.0.jar rdf4j-rio-languages-5.0.2.jar rdf4j-rio-datatypes-5.0.2.jar rdf4j-rio-binary-5.0.2.jar rdf4j-rio-n3-5.0.2.jar rdf4j-rio-nquads-5.0.2.jar rdf4j-rio-ntriples-5.0.2.jar rdf4j-rio-rdfjson-5.0.2.jar rdf4j-rio-jsonld-5.0.2.jar jakarta.json-api-2.0.1.jar jakarta.json-2.0.1.jar httpclient-4.5.14.jar httpcore-4.4.16.jar httpclient-cache-4.5.14.jar rdf4j-rio-rdfxml-5.0.2.jar rdf4j-rio-trix-5.0.2.jar rdf4j-rio-turtle-5.0.2.jar rdf4j-rio-trig-5.0.2.jar rdf4j-rio-hdt-5.0.2.jar jsonld-java-0.13.6.jar httpclient-osgi-4.5.13.jar httpmime-4.5.13.jar fluent-hc-4.5.13.jar httpcore-osgi-4.4.14.jar httpcore-nio-4.4.14.jar hppcrt-0.7.5.jar caffeine-3.1.8.jar jsr305-3.0.2.jar commons-io-2.15.1.jar org.semanticweb.hermit-1.3.8.500.jar commons-logging-1.1.3.jar axiom-api-1.2.14.jar geronimo-activation_1.1_spec-1.1.jar geronimo-javamail_1.4_spec-1.7.1.jar jaxen-1.1.4.jar geronimo-stax-api_1.0_spec-1.0.1.jar apache-mime4j-core-0.7.2.jar axiom-c14n-1.2.14.jar axiom-impl-1.2.14.jar woodstox-core-asl-4.1.4.jar stax2-api-3.1.1.jar axiom-dom-1.2.14.jar automaton-1.11-8.jar commons-rdf-api-0.5.0.jar lombok-1.18.36.jar commons-lang3-3.17.0.jar commons-math3-3.6.1.jar guava-33.4.0-jre.jar failureaccess-1.0.2.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar checker-qual-3.43.0.jar error_prone_annotations-2.36.0.jar j2objc-annotations-3.0.0.jar slf4j-simple-2.0.16.jar jcommander-2.0.jar commons-cli-1.9.0.jar org.eclipse.ocl.pivot_1.18.0.v20221121-1436.jar org.eclipse.ocl.pivot.source_1.18.0.v20221121-1436.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="${dir.jarfile}/target/classes"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="jackson-databind-2.14.3.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="jackson-core-2.14.3.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="jackson-annotations-2.14.3.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.henshin.interpreter.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.henshin.model.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.henshin.statespace.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.henshin.multicda.cpa.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.henshin.multicda.cda.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.henshin.giraph.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.codegen.ecore.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.ecore.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.common.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.core.runtime.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.emf.ecore.xmi.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="nashorn-core-15.3.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="asm-util-7.3.1.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="asm-tree-7.3.1.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="asm-commons-7.3.1.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="asm-7.3.1.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="asm-analysis-7.3.1.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.ocl.pivot_1.18.0.v20221121-1436.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.ocl.common_1.18.0.v20221121-1436.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.ocl.ecore_3.18.0.v20221121-1436.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.ocl_3.18.0.v20221121-1436.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="lpg.runtime.java.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.ocl.pivot.source.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.core.resources.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.ocl.xtext.oclinecore.source.jar"/>
+            <zipfileset dir="${dir.jarfile}/lib" includes="org.eclipse.ocl.xtext.oclinecore.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-distribution/5.5.1" includes="owlapi-distribution-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/5.5.1" includes="owlapi-compatibility-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/5.5.1" includes="owlapi-apibinding-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-api/5.5.1" includes="owlapi-api-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/javax/inject/javax.inject/1" includes="javax.inject-1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-impl/5.5.1" includes="owlapi-impl-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/5.5.1" includes="owlapi-parsers-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-oboformat/5.5.1" includes="owlapi-oboformat-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-tools/5.5.1" includes="owlapi-tools-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/owlapi-rio/5.5.1" includes="owlapi-rio-5.5.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1" includes="jackson-core-2.16.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1" includes="jackson-databind-2.16.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1" includes="jackson-annotations-2.16.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/tukaani/xz/1.9" includes="xz-1.9.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/slf4j/slf4j-api/2.0.11" includes="slf4j-api-2.0.11.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.11" includes="jcl-over-slf4j-2.0.11.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-model/5.0.2" includes="rdf4j-model-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-common-exception/5.0.2" includes="rdf4j-common-exception-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-common-text/5.0.2" includes="rdf4j-common-text-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-common-io/5.0.2" includes="rdf4j-common-io-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-common-iterator/5.0.2" includes="rdf4j-common-iterator-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-common-order/5.0.2" includes="rdf4j-common-order-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-model-api/5.0.2" includes="rdf4j-model-api-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-common-annotation/5.0.2" includes="rdf4j-common-annotation-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-model-vocabulary/5.0.2" includes="rdf4j-model-vocabulary-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-api/5.0.2" includes="rdf4j-rio-api-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-common-xml/5.0.2" includes="rdf4j-common-xml-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/commons-codec/commons-codec/1.15" includes="commons-codec-1.15.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/no/hasmac/hasmac-json-ld/0.9.0" includes="hasmac-json-ld-0.9.0.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-languages/5.0.2" includes="rdf4j-rio-languages-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-datatypes/5.0.2" includes="rdf4j-rio-datatypes-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-binary/5.0.2" includes="rdf4j-rio-binary-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-n3/5.0.2" includes="rdf4j-rio-n3-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-nquads/5.0.2" includes="rdf4j-rio-nquads-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-ntriples/5.0.2" includes="rdf4j-rio-ntriples-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-rdfjson/5.0.2" includes="rdf4j-rio-rdfjson-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-jsonld/5.0.2" includes="rdf4j-rio-jsonld-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/jakarta/json/jakarta.json-api/2.0.1" includes="jakarta.json-api-2.0.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/glassfish/jakarta.json/2.0.1" includes="jakarta.json-2.0.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14" includes="httpclient-4.5.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16" includes="httpcore-4.4.16.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/httpclient-cache/4.5.14" includes="httpclient-cache-4.5.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-rdfxml/5.0.2" includes="rdf4j-rio-rdfxml-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-trix/5.0.2" includes="rdf4j-rio-trix-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-turtle/5.0.2" includes="rdf4j-rio-turtle-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-trig/5.0.2" includes="rdf4j-rio-trig-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-hdt/5.0.2" includes="rdf4j-rio-hdt-5.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/github/jsonld-java/jsonld-java/0.13.6" includes="jsonld-java-0.13.6.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/httpclient-osgi/4.5.13" includes="httpclient-osgi-4.5.13.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13" includes="httpmime-4.5.13.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/fluent-hc/4.5.13" includes="fluent-hc-4.5.13.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/httpcore-osgi/4.4.14" includes="httpcore-osgi-4.4.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.14" includes="httpcore-nio-4.4.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/github/vsonnier/hppcrt/0.7.5" includes="hppcrt-0.7.5.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/github/ben-manes/caffeine/caffeine/3.1.8" includes="caffeine-3.1.8.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2" includes="jsr305-3.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/commons-io/commons-io/2.15.1" includes="commons-io-2.15.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/net/sourceforge/owlapi/org.semanticweb.hermit/1.3.8.500" includes="org.semanticweb.hermit-1.3.8.500.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/commons-logging/commons-logging/1.1.3" includes="commons-logging-1.1.3.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/ws/commons/axiom/axiom-api/1.2.14" includes="axiom-api-1.2.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1" includes="geronimo-activation_1.1_spec-1.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1" includes="geronimo-javamail_1.4_spec-1.7.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/jaxen/jaxen/1.1.4" includes="jaxen-1.1.4.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1" includes="geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/james/apache-mime4j-core/0.7.2" includes="apache-mime4j-core-0.7.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/ws/commons/axiom/axiom-c14n/1.2.14" includes="axiom-c14n-1.2.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/ws/commons/axiom/axiom-impl/1.2.14" includes="axiom-impl-1.2.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.1.4" includes="woodstox-core-asl-4.1.4.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.1" includes="stax2-api-3.1.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/ws/commons/axiom/axiom-dom/1.2.14" includes="axiom-dom-1.2.14.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/dk/brics/automaton/automaton/1.11-8" includes="automaton-1.11-8.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/commons/commons-rdf-api/0.5.0" includes="commons-rdf-api-0.5.0.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/projectlombok/lombok/1.18.36" includes="lombok-1.18.36.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/commons/commons-lang3/3.17.0" includes="commons-lang3-3.17.0.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/apache/commons/commons-math3/3.6.1" includes="commons-math3-3.6.1.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/google/guava/guava/33.4.0-jre" includes="guava-33.4.0-jre.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/google/guava/failureaccess/1.0.2" includes="failureaccess-1.0.2.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava" includes="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/checkerframework/checker-qual/3.43.0" includes="checker-qual-3.43.0.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0" includes="error_prone_annotations-2.36.0.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0" includes="j2objc-annotations-3.0.0.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/slf4j/slf4j-simple/2.0.16" includes="slf4j-simple-2.0.16.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/org/jcommander/jcommander/2.0" includes="jcommander-2.0.jar"/>
+            <zipfileset dir="/home/paul/.m2/repository/commons-cli/commons-cli/1.9.0" includes="commons-cli-1.9.0.jar"/>
+            <fileset dir="${dir.jarfile}/lib"/>
+            <fileset dir="/home/paul/Apps/Eclipse/eclipse/plugins"/>
+            <zipfileset dir="/home/paul/Apps/Eclipse/eclipse/plugins" includes="org.eclipse.ocl.pivot_1.18.0.v20221121-1436.jar"/>
+            <zipfileset dir="/home/paul/Apps/Eclipse/eclipse/plugins" includes="org.eclipse.ocl.pivot.source_1.18.0.v20221121-1436.jar"/>
+        </jar>
+    </target>
+</project>
