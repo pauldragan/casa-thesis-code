@@ -2,15 +2,17 @@
 
 This guide is for running thesis experiments directly in a Fedora VM.
 
-## 1. Prerequisites
+## Obtaining the VM
 
-- Project available in VM at `.../code`
-- JDK available at `/home/thesis/java/jdk-17.0.2`
-- Data folder mounted in VM at `/home/thesis/data`
+## Prerequisites
+
+- Project available in VM at `.../code`(already present in the provided VM)
+- JDK available at `/home/thesis/java/jdk-17.0.2` (already present in the provided VM)
+- Data folder mounted in VM at `/home/thesis/data` (**must be mounted manually before executing the code**)
 - Writable output directory at `/home/thesis/data/results`
 - At least **300 GB free space** available on mounted data storage
 
-Mount command (explicit variables to avoid ambiguity):
+Mount command:
 
 ```bash
 VB_SHARE_NAME="thesis"        # Name of the shared folder configured in VirtualBox
@@ -24,7 +26,7 @@ sudo mount -t vboxsf \
   "$MOUNT_POINT"
 ```
 
-## 2. Setup (one-time, provided VM is already set up)
+## Setup (one-time, the provided VM is already set up so the command can be skipped)
 
 From `code/`:
 
@@ -38,7 +40,7 @@ What it does:
 - installs Python packages for plotting
 - installs required R packages in your user R library
 
-## 3. Run Full Pipeline
+## Run Full Pipeline
 
 From `code/`:
 
@@ -59,7 +61,7 @@ Pipeline stages:
 5. evaluates the results of CASA
 6. summarizes relevant metrics, generates tables and plots 
 
-## 4. Output Location
+## Output Location
 
 Default root:
 
@@ -76,7 +78,7 @@ Override root for one run:
 VM_OUT_ROOT=/some/other/path ./scripts/vm/runner.sh full-pipeline
 ```
 
-## 5. Useful Single Commands
+## Getting Help
 
 ```bash
 ./scripts/vm/runner.sh help
