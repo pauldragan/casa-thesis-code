@@ -1,21 +1,33 @@
 # VM Execution Pipeline
 
-This guide is for running thesis experiments directly in a Fedora VM.
+This guide supports two workflows in the provided Fedora VM:
+
+1. run the **full evaluation pipeline** (generate data + evaluate + plots/tables)
+2. **reproduce plots/tables** from already provided experimental data
 
 ## Obtaining the VM
 
-## Prerequisites
+The VM can be downloaded from [here](https://uni-duisburg-essen.sciebo.de/s/QEF7MyWDzwJDCAA), from the `virtual-machine` folder, using password: `7LF6wLS4dY`.
 
-- Project available in VM at `.../code`(already present in the provided VM)
-- JDK available at `/home/thesis/java/jdk-17.0.2` (already present in the provided VM)
-- Data folder mounted in VM at `/home/thesis/data` (**must be mounted manually before executing the code**)
-- Writable output directory at `/home/thesis/data/results`
-- At least **300 GB free space** available on mounted data storage
+The VM is split into 100MB parts. On Linux, after downloading all files in `virtual-machine`, run:
+
+```bash
+./merge_parts.sh
+```
+
+This creates `Thesis_VM.ova`. Import it into VirtualBox.
+
+## Common Prerequisites (Both Workflows)
+
+- Project available in VM at `.../code` (already present in provided VM)
+- JDK at `/home/thesis/java/jdk-17.0.2` (already present in provided VM)
+- Shared data folder mounted at `/home/thesis/data` (**must be mounted manually**)
+- At least **300 GB free space** on mounted storage
 
 Mount command:
 
 ```bash
-VB_SHARE_NAME="thesis"        # Name of the shared folder configured in VirtualBox
+VB_SHARE_NAME="thesis"        # Shared-folder name configured in VirtualBox
 VM_USER="thesis"              # Linux user inside the VM
 MOUNT_POINT="/home/$VM_USER/data"
 
@@ -26,60 +38,83 @@ sudo mount -t vboxsf \
   "$MOUNT_POINT"
 ```
 
-## Setup (one-time, the provided VM is already set up so the command can be skipped)
-
-From `code/`:
+Check free space:
 
 ```bash
+df -h /home/thesis/data
+```
+
+## Workflow A: Run Full Pipeline
+
+This recomputes everything from scratch.
+
+Optional setup (usually already done in provided VM):
+
+```bash
+cd code
 ./scripts/vm/setup_fedora.sh
 ```
 
-What it does:
-- installs system prerequisites (Maven, Python, R, build deps)
-- creates `.venv` (with `--system-site-packages`)
-- installs Python packages for plotting
-- installs required R packages in your user R library
-
-## Run Full Pipeline
-
-From `code/`:
+Run:
 
 ```bash
+cd code
 ./scripts/vm/runner.sh full-pipeline 3500 20260311 --resume
 ```
-where 3500 is the number of generated managed elements and 20260311 is the seed
-used for the random number generator.
 
-To execute the pipeline on a smaller scale, it is sufficient to reduce
-the number of managed elements from 3500 to something lower (e.g., 10).
+- `3500` = number of generated managed elements
+- `20260311` = RNG seed
 
-Pipeline stages:
-1. generates managed elements and self-adaptations
-2. applies self-adaptations to obtain prospective managed element models
-3. applies CASA to obtain the consent violation check results
-4. evaluates the generated dataset
-5. evaluates the results of CASA
-6. summarizes relevant metrics, generates tables and plots 
-
-## Output Location
-
-Default root:
+Default output root:
 
 `/home/thesis/data/results`
 
-Main directories:
+Main output directories:
 - `/home/thesis/data/results/models_experiment/version3_apply_smoke`
 - `/home/thesis/data/results/models_experiment/version3_dataset_evaluation`
 - `/home/thesis/data/results/models_experiment/version3_result_evaluation`
 
-Override root for one run:
+## Workflow B: Reproduce Plots/Tables from Provided Data
+
+### 1. Obtain Experimental Data
+
+Download from:
+- URL: https://uni-duisburg-essen.sciebo.de/s/QEF7MyWDzwJDCAA
+- Folder: `experimental-data`
+- Password: `7LF6wLS4dY`
+
+The data is split into 100MB parts. After downloading all files, run:
 
 ```bash
-VM_OUT_ROOT=/some/other/path ./scripts/vm/runner.sh full-pipeline
+./merge-parts-and-extract.sh
 ```
 
-## Getting Help
+Where to run download/extract:
+
+- **Recommended:** download and extract on the host into the VirtualBox shared folder `thesis`, so files are immediately visible in VM at `/home/thesis/data`.
+- **Alternative:** download and extract directly inside the VM, for example under `/home/thesis/data`.
+
+Expected path inside the VM after extraction:
+
+`/home/thesis/data/experimental-data/models_experiment`
+
+### 2. Regenerate Plots
+
+From `code/`:
 
 ```bash
+./scripts/vm/runner.sh plot-dataset-eval \
+  /home/thesis/data/experimental-data/models_experiment/version3_dataset_evaluation \
+  /home/thesis/data/experimental-data/models_experiment/version3_dataset_evaluation/plots
+
+./scripts/vm/runner.sh plot-result-eval \
+  /home/thesis/data/experimental-data/models_experiment/version3_result_evaluation \
+  /home/thesis/data/experimental-data/models_experiment/version3_result_evaluation/plots
+```
+
+## Help
+
+```bash
+cd code
 ./scripts/vm/runner.sh help
 ```
