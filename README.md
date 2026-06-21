@@ -7,15 +7,17 @@ This guide supports two workflows in the provided Fedora VM:
 
 ## Obtaining the VM
 
-The VM can be downloaded from [here](https://uni-duisburg-essen.sciebo.de/s/QEF7MyWDzwJDCAA), from the `virtual-machine` folder, using password: `7LF6wLS4dY`.
-
-The VM is split into 100MB parts. On Linux, after downloading all files in `virtual-machine`, run:
+Download `Thesis-VM.tar.gz` from the [Zenodo repository](https://doi.org/10.5281/zenodo.20763973).
 
 ```bash
-./merge_parts.sh
+tar -xzf Thesis-VM.tar.gz
 ```
 
 This creates `Thesis_VM.ova`. Import it into VirtualBox.
+
+The Zenodo repository also contains a snapshot of this repository as
+`casa-code.tar.gz`. The most up-to-date version of the code is always available
+from [GitHub](https://github.com/pauldragan/casa-thesis-code).
 
 ## Common Prerequisites (Both Workflows)
 
@@ -78,15 +80,11 @@ Main output directories:
 
 ### 1. Obtain Experimental Data
 
-Download from:
-- URL: https://uni-duisburg-essen.sciebo.de/s/QEF7MyWDzwJDCAA
-- Folder: `experimental-data`
-- Password: `7LF6wLS4dY`
-
-The data is split into 100MB parts. After downloading all files, run:
+Download `results_01042026.tar.gz` from the
+[Zenodo repository](https://doi.org/10.5281/zenodo.20763973).
 
 ```bash
-./merge-parts-and-extract.sh
+tar -xzf results_01042026.tar.gz
 ```
 
 Where to run download/extract:
