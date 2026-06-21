@@ -1,0 +1,194 @@
+Generated models:           50,000
+Generated self-adaptations:  3,150,000
+
+Generated model class instances
+-------------------------------
+Mean:              4,988.34
+Median:            4,997.00
+Std. deviation:    2,505.77
+5th percentile:    1,109.00
+25th percentile:   2,818.00
+75th percentile:   7,150.00
+95th percentile:   8,857.05
+Observed minimum:  165.00
+Observed maximum:  9,909.00
+
+Generated model relations
+-------------------------
+Mean:              10,495.34
+Median:            10,507.00
+Std. deviation:    4,861.89
+5th percentile:    2,960.00
+25th percentile:   6,292.75
+75th percentile:   14,690.00
+95th percentile:   18,015.00
+Observed minimum:  1,055.00
+Observed maximum:  20,255.00
+
+Generated model connectivity
+----------------------------
+Mean:              2.20
+Median:            2.10
+Std. deviation:    0.28
+5th percentile:    2.02
+25th percentile:   2.05
+75th percentile:   2.23
+95th percentile:   2.70
+Observed minimum:  1.96
+Observed maximum:  7.75
+
+Self-adaptation added functions
+-------------------------------
+Mean:              4.19
+Median:            4.00
+Std. deviation:    3.43
+5th percentile:    0.00
+25th percentile:   1.00
+75th percentile:   7.00
+95th percentile:   10.00
+Observed minimum:  0.00
+Observed maximum:  10.00
+
+Self-adaptation removed functions
+---------------------------------
+Mean:              2.79
+Median:            1.00
+Std. deviation:    3.43
+5th percentile:    0.00
+25th percentile:   0.00
+75th percentile:   6.00
+95th percentile:   10.00
+Observed minimum:  0.00
+Observed maximum:  10.00
+
+Self-adaptation added components
+--------------------------------
+Mean:              2.67
+Median:            3.00
+Std. deviation:    2.11
+5th percentile:    0.00
+25th percentile:   1.00
+75th percentile:   5.00
+95th percentile:   6.00
+Observed minimum:  0.00
+Observed maximum:  6.00
+
+Self-adaptation removed components
+----------------------------------
+Mean:              1.78
+Median:            1.00
+Std. deviation:    2.13
+5th percentile:    0.00
+25th percentile:   0.00
+75th percentile:   4.00
+95th percentile:   6.00
+Observed minimum:  0.00
+Observed maximum:  6.00
+
+Self-adaptation consent violations due to incompatible purposes
+---------------------------------------------------------------
+Mean:              211.93
+Median:            13.00
+Std. deviation:    321.36
+5th percentile:    0.00
+25th percentile:   0.00
+75th percentile:   330.00
+95th percentile:   929.00
+Observed minimum:  0.00
+Observed maximum:  2,270.00
+
+Self-adaptation consent violations due to increased risk
+--------------------------------------------------------
+Mean:              134.84
+Median:            8.00
+Std. deviation:    204.39
+5th percentile:    0.00
+25th percentile:   0.00
+75th percentile:   210.00
+95th percentile:   587.00
+Observed minimum:  0.00
+Observed maximum:  1,578.00
+
+Self-adaptation total consent violations
+----------------------------------------
+Mean:              346.77
+Median:            213.00
+Std. deviation:    398.30
+5th percentile:    0.00
+25th percentile:   14.00
+75th percentile:   530.00
+95th percentile:   1,176.00
+Observed minimum:  0.00
+Observed maximum:  3,216.00
+
+Self-adaptation added-function relations
+----------------------------------------
+Mean:              155.10
+Median:            145.00
+Std. deviation:    128.14
+5th percentile:    0.00
+25th percentile:   28.00
+75th percentile:   266.00
+95th percentile:   366.00
+Observed minimum:  0.00
+Observed maximum:  482.00
+
+Self-adaptation removed-function relations
+------------------------------------------
+Mean:              103.35
+Median:            28.00
+Std. deviation:    127.58
+5th percentile:    0.00
+25th percentile:   0.00
+75th percentile:   205.00
+95th percentile:   352.00
+Observed minimum:  0.00
+Observed maximum:  482.00
+
+Self-adaptation added-component relations
+-----------------------------------------
+Mean:              26.66
+Median:            25.00
+Std. deviation:    22.31
+5th percentile:    0.00
+25th percentile:   4.00
+75th percentile:   44.00
+95th percentile:   65.00
+Observed minimum:  0.00
+Observed maximum:  104.00
+b
+Self-adaptation total added relations
+-------------------------------------
+Mean:              181.77
+Median:            171.00
+Std. deviation:    129.57
+5th percentile:    3.00
+25th percentile:   58.00
+75th percentile:   293.00
+95th percentile:   396.00
+Observed minimum:  0.00
+Observed maximum:  537.00
+
+Self-adaptation total removed relations
+---------------------------------------
+Mean:              103.35
+Median:            28.00
+Std. deviation:    127.58
+5th percentile:    0.00
+25th percentile:   0.00
+75th percentile:   205.00
+95th percentile:   352.00
+Observed minimum:  0.00
+Observed maximum:  482.00
+
+Self-adaptation total relations
+-------------------------------
+Mean:              285.11
+Median:            279.00
+Std. deviation:    180.18
+5th percentile:    25.00
+25th percentile:   139.00
+75th percentile:   400.00
+95th percentile:   616.00
+Observed minimum:  0.00
+Observed maximum:  924.00
